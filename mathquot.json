@@ -233,79 +233,680 @@
         "14",
         "Follow the BODMAS rule: First multiply 2 × 3 = 6, then add 8 + 6 = 14."
     ],
-    ["What is 10 - 2?", "6", "7", "8", "9", "8", "Subtracting 2 from 10 gives 8."],
-    ["What comes next in the sequence: 2, 4, 6, 8?", "10", "12", "14", "16", "10", "The pattern increases by 2 each time."],
-    ["Which of these numbers is a prime number?", "4", "6", "9", "11", "11", "11 is the only prime number in the options."],
-    ["What is the square of 3?", "6", "8", "9", "12", "9", "3 squared is 9."],
-    ["If a train travels at 60 km/hr, how far does it travel in 2 hours?", "120 km", "80 km", "100 km", "150 km", "120 km", "60 km/hr for 2 hours is 120 km."],
-    ["What is 15 ÷ 3?", "3", "4", "5", "6", "5", "15 divided by 3 is 5."],
-    ["What is 6 x 7?", "35", "40", "42", "45", "42", "6 times 7 is 42."],
-    ["What is the value of 5^2?", "15", "20", "25", "30", "25", "5 squared is 25."],
-    ["Which number is a multiple of both 2 and 3?", "4", "6", "8", "10", "6", "6 is a multiple of both 2 and 3."],
-    ["If you have 5 apples and give 2 away, how many are left?", "1", "2", "3", "5", "3", "5 minus 2 leaves 3 apples."],
-    ["What is 18 ÷ 6?", "2", "3", "4", "5", "3", "18 divided by 6 is 3."],
-    ["What is 12 + 8?", "18", "19", "20", "21", "20", "Adding 12 and 8 gives 20."],
-    ["If a box contains 3 red balls and 2 blue balls, how many balls are in the box?", "3", "4", "5", "6", "5", "3 red + 2 blue = 5 balls."],
-    ["What is 8 x 4?", "28", "30", "32", "34", "32", "8 times 4 is 32."],
-    ["What is 9 - 4?", "3", "4", "5", "6", "5", "Subtracting 4 from 9 gives 5."],
-    ["What is the next number in the sequence: 5, 10, 15?", "18", "20", "22", "25", "20", "The pattern increases by 5 each time."],
-    ["Which is the smallest even number?", "1", "2", "3", "4", "2", "2 is the smallest even number."],
-    ["What is 7 x 3?", "18", "20", "21", "24", "21", "7 times 3 is 21."],
-    ["What is 20 ÷ 5?", "2", "3", "4", "5", "4", "20 divided by 5 is 4."],
-    ["If there are 24 candies and 4 people, how many candies does each get if shared equally?", "4", "5", "6", "7", "6", "24 candies divided by 4 people is 6 each."],
-    ["What is the result of 100 - 25?", "65", "70", "75", "80", "75", "100 minus 25 is 75."],
-    ["What comes next in the sequence: 3, 6, 9?", "10", "11", "12", "13", "12", "The pattern increases by 3 each time."],
-    ["Which of these is an odd number?", "2", "4", "6", "7", "7", "7 is the only odd number in the options."],
-    ["If a vehicle travels 50 km in an hour, how far will it travel in 3 hours?", "100 km", "150 km", "200 km", "250 km", "150 km", "50 km/hr for 3 hours is 150 km."],
-    ["What is the result of 3 + 3 x 3?", "9", "12", "18", "27", "12", "3 + (3 x 3) is 3 + 9 = 12, due to order of operations."],
-    ["Who was the first Prime Minister of independent India?", "Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Rajendra Prasad", "Jawaharlal Nehru", "Jawaharlal Nehru served as India's first Prime Minister from 1947 to 1964."],
-    ["In which year did India gain independence from British rule?", "1945", "1946", "1947", "1950", "1947", "India gained independence on August 15, 1947."],
-    ["Who is known as the 'Father of the Indian Constitution'?", "Jawaharlal Nehru", "B. R. Ambedkar", "Rajendra Prasad", "Subhash Chandra Bose", "B. R. Ambedkar", "Dr. B. R. Ambedkar was the principal architect of the Indian Constitution."],
-    ["Which movement was launched by Mahatma Gandhi in 1942?", "Non-Cooperation Movement", "Civil Disobedience Movement", "Quit India Movement", "Swadeshi Movement", "Quit India Movement", "The Quit India Movement was launched by Gandhi in 1942 to demand an end to British rule in India."],
-    ["Who was the first woman Prime Minister of India?", "Indira Gandhi", "Sarojini Naidu", "Sucheta Kripalani", "Vijaya Lakshmi Pandit", "Indira Gandhi", "Indira Gandhi became the first woman Prime Minister of India in 1966."],
-    ["Which Indian king is known for spreading Buddhism?", "Ashoka", "Chandragupta Maurya", "Harsha", "Samudragupta", "Ashoka", "Emperor Ashoka promoted Buddhism after the Kalinga War."],
-    ["Where did the Jallianwala Bagh massacre take place?", "Delhi", "Mumbai", "Amritsar", "Chennai", "Amritsar", "The Jallianwala Bagh massacre occurred in Amritsar in 1919."],
-    ["Who was the founder of the Maurya Empire?", "Ashoka", "Chandragupta Maurya", "Bindusara", "Bimbisara", "Chandragupta Maurya", "Chandragupta Maurya founded the Maurya Empire in 321 BCE."],
-    ["What was the capital of the Vijayanagara Empire?", "Mysore", "Madurai", "Hampi", "Bijapur", "Hampi", "Hampi served as the capital of the Vijayanagara Empire."],
-    ["Who was known as the 'Iron Man of India'?", "Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Lal Bahadur Shastri", "Sardar Patel", "Sardar Vallabhbhai Patel was known as the 'Iron Man of India' for his role in uniting India."],
-    ["In which year did India become a republic?", "1947", "1948", "1949", "1950", "1950", "India became a republic on January 26, 1950."],
-    ["Who was the Mughal emperor during the first Battle of Panipat?", "Akbar", "Babur", "Humayun", "Aurangzeb", "Babur", "The first Battle of Panipat in 1526 was fought between Babur and Ibrahim Lodi."],
-    ["Which Indian freedom fighter is associated with the slogan 'Give me blood and I will give you freedom'?", "Mahatma Gandhi", "Bhagat Singh", "Subhas Chandra Bose", "Jawaharlal Nehru", "Subhas Chandra Bose", "Subhas Chandra Bose gave this slogan to inspire Indians to fight for independence."],
-    ["Who was the last Viceroy of British India?", "Lord Curzon", "Lord Mountbatten", "Lord Canning", "Lord Wavell", "Lord Mountbatten", "Lord Louis Mountbatten served as the last Viceroy of British India."],
-    ["Which dynasty built the famous Khajuraho temples?", "Maurya", "Gupta", "Chola", "Chandela", "Chandela", "The Khajuraho temples were built by the Chandela dynasty between 950 and 1050 AD."],
-    ["Who wrote the national anthem of India?", "Rabindranath Tagore", "Bankim Chandra Chatterjee", "Sarojini Naidu", "Aurobindo Ghosh", "Rabindranath Tagore", "Rabindranath Tagore wrote 'Jana Gana Mana', India's national anthem."],
-    ["Who was the leader of the 1857 revolt in Jhansi?", "Rani Padmini", "Rani Lakshmibai", "Begum Hazrat Mahal", "Kittur Chennamma", "Rani Lakshmibai", "Rani Lakshmibai led the 1857 revolt in Jhansi against the British."],
-    ["What was the main occupation of the Indus Valley people?", "Agriculture", "Pottery", "Trading", "Fishing", "Agriculture", "Agriculture was the main occupation of the Indus Valley civilization."],
-    ["Who introduced the Persian style of architecture in India?", "Akbar", "Babur", "Humayun", "Shah Jahan", "Babur", "Babur introduced Persian-style architecture, which evolved under the Mughal dynasty."],
-    ["Which city is known as the 'City of Joy' in India?", "Kolkata", "Mumbai", "Delhi", "Chennai", "Kolkata", "Kolkata is known as the 'City of Joy', popularized by a book of the same name."],
-    ["Who was the founder of the Sikh religion?", "Guru Tegh Bahadur", "Guru Arjan", "Guru Nanak", "Guru Gobind Singh", "Guru Nanak", "Guru Nanak founded Sikhism in the 15th century."],
-    ["Who gave the slogan 'Swaraj is my birthright, and I shall have it'?", "Bal Gangadhar Tilak", "Mahatma Gandhi", "Subhash Chandra Bose", "Bhagat Singh", "Bal Gangadhar Tilak", "Tilak gave this slogan to demand self-rule for India."],
-    ["Which ruler built the Red Fort in Delhi?", "Babur", "Akbar", "Shah Jahan", "Aurangzeb", "Shah Jahan", "Shah Jahan built the Red Fort in Delhi in the mid-17th century."],
-    ["Which river was the site of the ancient Indus Valley Civilization?", "Ganges", "Yamuna", "Indus", "Sutlej", "Indus", "The Indus Valley Civilization was based along the Indus River."],
-    ["Who led the Dandi March in 1930?", "Subhas Chandra Bose", "Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "Mahatma Gandhi", "Mahatma Gandhi led the Dandi March to protest the British salt tax in 1930."],
-    ["The sum of place value and face value of 7 in the 97582 is", "7007", "7002", "7001", "7009", "7007", "We have, 97582\nPlace value = 7000\nFace value = 7\nSum = 7000 + 7 = 7007"],
-    ["What is the sum of two consecutive even numbers, if the difference of these squares is 84", "34", "38", "42", "46", "42", "(x +2 )^2 - x^2 = 84\nx^2 + 4 + 4x - x^2 = 84\n4x = 84 - 4\n x=20\n numbers = 20,22\n sum = 20+20 =42"],
-    ["If a train is moving at 60 km/hr, how far will it travel in 2.5 hours?", "120 km", "130 km", "140 km", "150 km", "150 km", "60 km/hr × 2.5 hours = 150 km."],
-    ["What is the square root of 144?", "10", "11", "12", "13", "12", "The square root of 144 is 12."],
-    ["Which freedom fighter is known for the slogan 'Give me blood, and I will give you freedom'?", "Mahatma Gandhi", "Subhas Chandra Bose", "Jawaharlal Nehru", "Sardar Patel", "Subhas Chandra Bose", "Subhas Chandra Bose inspired people with this slogan."],
-    ["Find the missing number: 2, 4, 8, 16, ?", "20", "24", "32", "40", "32", "Each number is doubled; 16 × 2 = 32."],
-    ["Who built the Taj Mahal?", "Akbar", "Babur", "Shah Jahan", "Aurangzeb", "Shah Jahan", "Shah Jahan built the Taj Mahal in memory of his wife."],
-    ["Which number is a prime number?", "4", "6", "9", "7", "7", "7 is a prime number as it has only two divisors: 1 and 7."],
-    ["In which year did India gain independence?", "1945", "1947", "1948", "1950", "1947", "India gained independence on August 15, 1947."],
-    ["What is the product of 8 and 12?", "72", "80", "96", "104", "96", "Multiplying 8 by 12 gives 96."],
-    ["Who was the founder of the Maurya Empire?", "Ashoka", "Chandragupta Maurya", "Harsha", "Samudragupta", "Chandragupta Maurya", "Chandragupta Maurya founded the Maurya Empire in 321 BCE."],
-    ["Which number completes this sequence: 5, 10, 15, 20, ?", "22", "24", "25", "30", "25", "The sequence increases by 5 each time; 20 + 5 = 25."],
-    ["What is the capital of the Vijayanagara Empire?", "Delhi", "Hampi", "Agra", "Madurai", "Hampi", "Hampi was the capital of the Vijayanagara Empire."],
-    ["Simplify: 45 ÷ 5", "7", "8", "9", "10", "9", "Dividing 45 by 5 gives 9."],
-    ["What is the main occupation of Indus Valley people?", "Farming", "Fishing", "Pottery", "Weaving", "Farming", "Agriculture was the primary occupation in the Indus Valley."],
-    ["What is 50% of 200?", "50", "75", "100", "150", "100", "50% of 200 is 100."],
-    ["Who was the last Viceroy of British India?", "Lord Curzon", "Lord Mountbatten", "Lord Canning", "Lord Wavell", "Lord Mountbatten", "Lord Mountbatten was the last Viceroy of British India."],
-    ["If a car travels 90 km in 2 hours, what is its speed?", "30 km/hr", "45 km/hr", "60 km/hr", "90 km/hr", "45 km/hr", "Speed = Distance/Time = 90 km / 2 hrs = 45 km/hr."],
-    ["Who is known as the 'Iron Man of India'?", "Mahatma Gandhi", "Jawaharlal Nehru", "Subhas Chandra Bose", "Sardar Patel", "Sardar Patel", "Sardar Patel is called the 'Iron Man of India'."],
-    ["What is the LCM of 4 and 6?", "8", "10", "12", "14", "12", "The LCM of 4 and 6 is 12."],
-    ["Which Mughal emperor built the Red Fort?", "Akbar", "Babur", "Shah Jahan", "Aurangzeb", "Shah Jahan", "Shah Jahan built the Red Fort in Delhi."],
-    ["What is the next number in the sequence 1, 4, 9, 16, ?", "20", "25", "30", "36", "25", "This sequence is squares of 1, 2, 3, 4, etc.; 5^2 = 25."],
-    ["Who was the first Prime Minister of India?", "Rajendra Prasad", "Sardar Patel", "Mahatma Gandhi", "Jawaharlal Nehru", "Jawaharlal Nehru", "Jawaharlal Nehru served as India's first Prime Minister."],
-    ["If an angle measures 90 degrees, what type of angle is it?", "Acute", "Obtuse", "Right", "Straight", "Right", "An angle of 90 degrees is called a right angle."],
-    ["Who wrote the national anthem of India?", "Bankim Chandra Chatterjee", "Rabindranath Tagore", "Sarojini Naidu", "Subhash Chandra Bose", "Rabindranath Tagore", "Rabindranath Tagore wrote 'Jana Gana Mana'."]
+    [
+        "Which word does not belong to the group: Apple, Mango, Banana, Carrot?",
+        "Apple",
+        "Mango",
+        "Banana",
+        "Carrot",
+        "Carrot",
+        "Carrot is a vegetable, while the others are fruits."
+    ],
+    [
+        "If A is coded as 1, B as 2, C as 3, then what is the code for F?",
+        "4",
+        "5",
+        "6",
+        "7",
+        "6",
+        "Each letter corresponds to its position in the alphabet. F is the 6th letter."
+    ],
+    [
+        "Find the odd one out: 2, 3, 5, 9, 11",
+        "2",
+        "9",
+        "3",
+        "11",
+        "9",
+        "All numbers except 9 are prime numbers."
+    ],
+    [
+        "What comes next in the series: 2, 4, 8, 16, ?",
+        "20",
+        "24",
+        "32",
+        "36",
+        "32",
+        "The series doubles each time: 2 × 2 = 4, 4 × 2 = 8, and so on."
+    ],
+    [
+        "If CAT is coded as DBU, how is DOG coded?",
+        "EOG",
+        "EHP",
+        "EPE",
+        "EOH",
+        "EOH",
+        "Each letter is shifted forward by 1 in the alphabet (C → D, A → B, T → U)."
+    ],
+    [
+        "In a certain code, TREE is written as UQFF. How is FLOW written?",
+        "GMQX",
+        "GLQX",
+        "GNQX",
+        "GLPY",
+        "GMQX",
+        "Each letter is shifted forward by 1 in the alphabet."
+    ],
+    [
+        "Ravi is taller than Rohit but shorter than Amit. Who is the tallest?",
+        "Ravi",
+        "Rohit",
+        "Amit",
+        "Cannot be determined",
+        "Amit",
+        "Amit is taller than Ravi, and Ravi is taller than Rohit."
+    ],
+    [
+        "If TABLE is coded as GZOVI, how is CHAIR coded?",
+        "XSZRI",
+        "XZRFI",
+        "XZROI",
+        "XZQFI",
+        "XZROI",
+        "Each letter is replaced by its opposite in the alphabet (A ↔ Z, B ↔ Y, etc.)."
+    ],
+    [
+        "Pointing to a man, Ramesh said, 'His mother is the only daughter of my mother.' How is the man related to Ramesh?",
+        "Brother",
+        "Son",
+        "Nephew",
+        "Ramesh's Son",
+        "Son",
+        "The man’s mother is Ramesh’s only daughter, so the man is Ramesh’s son."
+    ],
+    [
+        "What comes next in the series: 1, 4, 9, 16, 25, ?",
+        "30",
+        "35",
+        "36",
+        "49",
+        "36",
+        "The series is squares of natural numbers: 1², 2², 3², and so on."
+    ],
+    [
+        "If P × Q means P is the sister of Q, P + Q means P is the brother of Q, and P - Q means P is the mother of Q, then what does A - B + C mean?",
+        "A is the sister of C",
+        "A is the mother of C",
+        "A is the mother of B and B is the brother of C",
+        "A is the sister of B",
+        "A is the mother of B and B is the brother of C",
+        "A - B means A is the mother of B, and B + C means B is the brother of C."
+    ],
+    [
+        "Find the missing term: ACE, GIK, ___, MOQ",
+        "RTU",
+        "PSR",
+        "DFH",
+        "SUW",
+        "SUW",
+        "The pattern is skipping one letter each time (A → C → E, G → I → K, etc.)."
+    ],
+    [
+        "If B = 2, BAT = 23, and CAT = 24, what is HAT?",
+        "25",
+        "26",
+        "27",
+        "28",
+        "28",
+        "Sum of letter positions: H(8) + A(1) + T(20) = 29."
+    ],
+    [
+        "A is the father of B. B is the mother of C. How is A related to C?",
+        "Father",
+        "Grandfather",
+        "Uncle",
+        "Brother",
+        "Grandfather",
+        "A is the grandfather of C because A is B’s father, and B is C’s mother."
+    ],
+    [
+        "What comes next in the series: 5, 10, 20, 40, ?",
+        "50",
+        "60",
+        "80",
+        "100",
+        "80",
+        "The series doubles each time: 5 × 2 = 10, 10 × 2 = 20, and so on."
+    ],
+    [
+        "In a certain code, PEAR is written as QFBS. How is LIME written?",
+        "MJLF",
+        "MJNF",
+        "MJOF",
+        "MJLE",
+        "MJNF",
+        "Each letter is shifted forward by 1 in the alphabet."
+    ],
+    [
+        "Find the missing term: Z, X, V, T, ?",
+        "Q",
+        "R",
+        "S",
+        "U",
+        "R",
+        "The pattern is moving backward by 2 letters in the alphabet (Z → X → V → T → R)."
+    ],
+    [
+        "Ramesh ranks 9th from the top and 38th from the bottom in a class. How many students are there?",
+        "45",
+        "46",
+        "47",
+        "48",
+        "46",
+        "Total students = Top rank + Bottom rank - 1. Here, 9 + 38 - 1 = 46."
+    ],
+    [
+        "If '+' means '-', '-' means '×', '×' means '÷', and '÷' means '+', then what is 6 + 2 × 3?",
+        "7",
+        "8",
+        "10",
+        "12",
+        "7",
+        "Replacing the signs: 6 + 2 × 3 becomes 6 - 2 ÷ 3 = 7."
+    ],
+    [
+        "Find the missing number: 3, 6, 18, 72, ?",
+        "90",
+        "108",
+        "360",
+        "144",
+        "360",
+        "The pattern is multiplying by increasing numbers: 3 × 2 = 6, 6 × 3 = 18, 18 × 4 = 72, 72 × 5 = 360."
+    ],
+    [
+        "What is the missing number: 15, 31, 63, 127, ?",
+        "255",
+        "128",
+        "254",
+        "130",
+        "255",
+        "The pattern is doubling and subtracting 1: 15 × 2 - 1 = 31, 31 × 2 - 1 = 63, and so on."
+    ],
+    [
+        "A clock shows 3:15. What is the angle between the hour and minute hands?",
+        "7.5°",
+        "22.5°",
+        "37.5°",
+        "45°",
+        "7.5°",
+        "Each minute represents 6°, and the hour hand moves 0.5° per minute. The angle is 7.5°."
+    ],
+    [
+        "Which number comes next: 2, 6, 12, 20, ?",
+        "28",
+        "30",
+        "32",
+        "36",
+        "30",
+        "The pattern is adding consecutive even numbers: 2 + 4 = 6, 6 + 6 = 12, and so on."
+    ],
+    [
+        "Find the missing number: 1, 4, 9, 16, ?",
+        "20",
+        "25",
+        "30",
+        "36",
+        "25",
+        "The series represents squares of natural numbers: 1², 2², 3², etc."
+    ],
+    [
+        "Which is the odd one out: Circle, Square, Triangle, Rectangle?",
+        "Circle",
+        "Square",
+        "Triangle",
+        "Rectangle",
+        "Circle",
+        "Circle is the only shape without straight edges."
+    ],
+    [
+        "Who was the first Governor-General of India?",
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "Lord Wellesley",
+        "Lord Mountbatten",
+        "Warren Hastings",
+        "Warren Hastings was the first Governor-General of India, serving from 1773 to 1785."
+    ],
+    [
+        "In which year did the Battle of Plassey take place?",
+        "1757",
+        "1764",
+        "1857",
+        "1707",
+        "1757",
+        "The Battle of Plassey in 1757 marked the beginning of British rule in India."
+    ],
+    [
+        "Who is known as the 'Iron Man of India'?",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Sardar Vallabhbhai Patel",
+        "Sardar Patel played a key role in unifying India after independence, earning him this title."
+    ],
+    [
+        "Which movement was launched by Mahatma Gandhi in 1942?",
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement",
+        "Quit India Movement",
+        "The Quit India Movement called for an end to British rule in India."
+    ],
+    [
+        "Who was the founder of the Maurya Empire?",
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara",
+        "Chandragupta Maurya",
+        "Chandragupta Maurya established the Maurya Empire in 321 BCE."
+    ],
+    [
+        "Who was the last Mughal emperor of India?",
+        "Akbar",
+        "Bahadur Shah II",
+        "Aurangzeb",
+        "Shah Jahan",
+        "Bahadur Shah II",
+        "Bahadur Shah II was the last Mughal emperor, exiled after the 1857 Revolt."
+    ],
+    [
+        "Which reformer is known as the 'Father of Indian Renaissance'?",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Dayanand Saraswati",
+        "Ishwar Chandra Vidyasagar",
+        "Raja Ram Mohan Roy",
+        "He led social reforms like the abolition of Sati and promotion of education."
+    ],
+    [
+        "When did the Jallianwala Bagh massacre take place?",
+        "1915",
+        "1917",
+        "1919",
+        "1921",
+        "1919",
+        "It occurred on April 13, 1919, under General Dyer’s orders."
+    ],
+    [
+        "Who was the first Indian to win a Nobel Prize?",
+        "Rabindranath Tagore",
+        "C.V. Raman",
+        "Mother Teresa",
+        "Amartya Sen",
+        "Rabindranath Tagore",
+        "Tagore won the Nobel Prize in Literature in 1913 for his work 'Gitanjali.'"
+    ],
+    [
+        "Which treaty ended the First Anglo-Maratha War?",
+        "Treaty of Salbai",
+        "Treaty of Purandar",
+        "Treaty of Bassein",
+        "Treaty of Seringapatam",
+        "Treaty of Salbai",
+        "The Treaty of Salbai in 1782 restored the status quo between the British and Marathas."
+    ],
+    [
+        "Who led the Revolt of 1857 in Kanpur?",
+        "Rani Lakshmibai",
+        "Tantia Tope",
+        "Nana Saheb",
+        "Mangal Pandey",
+        "Nana Saheb",
+        "Nana Saheb led the revolt in Kanpur against British rule."
+    ],
+    [
+        "Who was the Viceroy of India at the time of partition in 1947?",
+        "Lord Linlithgow",
+        "Lord Wavell",
+        "Lord Mountbatten",
+        "Lord Curzon",
+        "Lord Mountbatten",
+        "Lord Mountbatten oversaw the partition of India in 1947."
+    ],
+    [
+        "Which Sultan of Delhi introduced the token currency system?",
+        "Qutub-ud-din Aibak",
+        "Alauddin Khilji",
+        "Muhammad bin Tughlaq",
+        "Iltutmish",
+        "Muhammad bin Tughlaq",
+        "He introduced token currency made of copper, which failed miserably."
+    ],
+    [
+        "Who is known as the 'Napoleon of India'?",
+        "Ashoka",
+        "Samudragupta",
+        "Harsha",
+        "Chandragupta Maurya",
+        "Samudragupta",
+        "Samudragupta earned this title for his military conquests and campaigns."
+    ],
+    [
+        "Who established the Brahmo Samaj?",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Rabindranath Tagore",
+        "Dayanand Saraswati",
+        "Raja Ram Mohan Roy",
+        "The Brahmo Samaj was established in 1828 to reform Hindu society."
+    ],
+    [
+        "Who was the first Indian Governor-General of independent India?",
+        "Jawaharlal Nehru",
+        "C. Rajagopalachari",
+        "Dr. Rajendra Prasad",
+        "Sardar Patel",
+        "C. Rajagopalachari",
+        "C. Rajagopalachari served as the last Governor-General of India after independence."
+    ],
+    [
+        "Which act is also known as the Montagu-Chelmsford Reforms?",
+        "Government of India Act, 1858",
+        "Government of India Act, 1909",
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Government of India Act, 1919",
+        "The 1919 Act introduced diarchy in provincial administration."
+    ],
+    [
+        "Which Indian freedom fighter founded the Azad Hind Fauj?",
+        "Mahatma Gandhi",
+        "Bhagat Singh",
+        "Subhas Chandra Bose",
+        "Chandrasekhar Azad",
+        "Subhas Chandra Bose",
+        "Subhas Chandra Bose formed the Azad Hind Fauj to fight against British rule."
+    ],
+    [
+        "Who started the Home Rule Movement in India?",
+        "Bal Gangadhar Tilak",
+        "Mahatma Gandhi",
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale",
+        "Bal Gangadhar Tilak",
+        "Tilak started the Home Rule Movement in 1916 to demand self-rule."
+    ],
+    [
+        "Who introduced the Doctrine of Lapse?",
+        "Lord Dalhousie",
+        "Lord Wellesley",
+        "Lord Canning",
+        "Lord Hastings",
+        "Lord Dalhousie",
+        "The Doctrine of Lapse was used to annex princely states without heirs."
+    ],
+    [
+        "Who founded the All India Muslim League?",
+        "M.A. Jinnah",
+        "Sir Syed Ahmed Khan",
+        "Aga Khan and Nawab Salimullah",
+        "Shaukat Ali",
+        "Aga Khan and Nawab Salimullah",
+        "It was founded in 1906 to safeguard Muslim political interests."
+    ],
+    [
+        "Which Mughal emperor built the Taj Mahal?",
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb",
+        "Shah Jahan",
+        "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal."
+    ],
+    [
+        "Who was the first Indian woman to become the President of the Indian National Congress?",
+        "Sarojini Naidu",
+        "Annie Besant",
+        "Indira Gandhi",
+        "Sucheta Kripalani",
+        "Annie Besant",
+        "Annie Besant became the President of the INC in 1917."
+    ],
+    [
+        "Who authored the book 'India Wins Freedom'?",
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Subhas Chandra Bose",
+        "Abul Kalam Azad",
+        "Abul Kalam Azad",
+        "This autobiography details Azad’s experiences during the freedom struggle."
+    ],
+    [
+        "When was the Indian National Congress founded?",
+        "1885",
+        "1905",
+        "1920",
+        "1947",
+        "1885",
+        "The INC was founded in 1885 by A.O. Hume and other leaders."
+    ],
+    [
+        "What is the value of 0! (zero factorial)?",
+        "1",
+        "0",
+        "undefined",
+        "infinity",
+        "1",
+        "By definition, 0! equals 1 as it represents an empty product."
+    ],
+    [
+        "Who was the first Governor-General of India?",
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "Lord Mountbatten",
+        "Lord Wellesley",
+        "Warren Hastings",
+        "Warren Hastings was the first Governor-General of India, serving from 1773 to 1785."
+    ],
+    [
+        "Find the next number in the sequence: 2, 6, 12, 20, 30, __?",
+        "42",
+        "36",
+        "48",
+        "56",
+        "42",
+        "The pattern is n^2 + n (e.g., 1x2+1, 2x3+2, etc.)."
+    ],
+    [
+        "In which year did the Battle of Plassey take place?",
+        "1757",
+        "1764",
+        "1857",
+        "1707",
+        "1757",
+        "The Battle of Plassey in 1757 marked the beginning of British rule in India."
+    ],
+    [
+        "Find the odd one out: Circle, Triangle, Sphere, Rectangle",
+        "Sphere",
+        "Circle",
+        "Rectangle",
+        "Triangle",
+        "Sphere",
+        "Sphere is 3-dimensional, while others are 2-dimensional shapes."
+    ],
+    [
+        "What is the HCF of 36 and 48?",
+        "6",
+        "12",
+        "24",
+        "18",
+        "12",
+        "The highest common factor of 36 and 48 is 12."
+    ],
+    [
+        "Who is known as the 'Iron Man of India'?",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose",
+        "Sardar Vallabhbhai Patel",
+        "Bhagat Singh",
+        "Sardar Vallabhbhai Patel",
+        "Sardar Patel unified Indian states post-independence, earning the title."
+    ],
+    [
+        "If A is taller than B, and B is taller than C, who is the shortest?",
+        "A",
+        "B",
+        "C",
+        "Cannot determine",
+        "C",
+        "C is the shortest because both A and B are taller than C."
+    ],
+    [
+        "Who was the founder of the Maurya Empire?",
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Bindusara",
+        "Bimbisara",
+        "Chandragupta Maurya",
+        "Chandragupta Maurya established the Maurya Empire in 321 BCE."
+    ],
+    [
+        "Find the missing term: 5, 10, 20, 40, __?",
+        "60",
+        "50",
+        "80",
+        "70",
+        "80",
+        "The sequence doubles each time: 5, 10, 20, 40, 80."
+    ],
+    [
+        "Who led the Revolt of 1857 in Kanpur?",
+        "Rani Lakshmibai",
+        "Tantia Tope",
+        "Nana Saheb",
+        "Mangal Pandey",
+        "Nana Saheb",
+        "Nana Saheb led the revolt in Kanpur against British rule."
+    ],
+    [
+        "What is the square root of 169?",
+        "11",
+        "12",
+        "13",
+        "14",
+        "13",
+        "The square root of 169 is 13 (13x13=169)."
+    ],
+    [
+        "When did the Jallianwala Bagh massacre take place?",
+        "1915",
+        "1917",
+        "1919",
+        "1921",
+        "1919",
+        "It occurred on April 13, 1919, under General Dyer’s orders."
+    ],
+    [
+        "If 15 workers can build a wall in 8 days, how many days will it take for 10 workers to build the same wall?",
+        "10",
+        "12",
+        "15",
+        "8",
+        "12",
+        "Using the work formula: (workers x days) = constant, so 15x8=10xD."
+    ],
+    [
+        "Who introduced the Doctrine of Lapse?",
+        "Lord Dalhousie",
+        "Lord Wellesley",
+        "Lord Canning",
+        "Lord Hastings",
+        "Lord Dalhousie",
+        "The Doctrine of Lapse was used to annex princely states without heirs."
+    ],
+    [
+        "What is the LCM of 12 and 18?",
+        "24",
+        "36",
+        "48",
+        "54",
+        "36",
+        "The least common multiple of 12 and 18 is 36."
+    ],
+    [
+        "Who is known as the 'Father of Indian Renaissance'?",
+        "Raja Ram Mohan Roy",
+        "Swami Vivekananda",
+        "Dayanand Saraswati",
+        "Ishwar Chandra Vidyasagar",
+        "Raja Ram Mohan Roy",
+        "He led social reforms like the abolition of Sati and promotion of education."
+    ],
+    [
+        "Which number replaces the question mark? 8, 27, 64, 125, ?",
+        "216",
+        "343",
+        "144",
+        "512",
+        "216",
+        "These are cubes of consecutive numbers (2^3, 3^3, 4^3, 5^3, 6^3)."
+    ],
+    [
+        "Who was the last Mughal emperor of India?",
+        "Akbar",
+        "Bahadur Shah II",
+        "Aurangzeb",
+        "Shah Jahan",
+        "Bahadur Shah II",
+        "Bahadur Shah II was exiled after the Revolt of 1857."
+    ],
+    [
+        "What is the sum of the first 10 natural numbers?",
+        "50",
+        "55",
+        "60",
+        "45",
+        "55",
+        "The sum of the first n natural numbers is n(n+1)/2. Here, 10x11/2=55."
+    ],
+    [
+        "Which movement was launched by Mahatma Gandhi in 1942?",
+        "Non-Cooperation Movement",
+        "Civil Disobedience Movement",
+        "Quit India Movement",
+        "Khilafat Movement",
+        "Quit India Movement",
+        "The Quit India Movement demanded an end to British rule."
+    ],
+    [
+        "A clock shows 3:15. What is the angle between the hour and minute hands?",
+        "0 degrees",
+        "7.5 degrees",
+        "90 degrees",
+        "22.5 degrees",
+        "7.5 degrees",
+        "The angle is calculated as |(30H - 11/2M)| = |(30x3 - 11/2x15)| = 7.5."
+    ],
+    [
+        "Who built the Taj Mahal?",
+        "Akbar",
+        "Shah Jahan",
+        "Aurangzeb",
+        "Humayun",
+        "Shah Jahan",
+        "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal."
+    ],
+    [
+        "What is the value of 2^5?",
+        "32",
+        "64",
+        "16",
+        "128",
+        "32",
+        "2 raised to the power of 5 is 32 (2x2x2x2x2)."
+    ],
+    [
+        "Who started the Home Rule Movement in India?",
+        "Bal Gangadhar Tilak",
+        "Mahatma Gandhi",
+        "Dadabhai Naoroji",
+        "Gopal Krishna Gokhale",
+        "Bal Gangadhar Tilak",
+        "Tilak started the Home Rule Movement in 1916 to demand self-rule."
+    ]
 ]
+
