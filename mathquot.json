@@ -1,29 +1,238 @@
 [
-    ["hello abi?", "6", "7", "8", "9", "8", "Adding 5 and 3 gives 8."],
-    ["What is the square root of 16?", "2", "3", "4", "5", "4", "4 squared equals 16."],
-    ["What is 9 * 9?", "81", "72", "90", "99", "81", "Multiplying 9 by 9 gives 81."],
-    ["What is 15 - 7?", "8", "9", "6", "7", "8", "Subtracting 7 from 15 gives 8."],
-    ["What is 100 / 25?", "2", "3", "4", "5", "4", "100 divided by 25 equals 4."],
-    ["What is 7 * 6?", "42", "48", "36", "56", "42", "Multiplying 7 by 6 gives 42."],
-    ["What is 12 + 15?", "25", "26", "27", "28", "27", "Adding 12 and 15 gives 27."],
-    ["What is the value of π (pi) to two decimal places?", "3.12", "3.14", "3.15", "3.16", "3.14", "Pi is approximately 3.14."],
-    ["What is the smallest prime number?", "1", "2", "3", "5", "2", "The smallest prime number is 2."],
-    ["What is the result of 3^3?", "9", "27", "81", "64", "27", "3 raised to the power of 3 is 27."],
-    ["What is the perimeter of a square with side length 5?", "10", "15", "20", "25", "20", "The perimeter of a square is 4 times the side length."],
-    ["What is 25% of 200?", "25", "50", "75", "100", "50", "25% of 200 is 50."],
-    ["What is the factorial of 4?", "24", "16", "20", "12", "24", "4! (4 factorial) is 4*3*2*1 = 24."],
-    ["What is 10 to the power of 2?", "20", "50", "100", "200", "100", "10 raised to the power of 2 is 100."],
-    ["What is 1/2 + 1/4?", "1/4", "1/2", "3/4", "1", "3/4", "Adding 1/2 and 1/4 gives 3/4."],
-    ["If a triangle has angles 60° and 90°, what is the third angle?", "30°", "45°", "60°", "90°", "30°", "The sum of angles in a triangle is 180°."],
-    ["What is 18 / 3?", "6", "9", "12", "15", "6", "18 divided by 3 equals 6."],
-    ["What is the value of the expression 3 + 5 * 2?", "13", "16", "15", "10", "13", "Using the order of operations, 5*2=10, then 3+10=13."],
-    ["What is 3.14 * 2?", "6.28", "7.12", "6.26", "7.16", "6.28", "Multiplying 3.14 by 2 gives 6.28."],
-    ["What is 50% of 120?", "50", "60", "70", "80", "60", "50% of 120 is 60."],
-    ["What is the greatest common divisor of 12 and 16?", "4", "6", "8", "10", "4", "The GCD of 12 and 16 is 4."],
-    ["What is 2^5?", "16", "32", "64", "48", "32", "2 raised to the power of 5 is 32."],
-    ["What is 3.5 + 4.2?", "7.5", "7.6", "7.7", "7.8", "7.7", "Adding 3.5 and 4.2 gives 7.7."],
-    ["What is the area of a rectangle with length 7 and width 4?", "11", "21", "28", "32", "28", "The area of a rectangle is length times width."],
-    ["What is the value of 0! (zero factorial)?", "1", "0", "undefined", "infinity", "1", "By definition, 0! equals 1."],
+   [
+        "What is the value of 0! (zero factorial)?",
+        "1",
+        "0",
+        "undefined",
+        "infinity",
+        "1",
+        "Factorial means multiplying a number by all positive integers less than it. For example, 3! = 3 × 2 × 1 = 6. By definition, the factorial of 0 is always 1 because there is only one way to arrange zero objects (do nothing)."
+    ],
+    [
+        "The HCF of 36 and 48 is:",
+        "6",
+        "8",
+        "12",
+        "18",
+        "12",
+        "The HCF (Highest Common Factor) is the largest number that divides both 36 and 48 without a remainder. For these numbers, it is 12."
+    ],
+    [
+        "The LCM of 12 and 15 is:",
+        "30",
+        "60",
+        "90",
+        "120",
+        "60",
+        "The LCM (Lowest Common Multiple) is the smallest number that both 12 and 15 can divide into. For these numbers, it is 60."
+    ],
+    [
+        "What is the square root of 144?",
+        "10",
+        "11",
+        "12",
+        "13",
+        "12",
+        "The square root of a number is the value that, when multiplied by itself, gives the original number. For 144, the square root is 12 because 12 × 12 = 144."
+    ],
+    [
+        "If the radius of a circle is 7 cm, what is its area?",
+        "154 cm²",
+        "22 cm²",
+        "44 cm²",
+        "77 cm²",
+        "154 cm²",
+        "The formula for the area of a circle is πr². Using π = 22/7 and r = 7, the area is 22/7 × 7 × 7 = 154 cm²."
+    ],
+    [
+        "What is the cube of 3?",
+        "9",
+        "18",
+        "27",
+        "81",
+        "27",
+        "The cube of a number is the result of multiplying it by itself three times. For 3, the cube is 3 × 3 × 3 = 27."
+    ],
+    [
+        "What is the sum of the first 10 natural numbers?",
+        "45",
+        "55",
+        "65",
+        "75",
+        "55",
+        "The sum of the first n natural numbers is calculated using the formula n(n+1)/2. For n = 10, the sum is 10 × 11 / 2 = 55."
+    ],
+    [
+        "A train travels 240 km in 3 hours. What is its speed?",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h",
+        "90 km/h",
+        "80 km/h",
+        "Speed is calculated using the formula Speed = Distance / Time. Here, 240/3 = 80 km/h."
+    ],
+    [
+        "What is the value of 2⁵?",
+        "16",
+        "32",
+        "64",
+        "128",
+        "32",
+        "Exponentiation means multiplying a number by itself repeatedly. 2⁵ = 2 × 2 × 2 × 2 × 2 = 32."
+    ],
+    [
+        "If the perimeter of a square is 40 cm, what is the side length?",
+        "10 cm",
+        "8 cm",
+        "12 cm",
+        "15 cm",
+        "10 cm",
+        "The perimeter of a square is 4 × side. Solving 40 = 4 × side gives side = 10 cm."
+    ],
+    [
+        "What is 25% of 200?",
+        "50",
+        "75",
+        "100",
+        "125",
+        "50",
+        "25% means 25 out of 100. Multiply 200 × (25/100) = 50."
+    ],
+    [
+        "A man buys an item for ₹200 and sells it for ₹250. What is his profit percentage?",
+        "10%",
+        "20%",
+        "25%",
+        "30%",
+        "25%",
+        "Profit% = (Profit / Cost Price) × 100. Here, profit = 250 - 200 = ₹50, so profit% = (50/200) × 100 = 25%."
+    ],
+    [
+        "If 3x = 27, what is the value of x?",
+        "6",
+        "7",
+        "8",
+        "9",
+        "9",
+        "Divide both sides of the equation by 3: x = 27/3 = 9."
+    ],
+    [
+        "What is the value of 7 × 8?",
+        "54",
+        "56",
+        "64",
+        "72",
+        "56",
+        "The product of 7 and 8 is 56 (7 × 8 = 56)."
+    ],
+    [
+        "Simplify: 15 ÷ 3 × 2",
+        "5",
+        "10",
+        "15",
+        "20",
+        "10",
+        "Follow the BODMAS rule: First divide 15 ÷ 3 = 5, then multiply 5 × 2 = 10."
+    ],
+    [
+        "What is the area of a rectangle with length 10 cm and breadth 5 cm?",
+        "50 cm²",
+        "25 cm²",
+        "40 cm²",
+        "55 cm²",
+        "50 cm²",
+        "The formula for the area of a rectangle is length × breadth. Here, 10 × 5 = 50 cm²."
+    ],
+    [
+        "If a = 5 and b = 3, what is a² + b²?",
+        "25",
+        "34",
+        "29",
+        "40",
+        "34",
+        "a² + b² means squaring a and b, then adding. 5² + 3² = 25 + 9 = 34."
+    ],
+    [
+        "The simple interest on ₹1000 at 5% per annum for 2 years is:",
+        "₹50",
+        "₹100",
+        "₹150",
+        "₹200",
+        "₹100",
+        "Simple Interest = (P × R × T) / 100. Here, SI = (1000 × 5 × 2) / 100 = ₹100."
+    ],
+    [
+        "What is the sum of the angles in a triangle?",
+        "90°",
+        "120°",
+        "180°",
+        "360°",
+        "180°",
+        "The sum of the angles in any triangle is always 180°."
+    ],
+    [
+        "What is the value of 1/2 + 1/3?",
+        "5/6",
+        "2/3",
+        "3/4",
+        "1/6",
+        "5/6",
+        "Find a common denominator (6) and add the fractions: 1/2 + 1/3 = 3/6 + 2/6 = 5/6."
+    ],
+    [
+        "Convert 0.25 into a fraction:",
+        "1/2",
+        "1/3",
+        "1/4",
+        "3/4",
+        "1/4",
+        "0.25 can be written as 25/100, which simplifies to 1/4."
+    ],
+    [
+        "A number is divisible by 9 if:",
+        "It ends in 9",
+        "It is even",
+        "The sum of its digits is divisible by 9",
+        "It is a multiple of 3",
+        "The sum of its digits is divisible by 9",
+        "If the sum of the digits of a number is divisible by 9, the number itself is divisible by 9."
+    ],
+    [
+        "If the cost price is ₹400 and the selling price is ₹500, what is the profit?",
+        "₹50",
+        "₹100",
+        "₹150",
+        "₹200",
+        "₹100",
+        "Profit = Selling Price - Cost Price. Here, 500 - 400 = ₹100."
+    ],
+    [
+        "If a train travels at 60 km/h for 4 hours, how far does it travel?",
+        "120 km",
+        "180 km",
+        "240 km",
+        "300 km",
+        "240 km",
+        "Distance = Speed × Time. Here, 60 × 4 = 240 km."
+    ],
+    [
+        "What is the value of √81?",
+        "8",
+        "9",
+        "10",
+        "11",
+        "9",
+        "The square root of 81 is 9 because 9 × 9 = 81."
+    ],
+    [
+        "Simplify: 8 + 2 × 3",
+        "14",
+        "16",
+        "20",
+        "22",
+        "14",
+        "Follow the BODMAS rule: First multiply 2 × 3 = 6, then add 8 + 6 = 14."
+    ],
     ["What is 10 - 2?", "6", "7", "8", "9", "8", "Subtracting 2 from 10 gives 8."],
     ["What comes next in the sequence: 2, 4, 6, 8?", "10", "12", "14", "16", "10", "The pattern increases by 2 each time."],
     ["Which of these numbers is a prime number?", "4", "6", "9", "11", "11", "11 is the only prime number in the options."],
