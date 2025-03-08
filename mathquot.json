@@ -71,8 +71,6 @@
         "6",
         "Total sweets = 24 × 5 = 120. If the number of children is 20, each gets 120/20 = 6 sweets."
     ],
-
-
     [
         "A school has 8 periods a day each of 45 min duration. How long would each period be, if the school has 9 periods a day, assuming the number of school hours to be the same?",
         "60 min",
@@ -229,231 +227,238 @@
         "1/15",
         "HCF = HCF of numerators / LCM of denominators. HCF(4, 10, 16) = 2, LCM(3, 9, 15) = 45. So, HCF = 2/45."
     ],
+    
+    
+    
+     [
+        "A school has 8 periods a day each of 45 min duration. How long would each period be, if the school has 9 periods a day, assuming the number of school hours to be the same?",
+        "60 min",
+        "1 h 10 min",
+        "55 min",
+        "40 min",
+        "40 min",
+        "Total school time = 8 × 45 = 360 min. If 9 periods, each period = 360/9 = 40 min."
+    ],
     [
-        "Simplify: 8 + 2 × 3",
-        "14",
-        "16",
+        "A coach of a cricket team buys 7 bats and 6 balls for 3800, later he buys 3 bats and 5 balls for 1750. Then, the cost of each bat and each ball will be.",
+        "₹500, ₹50",
+        "₹250, ₹40",
+        "₹400, ₹40",
+        "₹300, ₹15",
+        "₹400, ₹40",
+        "Solving the system of equations: 7b + 6c = 3800 and 3b + 5c = 1750 gives b = ₹400 and c = ₹40."
+    ],
+    [
+        "On dividing a certain number by 357, the remainder is 39. On dividing the same number by 17. What will be the remainder?",
+        "5",
+        "3",
+        "7",
+        "6",
+        "3",
+        "The number can be written as 357k + 39. Since 357 is divisible by 17, remainder when 39 is divided by 17 is 39 mod 17 = 3."
+    ],
+    [
+        "A number divided by 899 gives a remainder of 63. If the number is divided by 29, the remainder will be",
+        "2",
+        "5",
+        "13",
+        "8",
+        "5",
+        "Since 899 is divisible by 29, the remainder is simply 63 mod 29 = 5."
+    ],
+    [
+        "In a division, the divisor is 2 times and the quotient is 6 times the remainder. If the remainder is 2, then the dividend is",
+        "36",
+        "28",
+        "50",
+        "48",
+        "50",
+        "Let divisor = 2r = 4, quotient = 6r = 12, dividend = divisor × quotient + remainder = 4 × 12 + 2 = 50."
+    ],
+    [
+        "A boy was asked to multiply a certain number by 25. He multiplied it by 52 and got his answer more by 324 than the correct answer. The number to be multiplied was",
+        "15",
+        "12",
+        "18",
+        "23",
+        "12",
+        "Let the number be x. 52x - 25x = 324, solving gives x = 12."
+    ],
+    [
+        "Amit, while solving his Maths homework, took 12 as divisor instead of 21, in a question on division with zero remainder. The quotient obtained by him was 35. The correct quotient is",
+        "10",
+        "12",
         "20",
-        "22",
-        "14",
-        "Follow the BODMAS rule: First multiply 2 × 3 = 6, then add 8 + 6 = 14."
+        "15",
+        "20",
+        "Actual dividend = 12 × 35 = 420. Correct quotient = 420 ÷ 21 = 20."
     ],
     [
-        "Which word does not belong to the group: Apple, Mango, Banana, Carrot?",
-        "Apple",
-        "Mango",
-        "Banana",
-        "Carrot",
-        "Carrot",
-        "Carrot is a vegetable, while the others are fruits."
+        "Which of the following is divisible by 3?",
+        "41736",
+        "2311",
+        "32041",
+        "94568",
+        "41736",
+        "A number is divisible by 3 if the sum of its digits is divisible by 3. Sum of 41736's digits = 4+1+7+3+6 = 21, which is divisible by 3."
     ],
     [
-        "If A is coded as 1, B as 2, C as 3, then what is the code for F?",
+        "What least value must be assigned to *, so that the number 6912* is divisible by 25?",
         "4",
         "5",
         "6",
         "7",
-        "6",
-        "Each letter corresponds to its position in the alphabet. F is the 6th letter."
+        "5",
+        "A number is divisible by 25 if its last two digits are 00, 25, 50, or 75. The only valid option is * = 5 making last two digits 25."
     ],
     [
-        "Find the odd one out: 2, 3, 5, 9, 11",
-        "2",
-        "9",
+        "Find the unit digit in the product of (268 × 539 × 826 × 102)",
+        "5",
         "3",
-        "11",
+        "4",
+        "2",
+        "4",
+        "Unit digits of numbers: 268 (8), 539 (9), 826 (6), 102 (2). Product of last digits = 8 × 9 × 6 × 2 = 864. Unit digit = 4."
+    ],
+    [
+        "Which one does not belong to the group?",
+        "Apple",
+        "Banana",
+        "Mango",
+        "Carrot",
+        "Carrot",
+        "All are fruits except Carrot, which is a vegetable."
+    ],
+    [
+        "If A is coded as 1, B as 2, and so on, what is the sum of the positions of the letters in the word 'CAB'?",
+        "6",
+        "5",
+        "7",
         "9",
-        "All numbers except 9 are prime numbers."
+        "6",
+        "C = 3, A = 1, B = 2. Sum = 3 + 1 + 2 = 6."
     ],
     [
-        "What comes next in the series: 2, 4, 8, 16, ?",
-        "20",
-        "24",
-        "32",
-        "36",
-        "32",
-        "The series doubles each time: 2 × 2 = 4, 4 × 2 = 8, and so on."
+        "In a certain code, 'GREAT' is written as 'HQFBT'. How is 'SMART' written in that code?",
+        "TNBSU",
+        "TNBQS",
+        "TMBQS",
+        "TNBRT",
+        "TNBQS",
+        "Each letter is replaced by the next letter in the English alphabet."
     ],
     [
-        "If CAT is coded as DBU, how is DOG coded?",
-        "EOG",
-        "EHP",
-        "EPE",
-        "EOH",
-        "EHP",
-        "Each letter is shifted forward by 1 in the alphabet (C → D, A → B, T → U)."
+        "If in a certain language, MONKEY is written as 576491, how is TIGER written in that code?",
+        "71354",
+        "71654",
+        "71534",
+        "71345",
+        "71654",
+        "Each letter is replaced by a unique numerical code."
     ],
     [
-        "In a certain code, TREE is written as UQFF. How is FLOW written?",
-        "GMQX",
-        "GLQX",
-        "GNQX",
-        "GLPY",
-        "GMQX",
-        "Each letter is shifted forward by 1 in the alphabet."
+        "If 5 apples cost ₹30, what will be the cost of 8 apples?",
+        "₹48",
+        "₹42",
+        "₹45",
+        "₹50",
+        "₹48",
+        "Cost of 1 apple = 30/5 = ₹6. Cost of 8 apples = 8 × 6 = ₹48."
+    ],
+
+
+[
+        "In a certain code language, 'MANGO' is written as 'OZQKP'. How is 'APPLE' written in that code?",
+        "CRRND",
+        "DRQMF",
+        "BRQMC",
+        "CQPMB",
+        "CQPMB",
+        "Each letter is replaced by the letter two places ahead in the alphabet."
     ],
     [
-        "Ravi is taller than Rohit but shorter than Amit. Who is the tallest?",
-        "Ravi",
-        "Rohit",
-        "Amit",
-        "Cannot be determined",
-        "Amit",
-        "Amit is taller than Ravi, and Ravi is taller than Rohit."
+        "What comes next in the series: 3, 9, 27, 81, ...?",
+        "162",
+        "243",
+        "324",
+        "729",
+        "243",
+        "Each term is multiplied by 3 to get the next term."
     ],
     [
-        "If TABLE is coded as GZOVI, how is CHAIR coded?",
-        "XSZRI",
-        "XZRFI",
-        "XZROI",
-        "XZQFI",
-        "XZROI",
-        "Each letter is replaced by its opposite in the alphabet (A ↔ Z, B ↔ Y, etc.)."
+        "If 'PENCIL' is coded as 'RNEMGK', how is 'ERASER' coded?",
+        "GTXUGT",
+        "GTXUFT",
+        "GTZUGT",
+        "HTXUGT",
+        "GTXUGT",
+        "Each letter is shifted forward by 2 places in the alphabet."
     ],
     [
-        "Pointing to a man, Ramesh said, 'His mother is the only daughter of my mother.' How is the man related to Ramesh?",
-        "Brother",
-        "Son",
-        "Nephew",
-        "Ramesh's Son",
-        "Son",
-        "The man’s mother is Ramesh’s only daughter, so the man is Ramesh’s son."
+        "Pointing to a girl, Raju said, 'She is the only daughter of my grandfather’s only son'. How is the girl related to Raju?",
+        "Cousin",
+        "Sister",
+        "Niece",
+        "Daughter",
+        "Sister",
+        "The only son of Raju's grandfather is Raju's father. His only daughter is Raju's sister."
     ],
     [
-        "What comes next in the series: 1, 4, 9, 16, 25, ?",
-        "30",
-        "35",
-        "36",
-        "49",
-        "36",
-        "The series is squares of natural numbers: 1², 2², 3², and so on."
-    ],
-    [
-        "If P × Q means P is the sister of Q, P + Q means P is the brother of Q, and P - Q means P is the mother of Q, then what does A - B + C mean?",
-        "A is the sister of C",
-        "A is the mother of C",
-        "A is the mother of B and B is the brother of C",
-        "A is the sister of B",
-        "A is the mother of B and B is the brother of C",
-        "A - B means A is the mother of B, and B + C means B is the brother of C."
-    ],
-    [
-        "Find the missing term: ACE, GIK, ___, MOQ",
-        "RTU",
-        "PSR",
-        "DFH",
-        "SUW",
-        "SUW",
-        "The pattern is skipping one letter each time (A → C → E, G → I → K, etc.)."
-    ],
-    [
-        "If B = 2, BAT = 23, and CAT = 24, what is HAT?",
-        "25",
-        "26",
-        "27",
-        "28",
-        "28",
-        "Sum of letter positions: H(8) + A(1) + T(20) = 29."
-    ],
-    [
-        "A is the father of B. B is the mother of C. How is A related to C?",
-        "Father",
-        "Grandfather",
-        "Uncle",
-        "Brother",
-        "Grandfather",
-        "A is the grandfather of C because A is B’s father, and B is C’s mother."
-    ],
-    [
-        "What comes next in the series: 5, 10, 20, 40, ?",
-        "50",
-        "60",
-        "80",
-        "100",
-        "80",
-        "The series doubles each time: 5 × 2 = 10, 10 × 2 = 20, and so on."
-    ],
-    [
-        "In a certain code, PEAR is written as QFBS. How is LIME written?",
-        "MJLF",
-        "MJNF",
-        "MJOF",
-        "MJLE",
-        "MJNF",
-        "Each letter is shifted forward by 1 in the alphabet."
-    ],
-    [
-        "Find the missing term: Z, X, V, T, ?",
-        "Q",
-        "R",
-        "S",
-        "U",
-        "R",
-        "The pattern is moving backward by 2 letters in the alphabet (Z → X → V → T → R)."
-    ],
-    [
-        "Ramesh ranks 9th from the top and 38th from the bottom in a class. How many students are there?",
-        "45",
-        "46",
-        "47",
-        "48",
-        "46",
-        "Total students = Top rank + Bottom rank - 1. Here, 9 + 38 - 1 = 46."
-    ],
-    [
-        "If '+' means '-', '-' means '×', '×' means '÷', and '÷' means '+', then what is 6 + 2 × 3?",
-        "7",
-        "8",
-        "10",
-        "12",
-        "7",
-        "Replacing the signs: 6 + 2 × 3 becomes 6 - 2 ÷ 3 = 7."
-    ],
-    [
-        "Find the missing number: 3, 6, 18, 72, ?",
-        "90",
-        "108",
-        "360",
-        "144",
-        "360",
-        "The pattern is multiplying by increasing numbers: 3 × 2 = 6, 6 × 3 = 18, 18 × 4 = 72, 72 × 5 = 360."
-    ],
-    [
-        "What is the missing number: 15, 31, 63, 127, ?",
-        "255",
-        "128",
-        "254",
-        "130",
-        "255",
-        "The pattern is doubling and subtracting 1: 15 × 2 - 1 = 31, 31 × 2 - 1 = 63, and so on."
-    ],
-    [
-        "A clock shows 3:15. What is the angle between the hour and minute hands?",
-        "7.5°",
-        "22.5°",
-        "37.5°",
-        "45°",
-        "7.5°",
-        "Each minute represents 6°, and the hour hand moves 0.5° per minute. The angle is 7.5°."
-    ],
-    [
-        "Which number comes next: 2, 6, 12, 20, ?",
+        "Find the missing term: 2, 6, 12, 20, ?, 42",
         "28",
         "30",
         "32",
         "36",
         "30",
-        "The pattern is adding consecutive even numbers: 2 + 4 = 6, 6 + 6 = 12, and so on."
+        "The pattern follows n(n+1) where n starts from 1. Next term: 5×6=30."
     ],
     [
-        "Find the missing number: 1, 4, 9, 16, ?",
-        "20",
-        "25",
-        "30",
-        "36",
-        "25",
-        "The series represents squares of natural numbers: 1², 2², 3², etc."
+        "Which of the following words cannot be formed using the letters of the word 'EXAMINATION'?",
+        "NATION",
+        "MOTION",
+        "EXIT",
+        "MONKEY",
+        "MONKEY",
+        "The word 'MONKEY' contains 'K', which is not in 'EXAMINATION'."
     ],
+    [
+        "Choose the odd one out: Circle, Triangle, Square, Cube",
+        "Circle",
+        "Triangle",
+        "Square",
+        "Cube",
+        "Cube",
+        "All others are 2D shapes, while Cube is a 3D shape."
+    ],
+    [
+        "If 5*3=16, 8*2=18, 6*4=20, then 7*5=?",
+        "30",
+        "32",
+        "34",
+        "36",
+        "34",
+        "The pattern follows (a×b) + (a-b). 7×5 + (7-5) = 34."
+    ],
+    [
+        "If A is coded as 2, B as 4, C as 6, then what is the code for 'FACE'?",
+        "12 4 6 10",
+        "12 2 6 8",
+        "12 4 6 8",
+        "10 4 6 8",
+        "12 4 6 8",
+        "Each letter's position is doubled (A=2, B=4, C=6, etc.)."
+    ],
+    [
+        "If 'CAT' is coded as '3120', how is 'DOG' coded?",
+        "4157",
+        "4158",
+        "4160",
+        "4172",
+        "4158",
+        "Each letter is replaced by its position in the alphabet reversed (C=3, A=1, T=20)."
+    ],
+
+
     [
         "Which is the odd one out: Circle, Square, Triangle, Rectangle?",
         "Circle",
