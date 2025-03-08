@@ -1,76 +1,77 @@
 [
-   [
-    "Rural Employment Generation Program (REGP) was started in", 
-    "2000",
-    "2010",
-    "2005",
-    "1995",
-    "1995",
-    "Rural Employment Generation Program was started in 1995 \n The Rular Employment Generation Program or REGP was started in 1995"
+    [
+        "The sum of place value and face value of 7 in the 97582 is",
+        "7007",
+        "7002",
+        "7001",
+        "7009",
+        "7007",
+        "The sum of face value of 7 is 7 and place value is 7000 then sum is equals 7000+7=7007"
     ],
     [
-        "The HCF of 36 and 48 is:",
+        "What is the sum of two consecutive even numbers, if the difference of these squares is 84?",
+        "34",
+        "38",
+        "42",
+        "46",
+        "42",
+        "Let the numbers be x and x+2. Then, (x+2)^2 - x^2 = 84 simplifies to x = 20. So the sum is 20 + 22 = 42."
+    ],
+    [
+        "The sum of three consecutive odd numbers is 20 more than the first number among three. What is the middle number?",
+        "7",
+        "4",
+        "12",
+        "9",
+        "9",
+        "Let the numbers be x, x+2, x+4. Given: x + (x+2) + (x+4) = x + 20. Solving for x gives the middle number as 9."
+    ],
+    [
+        "The difference between a number of two digit and the number obtained interchanging its digits is 63. What is the difference between its digits?",
+        "5",
         "6",
+        "7",
+        "8",
+        "7",
+        "Let the two-digit number be 10a + b. Then, (10a + b) - (10b + a) = 63. Solving for a and b gives the difference as 7."
+    ],
+    [
+        "If the sum of the digits of a two-digit number is 9 and the difference of those digits is 3, what is the product of the digits of the same number?",
+        "9",
+        "36",
+        "18",
+        "72",
+        "18",
+        "Let the digits be x and y. Given: x + y = 9 and x - y = 3. Solving for x and y, we get x = 6, y = 3. Product = 6 × 3 = 18."
+    ],
+    [
+        "A number consists of two digits. If the digits interchange places and the new number is added to the original number, then resulting number will be divisible by",
+        "3",
+        "5",
+        "9",
+        "11",
+        "11",
+        "Let the number be 10a + b. Then (10a + b) + (10b + a) = 11(a + b). Since a + b is always an integer, the sum is always divisible by 11."
+    ],
+    [
+        "A car driver knows four different routes from Delhi to Amritsar. From Amritsar to Pathankot, he knows three different routes and from Pathankot to Jammu, he knows two different routes. How many routes does he know from Delhi to Jammu?",
+        "4",
         "8",
         "12",
-        "18",
+        "24",
+        "24",
+        "The total routes = 4 × 3 × 2 = 24."
+    ],
+    [
+        "If a box of sweets is divided among 24 children, they will get 5 sweets each. How many would each get, if the number of children is reduced by 4?",
         "12",
-        "The HCF (Highest Common Factor) is the largest number that divides both 36 and 48 without a remainder. For these numbers, it is 12."
-    ],
-    [
-        "The LCM of 12 and 15 is:",
-        "30",
-        "60",
-        "90",
-        "120",
-        "60",
-        "The LCM (Lowest Common Multiple) is the smallest number that both 12 and 15 can divide into. For these numbers, it is 60."
-    ],
-    [
-        "What is the square root of 144?",
+        "6",
+        "8",
         "10",
-        "11",
-        "12",
-        "13",
-        "12",
-        "The square root of a number is the value that, when multiplied by itself, gives the original number. For 144, the square root is 12 because 12 × 12 = 144."
+        "6",
+        "Total sweets = 24 × 5 = 120. If the number of children is 20, each gets 120/20 = 6 sweets."
     ],
-    [
-        "If the radius of a circle is 7 cm, what is its area?",
-        "154 cm²",
-        "22 cm²",
-        "44 cm²",
-        "77 cm²",
-        "154 cm²",
-        "The formula for the area of a circle is πr². Using π = 22/7 and r = 7, the area is 22/7 × 7 × 7 = 154 cm²."
-    ],
-    [
-        "What is the cube of 3?",
-        "9",
-        "18",
-        "27",
-        "81",
-        "27",
-        "The cube of a number is the result of multiplying it by itself three times. For 3, the cube is 3 × 3 × 3 = 27."
-    ],
-    [
-        "What is the sum of the first 10 natural numbers?",
-        "45",
-        "55",
-        "65",
-        "75",
-        "55",
-        "The sum of the first n natural numbers is calculated using the formula n(n+1)/2. For n = 10, the sum is 10 × 11 / 2 = 55."
-    ],
-    [
-        "A train travels 240 km in 3 hours. What is its speed?",
-        "60 km/h",
-        "70 km/h",
-        "80 km/h",
-        "90 km/h",
-        "80 km/h",
-        "Speed is calculated using the formula Speed = Distance / Time. Here, 240/3 = 80 km/h."
-    ],
+   
     [
         "What is the value of 2⁵?",
         "16",
