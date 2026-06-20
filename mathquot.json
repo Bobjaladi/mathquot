@@ -460,455 +460,459 @@
 
 
     [
-        "Which is the odd one out: Circle, Square, Triangle, Rectangle?",
-        "Circle",
-        "Square",
-        "Triangle",
-        "Rectangle",
-        "Circle",
-        "Circle is the only shape without straight edges."
+        "What is the output of `print(type([]))` in Python?",
+        "<class 'list'>",
+        "<class 'tuple'>",
+        "<class 'array'>",
+        "<class 'dict'>",
+        "<class 'list'>",
+        "The type() function returns the class type of the object. An empty list [] is of type 'list' in Python."
     ],
     [
-        "Who was the first Governor-General of India?",
-        "Warren Hastings",
-        "Lord Cornwallis",
-        "Lord Wellesley",
-        "Lord Mountbatten",
-        "Warren Hastings",
-        "Warren Hastings was the first Governor-General of India, serving from 1773 to 1785."
+        "What will `print(10 // 3)` output?",
+        "3.33",
+        "3",
+        "4",
+        "3.0",
+        "3",
+        "The // operator performs floor division in Python. It divides and rounds down to the nearest integer. 10 // 3 = 3."
     ],
     [
-        "In which year did the Battle of Plassey take place?",
-        "1757",
-        "1764",
-        "1857",
-        "1707",
-        "1757",
-        "The Battle of Plassey in 1757 marked the beginning of British rule in India."
-    ],
-    [
-        "Who is known as the 'Iron Man of India'?",
-        "Mahatma Gandhi",
-        "Subhas Chandra Bose",
-        "Sardar Vallabhbhai Patel",
-        "Bhagat Singh",
-        "Sardar Vallabhbhai Patel",
-        "Sardar Patel played a key role in unifying India after independence, earning him this title."
-    ],
-    [
-        "Which movement was launched by Mahatma Gandhi in 1942?",
-        "Non-Cooperation Movement",
-        "Civil Disobedience Movement",
-        "Quit India Movement",
-        "Khilafat Movement",
-        "Quit India Movement",
-        "The Quit India Movement called for an end to British rule in India."
-    ],
-    [
-        "Who was the founder of the Maurya Empire?",
-        "Ashoka",
-        "Chandragupta Maurya",
-        "Bindusara",
-        "Bimbisara",
-        "Chandragupta Maurya",
-        "Chandragupta Maurya established the Maurya Empire in 321 BCE."
-    ],
-    [
-        "Who was the last Mughal emperor of India?",
-        "Akbar",
-        "Bahadur Shah II",
-        "Aurangzeb",
-        "Shah Jahan",
-        "Bahadur Shah II",
-        "Bahadur Shah II was the last Mughal emperor, exiled after the 1857 Revolt."
-    ],
-    [
-        "Which reformer is known as the 'Father of Indian Renaissance'?",
-        "Raja Ram Mohan Roy",
-        "Swami Vivekananda",
-        "Dayanand Saraswati",
-        "Ishwar Chandra Vidyasagar",
-        "Raja Ram Mohan Roy",
-        "He led social reforms like the abolition of Sati and promotion of education."
-    ],
-    [
-        "When did the Jallianwala Bagh massacre take place?",
-        "1915",
-        "1917",
-        "1919",
-        "1921",
-        "1919",
-        "It occurred on April 13, 1919, under General Dyer’s orders."
-    ],
-    [
-        "Who was the first Indian to win a Nobel Prize?",
-        "Rabindranath Tagore",
-        "C.V. Raman",
-        "Mother Teresa",
-        "Amartya Sen",
-        "Rabindranath Tagore",
-        "Tagore won the Nobel Prize in Literature in 1913 for his work 'Gitanjali.'"
-    ],
-    [
-        "Which treaty ended the First Anglo-Maratha War?",
-        "Treaty of Salbai",
-        "Treaty of Purandar",
-        "Treaty of Bassein",
-        "Treaty of Seringapatam",
-        "Treaty of Salbai",
-        "The Treaty of Salbai in 1782 restored the status quo between the British and Marathas."
-    ],
-    [
-        "Who led the Revolt of 1857 in Kanpur?",
-        "Rani Lakshmibai",
-        "Tantia Tope",
-        "Nana Saheb",
-        "Mangal Pandey",
-        "Nana Saheb",
-        "Nana Saheb led the revolt in Kanpur against British rule."
-    ],
-    [
-        "Who was the Viceroy of India at the time of partition in 1947?",
-        "Lord Linlithgow",
-        "Lord Wavell",
-        "Lord Mountbatten",
-        "Lord Curzon",
-        "Lord Mountbatten",
-        "Lord Mountbatten oversaw the partition of India in 1947."
-    ],
-    [
-        "Which Sultan of Delhi introduced the token currency system?",
-        "Qutub-ud-din Aibak",
-        "Alauddin Khilji",
-        "Muhammad bin Tughlaq",
-        "Iltutmish",
-        "Muhammad bin Tughlaq",
-        "He introduced token currency made of copper, which failed miserably."
-    ],
-    [
-        "Who is known as the 'Napoleon of India'?",
-        "Ashoka",
-        "Samudragupta",
-        "Harsha",
-        "Chandragupta Maurya",
-        "Samudragupta",
-        "Samudragupta earned this title for his military conquests and campaigns."
-    ],
-    [
-        "Who established the Brahmo Samaj?",
-        "Raja Ram Mohan Roy",
-        "Swami Vivekananda",
-        "Rabindranath Tagore",
-        "Dayanand Saraswati",
-        "Raja Ram Mohan Roy",
-        "The Brahmo Samaj was established in 1828 to reform Hindu society."
-    ],
-    [
-        "Who was the first Indian Governor-General of independent India?",
-        "Jawaharlal Nehru",
-        "C. Rajagopalachari",
-        "Dr. Rajendra Prasad",
-        "Sardar Patel",
-        "C. Rajagopalachari",
-        "C. Rajagopalachari served as the last Governor-General of India after independence."
-    ],
-    [
-        "Which act is also known as the Montagu-Chelmsford Reforms?",
-        "Government of India Act, 1858",
-        "Government of India Act, 1909",
-        "Government of India Act, 1919",
-        "Government of India Act, 1935",
-        "Government of India Act, 1919",
-        "The 1919 Act introduced diarchy in provincial administration."
-    ],
-    [
-        "Which Indian freedom fighter founded the Azad Hind Fauj?",
-        "Mahatma Gandhi",
-        "Bhagat Singh",
-        "Subhas Chandra Bose",
-        "Chandrasekhar Azad",
-        "Subhas Chandra Bose",
-        "Subhas Chandra Bose formed the Azad Hind Fauj to fight against British rule."
-    ],
-    [
-        "Who started the Home Rule Movement in India?",
-        "Bal Gangadhar Tilak",
-        "Mahatma Gandhi",
-        "Dadabhai Naoroji",
-        "Gopal Krishna Gokhale",
-        "Bal Gangadhar Tilak",
-        "Tilak started the Home Rule Movement in 1916 to demand self-rule."
-    ],
-    [
-        "Who introduced the Doctrine of Lapse?",
-        "Lord Dalhousie",
-        "Lord Wellesley",
-        "Lord Canning",
-        "Lord Hastings",
-        "Lord Dalhousie",
-        "The Doctrine of Lapse was used to annex princely states without heirs."
-    ],
-    [
-        "Who founded the All India Muslim League?",
-        "M.A. Jinnah",
-        "Sir Syed Ahmed Khan",
-        "Aga Khan and Nawab Salimullah",
-        "Shaukat Ali",
-        "Aga Khan and Nawab Salimullah",
-        "It was founded in 1906 to safeguard Muslim political interests."
-    ],
-    [
-        "Which Mughal emperor built the Taj Mahal?",
-        "Akbar",
-        "Jahangir",
-        "Shah Jahan",
-        "Aurangzeb",
-        "Shah Jahan",
-        "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal."
-    ],
-    [
-        "Who was the first Indian woman to become the President of the Indian National Congress?",
-        "Sarojini Naidu",
-        "Annie Besant",
-        "Indira Gandhi",
-        "Sucheta Kripalani",
-        "Annie Besant",
-        "Annie Besant became the President of the INC in 1917."
-    ],
-    [
-        "Who authored the book 'India Wins Freedom'?",
-        "Mahatma Gandhi",
-        "Jawaharlal Nehru",
-        "Subhas Chandra Bose",
-        "Abul Kalam Azad",
-        "Abul Kalam Azad",
-        "This autobiography details Azad’s experiences during the freedom struggle."
-    ],
-    [
-        "When was the Indian National Congress founded?",
-        "1885",
-        "1905",
-        "1920",
-        "1947",
-        "1885",
-        "The INC was founded in 1885 by A.O. Hume and other leaders."
-    ],
-    [
-        "What is the value of 0! (zero factorial)?",
-        "1",
-        "0",
-        "undefined",
-        "infinity",
-        "1",
-        "By definition, 0! equals 1 as it represents an empty product."
-    ],
-    [
-        "Who was the first Governor-General of India?",
-        "Warren Hastings",
-        "Lord Cornwallis",
-        "Lord Mountbatten",
-        "Lord Wellesley",
-        "Warren Hastings",
-        "Warren Hastings was the first Governor-General of India, serving from 1773 to 1785."
-    ],
-    [
-        "Find the next number in the sequence: 2, 6, 12, 20, 30, __?",
-        "42",
+        "What is the result of `print(2 ** 3 ** 2)`?",
+        "64",
+        "512",
         "36",
-        "48",
-        "56",
-        "42",
-        "The pattern is n^2 + n (e.g., 1x2+1, 2x3+2, etc.)."
-    ],
-    [
-        "In which year did the Battle of Plassey take place?",
-        "1757",
-        "1764",
-        "1857",
-        "1707",
-        "1757",
-        "The Battle of Plassey in 1757 marked the beginning of British rule in India."
-    ],
-    [
-        "Find the odd one out: Circle, Triangle, Sphere, Rectangle",
-        "Sphere",
-        "Circle",
-        "Rectangle",
-        "Triangle",
-        "Sphere",
-        "Sphere is 3-dimensional, while others are 2-dimensional shapes."
-    ],
-    [
-        "What is the HCF of 36 and 48?",
-        "6",
         "12",
-        "24",
-        "18",
-        "12",
-        "The highest common factor of 36 and 48 is 12."
+        "512",
+        "The exponentiation operator ** is right-associative in Python. So 2 ** 3 ** 2 is evaluated as 2 ** (3 ** 2) = 2 ** 9 = 512."
     ],
     [
-        "Who is known as the 'Iron Man of India'?",
-        "Mahatma Gandhi",
-        "Subhas Chandra Bose",
-        "Sardar Vallabhbhai Patel",
-        "Bhagat Singh",
-        "Sardar Vallabhbhai Patel",
-        "Sardar Patel unified Indian states post-independence, earning the title."
+        "What will `print('Hello' * 3)` output?",
+        "HelloHelloHello",
+        "Hello Hello Hello",
+        "Hello3",
+        "Error",
+        "HelloHelloHello",
+        "The * operator with a string and integer repeats the string that many times. 'Hello' * 3 = 'HelloHelloHello'."
     ],
     [
-        "If A is taller than B, and B is taller than C, who is the shortest?",
-        "A",
-        "B",
-        "C",
-        "Cannot determine",
-        "C",
-        "C is the shortest because both A and B are taller than C."
+        "What does `print(5 in [1, 2, 3, 4])` output?",
+        "True",
+        "False",
+        "1",
+        "Error",
+        "False",
+        "The 'in' operator checks if an element exists in a list. 5 is not in the list [1, 2, 3, 4], so it returns False."
     ],
     [
-        "Who was the founder of the Maurya Empire?",
-        "Ashoka",
-        "Chandragupta Maurya",
-        "Bindusara",
-        "Bimbisara",
-        "Chandragupta Maurya",
-        "Chandragupta Maurya established the Maurya Empire in 321 BCE."
-    ],
-    [
-        "Find the missing term: 5, 10, 20, 40, __?",
-        "60",
-        "50",
-        "80",
-        "70",
-        "80",
-        "The sequence doubles each time: 5, 10, 20, 40, 80."
-    ],
-    [
-        "Who led the Revolt of 1857 in Kanpur?",
-        "Rani Lakshmibai",
-        "Tantia Tope",
-        "Nana Saheb",
-        "Mangal Pandey",
-        "Nana Saheb",
-        "Nana Saheb led the revolt in Kanpur against British rule."
-    ],
-    [
-        "What is the square root of 169?",
+        "What is the output of `print(len('Hello World'))`?",
+        "10",
         "11",
         "12",
-        "13",
-        "14",
-        "13",
-        "The square root of 169 is 13 (13x13=169)."
+        "9",
+        "11",
+        "The len() function returns the number of characters in a string. 'Hello World' has 11 characters including the space."
     ],
     [
-        "When did the Jallianwala Bagh massacre take place?",
-        "1915",
-        "1917",
-        "1919",
-        "1921",
-        "1919",
-        "It occurred on April 13, 1919, under General Dyer’s orders."
+        "What will `print(bool('False'))` output?",
+        "False",
+        "True",
+        "None",
+        "Error",
+        "True",
+        "In Python, any non-empty string is truthy. Even though the string is 'False', it's non-empty, so bool('False') returns True."
     ],
     [
-        "If 15 workers can build a wall in 8 days, how many days will it take for 10 workers to build the same wall?",
-        "10",
-        "12",
-        "15",
-        "8",
-        "12",
-        "Using the work formula: (workers x days) = constant, so 15x8=10xD."
+        "What is the result of `print(3 == 3.0)`?",
+        "True",
+        "False",
+        "TypeError",
+        "None",
+        "True",
+        "Python performs type coercion for comparison. 3 (int) and 3.0 (float) are equal in value, so the comparison returns True."
     ],
     [
-        "Who introduced the Doctrine of Lapse?",
-        "Lord Dalhousie",
-        "Lord Wellesley",
-        "Lord Canning",
-        "Lord Hastings",
-        "Lord Dalhousie",
-        "The Doctrine of Lapse was used to annex princely states without heirs."
+        "What will `print([] or [1, 2, 3])` output?",
+        "[]",
+        "[1, 2, 3]",
+        "True",
+        "False",
+        "[1, 2, 3]",
+        "The 'or' operator returns the first truthy value. An empty list [] is falsy, so it returns the second operand [1, 2, 3]."
     ],
     [
-        "What is the LCM of 12 and 18?",
-        "24",
-        "36",
-        "48",
-        "54",
-        "36",
-        "The least common multiple of 12 and 18 is 36."
+        "What does `print(not None)` output?",
+        "True",
+        "False",
+        "None",
+        "Error",
+        "True",
+        "None is falsy in Python. The 'not' operator negates it, so not None returns True."
     ],
     [
-        "Who is known as the 'Father of Indian Renaissance'?",
-        "Raja Ram Mohan Roy",
-        "Swami Vivekananda",
-        "Dayanand Saraswati",
-        "Ishwar Chandra Vidyasagar",
-        "Raja Ram Mohan Roy",
-        "He led social reforms like the abolition of Sati and promotion of education."
+        "What is the output of `print(1, 2, 3, sep='-')`?",
+        "1-2-3",
+        "123",
+        "1 2 3",
+        "1-2-3-",
+        "1-2-3",
+        "The sep parameter in print() specifies the separator between multiple arguments. sep='-' places hyphens between 1, 2, and 3."
     ],
     [
-        "Which number replaces the question mark? 8, 27, 64, 125, ?",
-        "216",
-        "343",
-        "144",
-        "512",
-        "216",
-        "These are cubes of consecutive numbers (2^3, 3^3, 4^3, 5^3, 6^3)."
+        "What will `print('abc'.upper())` output?",
+        "'abc'",
+        "ABC",
+        "Abc",
+        "aBC",
+        "ABC",
+        "The upper() method converts all characters in a string to uppercase. 'abc'.upper() returns 'ABC'."
     ],
     [
-        "Who was the last Mughal emperor of India?",
-        "Akbar",
-        "Bahadur Shah II",
-        "Aurangzeb",
-        "Shah Jahan",
-        "Bahadur Shah II",
-        "Bahadur Shah II was exiled after the Revolt of 1857."
+        "What is the result of `print(round(2.675, 2))`?",
+        "2.68",
+        "2.67",
+        "2.7",
+        "2.675",
+        "2.67",
+        "Due to floating-point representation, round(2.675, 2) actually returns 2.67 instead of 2.68. This is because 2.675 is stored as 2.6749999999999998."
     ],
     [
-        "What is the sum of the first 10 natural numbers?",
-        "50",
-        "55",
-        "60",
-        "45",
-        "55",
-        "The sum of the first n natural numbers is n(n+1)/2. Here, 10x11/2=55."
+        "What will `print(list(range(5, 10, 2)))` output?",
+        "[5, 7, 9]",
+        "[5, 6, 7, 8, 9]",
+        "[5, 7, 9, 11]",
+        "[5, 10, 2]",
+        "[5, 7, 9]",
+        "range(start, stop, step) generates numbers from 5 to 9 with step 2. So it produces 5, 7, 9. list() converts it to a list."
     ],
     [
-        "Which movement was launched by Mahatma Gandhi in 1942?",
-        "Non-Cooperation Movement",
-        "Civil Disobedience Movement",
-        "Quit India Movement",
-        "Khilafat Movement",
-        "Quit India Movement",
-        "The Quit India Movement demanded an end to British rule."
+        "What does `print('python'.find('t'))` output?",
+        "0",
+        "1",
+        "2",
+        "-1",
+        "2",
+        "The find() method returns the index of the first occurrence of a substring. 't' is at index 2 in 'python' (0-based indexing)."
     ],
     [
-        "A clock shows 3:15. What is the angle between the hour and minute hands?",
-        "0 degrees",
-        "7.5 degrees",
-        "90 degrees",
-        "22.5 degrees",
-        "7.5 degrees",
-        "The angle is calculated as |(30H - 11/2M)| = |(30x3 - 11/2x15)| = 7.5."
+        "What is the output of `print([1, 2] + [3, 4])`?",
+        "[1, 2, 3, 4]",
+        "[4, 6]",
+        "Error",
+        "[[1, 2], [3, 4]]",
+        "[1, 2, 3, 4]",
+        "The + operator concatenates two lists in Python. [1, 2] + [3, 4] results in [1, 2, 3, 4]."
     ],
     [
-        "Who built the Taj Mahal?",
-        "Akbar",
-        "Shah Jahan",
-        "Aurangzeb",
-        "Humayun",
-        "Shah Jahan",
-        "Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal."
+        "What will `print('Hello'.replace('l', 'x'))` output?",
+        "Hexxo",
+        "Hexlo",
+        "Hxllo",
+        "Hello",
+        "Hexxo",
+        "The replace() method replaces all occurrences of a substring. It replaces both 'l' characters in 'Hello' with 'x', resulting in 'Hexxo'."
     ],
     [
-        "What is the value of 2^5?",
-        "32",
-        "64",
+        "What is the result of `print(bool([]))`?",
+        "True",
+        "False",
+        "None",
+        "Error",
+        "False",
+        "Empty sequences like lists, tuples, strings, and empty dictionaries are falsy in Python. So bool([]) returns False."
+    ],
+    [
+        "What will `print(4 ** 0.5)` output?",
+        "2",
+        "2.0",
         "16",
-        "128",
-        "32",
-        "2 raised to the power of 5 is 32 (2x2x2x2x2)."
+        "8",
+        "2.0",
+        "The exponentiation operator works with floats too. 4 ** 0.5 is the square root of 4, which is 2.0 (float)."
     ],
+    [
+        "What does `print('abc' * 2 == 'abcabc')` output?",
+        "True",
+        "False",
+        "TypeError",
+        "None",
+        "True",
+        "'abc' * 2 repeats the string twice, giving 'abcabc'. The comparison with 'abcabc' returns True."
+    ],
+    [
+        "What is the output of `print(10 % 3)`?",
+        "1",
+        "3",
+        "0",
+        "2",
+        "1",
+        "The modulo operator % returns the remainder of division. 10 divided by 3 gives quotient 3 and remainder 1, so 10 % 3 = 1."
+    ],
+    [
+        "What will `print('python'.capitalize())` output?",
+        "Python",
+        "PYTHON",
+        "python",
+        "P",
+        "Python",
+        "The capitalize() method capitalizes the first character of a string and lowercases the rest. 'python'.capitalize() returns 'Python'."
+    ],
+    [
+        "What is the result of `print(abs(-5.5))`?",
+        "5.5",
+        "-5.5",
+        "5",
+        "Error",
+        "5.5",
+        "The abs() function returns the absolute value of a number. abs(-5.5) removes the negative sign and returns 5.5."
+    ],
+    [
+        "What will `print([1, 2, 3].pop())` output?",
+        "3",
+        "1",
+        "[1, 2]",
+        "Error",
+        "3",
+        "The pop() method removes and returns the last element of a list. pop() on [1, 2, 3] returns 3."
+    ],
+    [
+        "What does `print(max([2, 5, 1, 8, 3]))` output?",
+        "8",
+        "1",
+        "5",
+        "2",
+        "8",
+        "The max() function returns the largest value in an iterable. Among [2, 5, 1, 8, 3], the maximum is 8."
+    ],
+
+
+    
+    [
+        "What is the output of `System.out.println(10 / 3)` in Java?",
+        "3.333",
+        "3",
+        "3.0",
+        "Compilation Error",
+        "3",
+        "When both operands of the / operator are integers, Java performs integer division. 10 / 3 = 3, truncating the decimal part."
+    ],
+    [
+        "What will `System.out.println(\"Hello\" + 5 + 3)` output?",
+        "Hello53",
+        "Hello8",
+        "Hello+53",
+        "Compilation Error",
+        "Hello53",
+        "String concatenation is left-associative. 'Hello' + 5 becomes 'Hello5', then + 3 becomes 'Hello53'. Numeric addition only happens if both operands are numbers."
+    ],
+    [
+        "What is the result of `System.out.println(5 + 3 + \"Hello\")`?",
+        "8Hello",
+        "53Hello",
+        "Hello8",
+        "Compilation Error",
+        "8Hello",
+        "The expression is evaluated left-to-right. 5 + 3 is integer addition = 8. Then 8 + 'Hello' performs string concatenation = '8Hello'."
+    ],
+    [
+        "What will `System.out.println(10 / 0.0)` output?",
+        "Infinity",
+        "NaN",
+        "0",
+        "ArithmeticException",
+        "Infinity",
+        "Dividing a positive number by 0.0 yields Infinity in Java. Floating-point division doesn't throw an exception, unlike integer division by zero."
+    ],
+    [
+        "What does `System.out.println(0.0 / 0.0)` output?",
+        "0",
+        "1",
+        "NaN",
+        "Infinity",
+        "NaN",
+        "0.0 / 0.0 is undefined in floating-point arithmetic, so it returns NaN (Not-a-Number)."
+    ],
+    [
+        "What is the output of `System.out.println(5 % 2)`?",
+        "2.5",
+        "2",
+        "1",
+        "0",
+        "1",
+        "The modulo operator % returns the remainder of integer division. 5 divided by 2 gives quotient 2 and remainder 1, so 5 % 2 = 1."
+    ],
+    [
+        "What will `System.out.println((int) 3.9)` output?",
+        "3.9",
+        "4",
+        "3",
+        "Compilation Error",
+        "3",
+        "Casting a double to int truncates the decimal part, not rounding. (int) 3.9 = 3."
+    ],
+    [
+        "What is the result of `System.out.println('a' + 'b')`?",
+        "ab",
+        "195",
+        "a+b",
+        "Compilation Error",
+        "195",
+        "In Java, char addition uses their ASCII values. 'a' = 97, 'b' = 98. 97 + 98 = 195, which is printed as an integer."
+    ],
+    [
+        "What will `System.out.println(\"abc\".charAt(2))` output?",
+        "a",
+        "b",
+        "c",
+        "StringIndexOutOfBoundsException",
+        "c",
+        "charAt() uses zero-based indexing. Index 0 = 'a', 1 = 'b', 2 = 'c'. So charAt(2) returns 'c'."
+    ],
+    [
+        "What does `System.out.println(\"Java\".substring(1, 3))` output?",
+        "Jav",
+        "av",
+        "ava",
+        "a",
+        "av",
+        "substring(start, end) extracts from start index (inclusive) to end index (exclusive). Index 1 = 'a', index 3 = 'a', so it returns 'av'."
+    ],
+    [
+        "What is the output of `System.out.println(new int[]{1, 2, 3}.length)`?",
+        "3",
+        "2",
+        "4",
+        "Compilation Error",
+        "3",
+        "The length property of arrays returns the number of elements. The array {1, 2, 3} has 3 elements."
+    ],
+    [
+        "What will `System.out.println(1 == new Integer(1))` output?",
+        "true",
+        "false",
+        "Compilation Error",
+        "Runtime Error",
+        "true",
+        "Java unboxes the Integer to int automatically, then compares values. 1 == 1 is true."
+    ],
+    [
+        "What is the result of `System.out.println(new Integer(1) == new Integer(1))`?",
+        "true",
+        "false",
+        "Compilation Error",
+        "Runtime Error",
+        "false",
+        "== compares object references, not values. Two different Integer objects have different memory addresses, so this returns false."
+    ],
+    [
+        "What will `System.out.println(2 << 3)` output?",
+        "8",
+        "16",
+        "6",
+        "0",
+        "16",
+        "The left shift operator << shifts bits left. 2 in binary is 10, shifted left by 3 gives 10000, which is decimal 16 (2 * 2^3)."
+    ],
+    [
+        "What does `System.out.println(8 >> 2)` output?",
+        "4",
+        "2",
+        "0",
+        "16",
+        "2",
+        "The right shift operator >> shifts bits right. 8 in binary is 1000, shifted right by 2 gives 10, which is decimal 2 (8 / 2^2)."
+    ],
+    [
+        "What is the output of `System.out.println(10 | 6)`?",
+        "10",
+        "6",
+        "14",
+        "0",
+        "14",
+        "The bitwise OR operator | compares corresponding bits. 10 = 1010, 6 = 0110. 1010 | 0110 = 1110 = 14."
+    ],
+    [
+        "What will `System.out.println(10 & 6)` output?",
+        "10",
+        "6",
+        "2",
+        "0",
+        "2",
+        "The bitwise AND operator & compares corresponding bits. 10 = 1010, 6 = 0110. 1010 & 0110 = 0010 = 2."
+    ],
+    [
+        "What is the result of `System.out.println(10 ^ 6)`?",
+        "10",
+        "6",
+        "12",
+        "14",
+        "12",
+        "The bitwise XOR operator ^ compares corresponding bits. 10 = 1010, 6 = 0110. 1010 ^ 0110 = 1100 = 12."
+    ],
+    [
+        "What will `System.out.println(~5)` output?",
+        "5",
+        "-5",
+        "-6",
+        "6",
+        "-6",
+        "The bitwise NOT operator ~ inverts all bits. For 5 (0101), ~5 gives 1010 in two's complement, which is -6."
+    ],
+    [
+        "What does `System.out.println(\"Java\".equals(\"JAVA\"))` output?",
+        "true",
+        "false",
+        "Compilation Error",
+        "Runtime Error",
+        "false",
+        "equals() is case-sensitive. 'Java' and 'JAVA' are different strings, so it returns false."
+    ],
+    [
+        "What is the output of `System.out.println(\"Java\".equalsIgnoreCase(\"JAVA\"))`?",
+        "true",
+        "false",
+        "Compilation Error",
+        "Runtime Error",
+        "true",
+        "equalsIgnoreCase() ignores case differences. 'Java' and 'JAVA' are considered equal, so it returns true."
+    ],
+    [
+        "What will `System.out.println(Math.round(2.5))` output?",
+        "2.0",
+        "2",
+        "3",
+        "2.5",
+        "3",
+        "Math.round() rounds to the nearest integer using half-up rounding. 2.5 rounds up to 3."
+    ],
+    [
+        "What is the result of `System.out.println(Math.round(2.4))`?",
+        "2",
+        "3",
+        "2.0",
+        "2.4",
+        "2",
+        "Math.round() rounds to the nearest integer. 2.4 rounds down to 2."
+    ],
+    [
+        "What will `System.out.println(\"abc\".compareTo(\"abd\"))` output?",
+        "0",
+        "1",
+        "-1",
+        "Compilation Error",
+        "-1",
+        "compareTo() compares strings lexicographically. 'abc' is less than 'abd' because 'c' < 'd', so it returns a negative integer (-1)."
+    ],
+    [
+        "What does `System.out.println(Integer.parseInt(\"10\"))` output?",
+        "10",
+        "10.0",
+        "'10'",
+        "NumberFormatException",
+        "10",
+        "Integer.parseInt() converts a string to an int primitive. \"10\" parses to the integer 10."
+    ],
+
     [
         "Who started the Home Rule Movement in India?",
         "Bal Gangadhar Tilak",
