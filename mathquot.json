@@ -230,6 +230,8 @@
     
     
     
+  
+   
     [
         "What does `Object.prototype.toString.call([])` return?",
         "[object Array]",
@@ -312,151 +314,152 @@
         "Number.isNaN() is a reliable method to check if a value is exactly NaN. It returns true only for NaN, unlike global isNaN() which coerces values."
     ],
     [
-        "Find the unit digit in the product of (268 × 539 × 826 × 102)",
+        "What will `console.log(typeof null)` output?",
+        "null",
+        "undefined",
+        "object",
+        "number",
+        "object",
+        "typeof null returns 'object'. This is a well-known bug in JavaScript that has been there since the beginning."
+    ],
+    [
+        "What is the output of `console.log([] == false)`?",
+        "true",
+        "false",
+        "undefined",
+        "Error",
+        "true",
+        "When comparing an empty array with false, JavaScript converts both to numbers. [] becomes 0 and false becomes 0, so they are equal."
+    ],
+    [
+        "What will `console.log(!!'')` output?",
+        "true",
+        "false",
+        "undefined",
+        "Error",
+        "false",
+        "The double negation !! converts a value to its boolean equivalent. An empty string is falsy, so !!'' returns false."
+    ],
+    [
+        "What is the output of `console.log(1 + '1')`?",
+        "2",
+        "11",
+        "NaN",
+        "Error",
+        "11",
+        "The + operator with a string concatenates. The number 1 is converted to a string, resulting in '1' + '1' = '11'."
+    ],
+    [
+        "What will `console.log('5' * '3')` output?",
+        "15",
+        "'15'",
+        "53",
+        "NaN",
+        "15",
+        "The multiplication operator (*) coerces both operands to numbers, so '5' * '3' becomes 5 * 3 = 15."
+    ],
+    [
+        "What does `console.log(2 ** 3)` output?",
+        "6",
+        "8",
+        "9",
+        "Error",
+        "8",
+        "The ** operator is the exponentiation operator. 2 ** 3 means 2 raised to the power of 3, which is 8."
+    ],
+    [
+        "What is the output of `console.log(10 % 3)`?",
+        "1",
+        "3",
+        "0",
+        "Error",
+        "1",
+        "The modulus operator (%) returns the remainder of division. 10 divided by 3 gives a remainder of 1."
+    ],
+    [
+        "What will `console.log(typeof NaN)` output?",
+        "number",
+        "undefined",
+        "object",
+        "NaN",
+        "number",
+        "typeof NaN returns 'number' even though it represents 'Not a Number'. This is a quirk of JavaScript."
+    ],
+    [
+        "What is the output of `console.log('hello'.length)`?",
+        "4",
         "5",
+        "6",
+        "Error",
+        "5",
+        "The length property of a string returns the number of characters. 'hello' has 5 characters."
+    ],
+    [
+        "What will `console.log('abc'.toUpperCase())` output?",
+        "abc",
+        "ABC",
+        "AbC",
+        "Error",
+        "ABC",
+        "The toUpperCase() method converts all characters in a string to uppercase. 'abc' becomes 'ABC'."
+    ],
+    [
+        "What is the output of `console.log(Math.floor(3.9))`?",
         "3",
         "4",
-        "2",
+        "3.9",
+        "Error",
+        "3",
+        "Math.floor() rounds a number down to the nearest integer. 3.9 becomes 3."
+    ],
+    [
+        "What will `console.log(Math.ceil(3.1))` output?",
+        "3",
         "4",
-        "Unit digits of numbers: 268 (8), 539 (9), 826 (6), 102 (2). Product of last digits = 8 × 9 × 6 × 2 = 864. Unit digit = 4."
+        "3.1",
+        "Error",
+        "4",
+        "Math.ceil() rounds a number up to the nearest integer. 3.1 becomes 4."
     ],
     [
-        "Which one does not belong to the group?",
-        "Apple",
-        "Banana",
-        "Mango",
-        "Carrot",
-        "Carrot",
-        "All are fruits except Carrot, which is a vegetable."
+        "What is the output of `console.log(Math.round(3.5))`?",
+        "3",
+        "4",
+        "3.5",
+        "Error",
+        "4",
+        "Math.round() rounds a number to the nearest integer. 3.5 rounds to 4."
     ],
     [
-        "If A is coded as 1, B as 2, and so on, what is the sum of the positions of the letters in the word 'CAB'?",
-        "6",
-        "5",
-        "7",
-        "9",
-        "6",
-        "C = 3, A = 1, B = 2. Sum = 3 + 1 + 2 = 6."
+        "What will `console.log(Math.max(1, 2, 3, 4))` output?",
+        "1",
+        "2",
+        "3",
+        "4",
+        "4",
+        "Math.max() returns the largest number among the arguments. 4 is the maximum."
     ],
     [
-        "In a certain code, 'GREAT' is written as 'HQFBT'. How is 'SMART' written in that code?",
-        "TNBSU",
-        "TNBQS",
-        "TMBQS",
-        "TNBRT",
-        "TNBQS",
-        "Each letter is replaced by the next letter in the English alphabet."
+        "What is the output of `console.log(Math.min(1, 2, 3, 4))`?",
+        "1",
+        "2",
+        "3",
+        "4",
+        "1",
+        "Math.min() returns the smallest number among the arguments. 1 is the minimum."
     ],
     [
-        "If in a certain language, MONKEY is written as 576491, how is TIGER written in that code?",
-        "71354",
-        "71654",
-        "71534",
-        "71345",
-        "71654",
-        "Each letter is replaced by a unique numerical code."
-    ],
-    [
-        "If 5 apples cost ₹30, what will be the cost of 8 apples?",
-        "₹48",
-        "₹42",
-        "₹45",
-        "₹50",
-        "₹48",
-        "Cost of 1 apple = 30/5 = ₹6. Cost of 8 apples = 8 × 6 = ₹48."
+        "What will `console.log(Array.isArray([]))` output?",
+        "true",
+        "false",
+        "undefined",
+        "Error",
+        "true",
+        "Array.isArray() checks if a value is an array. For an empty array [], it returns true."
     ],
 
 
-[
-        "In a certain code language, 'MANGO' is written as 'OZQKP'. How is 'APPLE' written in that code?",
-        "CRRND",
-        "DRQMF",
-        "BRQMC",
-        "CQPMB",
-        "CQPMB",
-        "Each letter is replaced by the letter two places ahead in the alphabet."
-    ],
-    [
-        "What comes next in the series: 3, 9, 27, 81, ...?",
-        "162",
-        "243",
-        "324",
-        "729",
-        "243",
-        "Each term is multiplied by 3 to get the next term."
-    ],
-    [
-        "If 'PENCIL' is coded as 'RNEMGK', how is 'ERASER' coded?",
-        "GTXUGT",
-        "GTXUFT",
-        "GTZUGT",
-        "HTXUGT",
-        "GTXUGT",
-        "Each letter is shifted forward by 2 places in the alphabet."
-    ],
-    [
-        "Pointing to a girl, Raju said, 'She is the only daughter of my grandfather’s only son'. How is the girl related to Raju?",
-        "Cousin",
-        "Sister",
-        "Niece",
-        "Daughter",
-        "Sister",
-        "The only son of Raju's grandfather is Raju's father. His only daughter is Raju's sister."
-    ],
-    [
-        "Find the missing term: 2, 6, 12, 20, ?, 42",
-        "28",
-        "30",
-        "32",
-        "36",
-        "30",
-        "The pattern follows n(n+1) where n starts from 1. Next term: 5×6=30."
-    ],
-    [
-        "Which of the following words cannot be formed using the letters of the word 'EXAMINATION'?",
-        "NATION",
-        "MOTION",
-        "EXIT",
-        "MONKEY",
-        "MONKEY",
-        "The word 'MONKEY' contains 'K', which is not in 'EXAMINATION'."
-    ],
-    [
-        "Choose the odd one out: Circle, Triangle, Square, Cube",
-        "Circle",
-        "Triangle",
-        "Square",
-        "Cube",
-        "Cube",
-        "All others are 2D shapes, while Cube is a 3D shape."
-    ],
-    [
-        "If 5*3=16, 8*2=18, 6*4=20, then 7*5=?",
-        "30",
-        "32",
-        "34",
-        "36",
-        "34",
-        "The pattern follows (a×b) + (a-b). 7×5 + (7-5) = 34."
-    ],
-    [
-        "If A is coded as 2, B as 4, C as 6, then what is the code for 'FACE'?",
-        "12 4 6 10",
-        "12 2 6 8",
-        "12 4 6 8",
-        "10 4 6 8",
-        "12 4 6 8",
-        "Each letter's position is doubled (A=2, B=4, C=6, etc.)."
-    ],
-    [
-        "If 'CAT' is coded as '3120', how is 'DOG' coded?",
-        "4157",
-        "4158",
-        "4160",
-        "4172",
-        "4158",
-        "Each letter is replaced by its position in the alphabet reversed (C=3, A=1, T=20)."
-    ],
+    
 
 
     [
