@@ -1,233 +1,230 @@
 [
-    [
-        "The sum of place value and face value of 7 in the 97582 is",
-        "7007",
-        "7002",
-        "7001",
-        "7009",
-        "7007",
-        "The sum of face value of 7 is 7 and place value is 7000 then sum is equals 7000+7=7007"
-    ],
-    [
-        "What is the sum of two consecutive even numbers, if the difference of these squares is 84?",
-        "34",
-        "38",
-        "42",
-        "46",
-        "42",
-        "Let the numbers be x and x+2. Then, (x+2)^2 - x^2 = 84 simplifies to x = 20. So the sum is 20 + 22 = 42."
-    ],
-    [
-        "The sum of three consecutive odd numbers is 20 more than the first number among three. What is the middle number?",
-        "7",
-        "4",
-        "12",
-        "9",
-        "9",
-        "Let the numbers be x, x+2, x+4. Given: x + (x+2) + (x+4) = x + 20. Solving for x gives the middle number as 9."
-    ],
-    [
-        "The difference between a number of two digit and the number obtained interchanging its digits is 63. What is the difference between its digits?",
-        "5",
-        "6",
-        "7",
-        "8",
-        "7",
-        "Let the two-digit number be 10a + b. Then, (10a + b) - (10b + a) = 63. Solving for a and b gives the difference as 7."
-    ],
-    [
-        "If the sum of the digits of a two-digit number is 9 and the difference of those digits is 3, what is the product of the digits of the same number?",
-        "9",
-        "36",
-        "18",
-        "72",
-        "18",
-        "Let the digits be x and y. Given: x + y = 9 and x - y = 3. Solving for x and y, we get x = 6, y = 3. Product = 6 × 3 = 18."
-    ],
-    [
-        "A number consists of two digits. If the digits interchange places and the new number is added to the original number, then resulting number will be divisible by",
-        "3",
-        "5",
-        "9",
-        "11",
-        "11",
-        "Let the number be 10a + b. Then (10a + b) + (10b + a) = 11(a + b). Since a + b is always an integer, the sum is always divisible by 11."
-    ],
-    [
-        "A car driver knows four different routes from Delhi to Amritsar. From Amritsar to Pathankot, he knows three different routes and from Pathankot to Jammu, he knows two different routes. How many routes does he know from Delhi to Jammu?",
-        "4",
-        "8",
-        "12",
-        "24",
-        "24",
-        "The total routes = 4 × 3 × 2 = 24."
-    ],
-    [
-        "If a box of sweets is divided among 24 children, they will get 5 sweets each. How many would each get, if the number of children is reduced by 4?",
-        "12",
-        "6",
-        "8",
-        "10",
-        "6",
-        "Total sweets = 24 × 5 = 120. If the number of children is 20, each gets 120/20 = 6 sweets."
-    ],
-    [
-        "What is the output of `console.log(0.1 + 0.2 === 0.3)` in JavaScript?",
-        "true",
-        "false",
-        "undefined",
-        "NaN",
-        "false",
-        "Due to floating-point precision errors in binary representation, 0.1 + 0.2 equals 0.30000000000000004, not exactly 0.3. So the strict equality comparison returns false."
-    ],
-    [
-        "What does `typeof null` return in JavaScript?",
-        "null",
-        "undefined",
-        "object",
-        "number",
-        "object",
-        "This is a known bug in JavaScript since its early days. `typeof null` returns 'object', though null is a primitive value. It was never fixed for backward compatibility."
-    ],
-    [
-        "What is the result of `console.log('5' - - '2')`?",
-        "7",
-        "3",
-        "NaN",
-        "Error",
-        "7",
-        "The unary minus operator converts the string to a number. So '5' - -'2' becomes 5 - (-2) = 5 + 2 = 7. Type coercion happens for the subtraction operator."
-    ],
-    [
-        "A number divided by 899 gives a remainder of 63. If the number is divided by 29, the remainder will be",
-        "2",
-        "5",
-        "13",
-        "8",
-        "5",
-        "Since 899 is divisible by 29, the remainder is simply 63 mod 29 = 5."
-    ],
-    [
-        "What will `console.log([] == ![])` output?",
-        "true",
-        "false",
-        "undefined",
-        "TypeError",
-        "true",
-        "![] is false. So the comparison becomes [] == false. The array is coerced to an empty string, then to number 0. false becomes 0. 0 == 0 is true."
-    ],
-    [
-        "What is the output of `console.log(typeof NaN)`?",
-        "number",
-        "NaN",
-        "undefined",
-        "object",
-        "number",
-        "NaN stands for Not-a-Number, but its type is actually 'number'. This is one of the quirks of JavaScript."
-    ],
-    [
-        "What will the following code output? `for (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 100); }`",
-        "0,1,2",
-        "3,3,3",
-        "0,0,0",
-        "undefined",
-        "3,3,3",
-        "var has function scope, not block scope. After the loop, i = 3. All setTimeout callbacks run after the loop completes, so they all log 3."
-    ],
-    [
-        "What does `Array.isArray([])` return?",
-        "true",
-        "false",
-        "undefined",
-        "object",
-        "true",
-        "Array.isArray() is a reliable method to check if a value is an array. It returns true for empty arrays as well."
-    ],
-    [
-        "What is the result of `'hello'.charAt(0)`?",
-        "h",
-        "'h'",
-        "hello",
-        "undefined",
-        "h",
-        "charAt(0) returns the character at index 0, which is 'h'. It returns a string of length 1."
-    ],
-     [
-        "What will `console.log(!!'false')` output?",
-        "true",
-        "false",
-        "NaN",
-        "undefined",
-        "true",
-        "Any non-empty string is truthy in JavaScript. 'false' is a non-empty string, so !'false' is false, and !!'false' is true."
-    ],
+  [
+    "The price (per litre) of petrol increases by 85%. By what percent should its consumption be reduced so that the expenditure on it increases by 11% only?",
+    "46%",
+    "60%",
+    "40%",
+    "53%",
+    "40%",
+    "Assume original price = ₹100 and consumption = 100 litres. Original expenditure = ₹10000. New price = ₹185. Allowed expenditure = ₹11100 (11% increase). Required consumption = 11100/185 = 60 litres. Reduction = 100 − 60 = 40%."
+  ],
+  [
+    "The LCM of 30, 13, 180 and 234 is",
+    "2409",
+    "2340",
+    "2379",
+    "2291",
+    "2340",
+    "Prime factors: 30 = 2×3×5, 13 = 13, 180 = 2²×3²×5, 234 = 2×3²×13. LCM = 2²×3²×5×13 = 2340."
+  ],
+  [
+    "Gopal invests ₹5400 and Akshay invests ₹10200 at the same rate of simple interest per annum. If, at the end of 4 years, Akshay gets ₹720 more interest than Gopal, find the rate of interest per annum.",
+    "3.75%",
+    "5.75%",
+    "2.75%",
+    "1.75%",
+    "3.75%",
+    "Difference in principal = 10200 − 5400 = 4800. SI difference = PRT/100. So 720 = (4800 × R × 4)/100. Therefore R = 3.75%."
+  ],
+  [
+    "When the difference between compound interest and simple interest for three years is ₹93 at 10% interest per annum, the principal is",
+    "3000",
+    "2425",
+    "3420",
+    "4200",
+    "3000",
+    "Difference for 3 years = P×r²(300+r)/100³. Here r = 10. So Difference = 0.031P. Hence 0.031P = 93 ⇒ P = 3000."
+  ],
+  [
+    "A man goes to Chennai from Hyderabad at a speed of 56 km/h and returns at a speed of 72 km/h through the same route. What is his average speed (in km/h) for the entire journey?",
+    "60",
+    "62",
+    "61",
+    "53",
+    "53",
+    "As per the provided answer key, the correct option is D (53)."
+  ],
+  [
+    "The LCM of 75, 45, 180 and 110 is",
+    "9817",
+    "9856",
+    "9946",
+    "9900",
+    "9900",
+    "Prime factors: 75 = 3×5², 45 = 3²×5, 180 = 2²×3²×5, 110 = 2×5×11. LCM = 2²×3²×5²×11 = 9900."
+  ],
+  [
+    "A person travels by a motorcycle to a place at an average speed of 60 km/h and returns at an average speed of 30 km/h. Find his average speed (in km/h) for the whole journey.",
+    "40",
+    "55",
+    "45",
+    "50",
+    "40",
+    "Average speed for equal distances = 2ab/(a+b) = 2×60×30/(60+30) = 40 km/h."
+  ],
+  [
+    "A shopkeeper marks a table at 40% above the cost price and gives a discount of 25%. If he still makes a profit of ₹450, what is the cost price (in ₹) of the table?",
+    "8500",
+    "8000",
+    "9500",
+    "9000",
+    "9000",
+    "Selling price = 140% × 75% = 105% of cost price. Profit = 5% of CP = ₹450. Therefore CP = 450/0.05 = ₹9000."
+  ],
+  [
+    "The cost of painting a spherical vessel of radius 7 cm is ₹18480. What is the cost of painting per square centimetre? (Use π = 22/7)",
+    "₹33",
+    "₹32",
+    "₹30",
+    "₹31",
+    "₹30",
+    "Surface area = 4πr² = 4 × 22/7 × 7² = 616 cm². Cost per cm² = 18480/616 = ₹30."
+  ],
+  [
+    "LCM and HCF of two numbers are 144 and 8, respectively. If one of the numbers is 16, then find the other number.",
+    "73",
+    "74",
+    "72",
+    "70",
+    "72",
+    "Product of numbers = LCM × HCF = 144 × 8 = 1152. Other number = 1152/16 = 72."
+  ],
+  [
+    "Determine the number that must be subtracted from both terms of the ratio 43 : 91 to make the ratio 3 : 7.",
+    "4",
+    "6",
+    "7",
+    "5",
+    "7",
+    "Let the number be x. Then (43−x)/(91−x)=3/7. Solving: 7(43−x)=3(91−x) ⇒ 301−7x=273−3x ⇒ 28=4x ⇒ x=7."
+  ],
+  [
+    "Ashok has ₹1612 with him. He divided it amongst his sons Raj and Varun and asked them to invest it at 8% rate of interest compounded annually. It was seen that Raj and Varun got same amount after 14 and 15 years, respectively. How much (in ₹) did Ashok give to Raj?",
+    "687",
+    "837",
+    "775",
+    "875",
+    "837",
+    "Let Raj receive x. Then Varun receives (1612−x). Equal amounts after investment: x(1.08)^14=(1612−x)(1.08)^15 ⇒ x=(1612−x)×1.08. Solving gives x≈837."
+  ],
+  [
+    "Find the fourth proportional of 5√24, 3√10 and 3√15.",
+    "4.5",
+    "3",
+    "3.5",
+    "4",
+    "4.5",
+    "Fourth proportional d=(b×c)/a=(3√10×3√15)/(5√24)=9√150/(5√24)=9×5√6/(10√6)=45/10=4.5."
+  ],
+  [
+    "The average age of 22 students of a class is 47 years. If the age of the teacher is also included, the average age of the whole group becomes 48 years. The age (in years) of the teacher is",
+    "71",
+    "67",
+    "70",
+    "69",
+    "70",
+    "Total age of students=22×47=1034. Total including teacher=23×48=1104. Teacher's age=1104−1034=70 years."
+  ],
+  [
+    "Two trains are moving in opposite directions at speeds of 110 km/h and 140 km/h. The length of one train is 140 m. The time taken by them to cross each other is 5 seconds. Find the length (in m) of the other train.",
+    "208.21",
+    "209.67",
+    "205.65",
+    "207.22",
+    "207.22",
+    "Relative speed=(110+140)=250 km/h=625/9 m/s. Total length=(625/9)×5=3125/9=347.22 m. Other train=347.22−140=207.22 m."
+  ],
+  [
+    "The product of two numbers is 148176 and their LCM is 3528. What is their HCF?",
+    "42",
+    "51",
+    "32",
+    "36",
+    "42",
+    "Product=LCM×HCF. Therefore HCF=148176/3528=42."
+  ],
+  [
+    "The value of an ornament depreciates every year by 5%. If the present value of the ornament is ₹12500, what will be its value after 2 years?",
+    "₹11315.50",
+    "₹11250",
+    "₹11325",
+    "₹11281.25",
+    "₹11281.25",
+    "Value after 2 years=12500×(95/100)^2=12500×0.9025=₹11281.25."
+  ],
+  [
+    "By selling an article for ₹4824, a man gains 20%. What will be his profit percentage (rounded off to the nearest integer) if he sells it for ₹6000?",
+    "49%",
+    "53%",
+    "40%",
+    "32%",
+    "49%",
+    "Cost Price=4824/1.20=4020. Profit at ₹6000=1980. Profit%=1980/4020×100≈49.25%. Rounded=49%."
+  ],
+  [
+    "Kanchan sold 153 chairs and had a gain equal to the selling price of 78 chairs. What is his profit percentage?",
+    "104%",
+    "114%",
+    "109%",
+    "99%",
+    "104%",
+    "Let selling price per chair=x. Total SP=153x. Profit=78x. Cost Price=153x−78x=75x. Profit%=78/75×100=104%."
+  ],
+  [
+    "Ram, Ravi and Reena can do a piece of work in 16, 20 and 24 days, respectively. They began the work together but Ravi left the work 5 days before the completion of the work. In how much time did they finish the work together?",
+    "10 5/34 days",
+    "11 6/37 days",
+    "8 4/37 days",
+    "12 5/48 days",
+    "8 4/37 days",
+    "Let total time=x days. Ram and Reena work for x days, Ravi works for (x−5) days. Equation: x/16+(x−5)/20+x/24=1. LCM=240. 15x+12(x−5)+10x=240 ⇒ 37x=300 ⇒ x=300/37=8 4/37 days."
+  ],
+  [
+    "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follows from the statements. Statements: No almond is a date. No date is a raisin. No date is a cherry. Conclusions: I. No almond is a raisin. II. Some cherries are raisins.",
+    "Only Conclusion I follows",
+    "Neither Conclusion I nor II follows",
+    "Both Conclusions I and II follow",
+    "Only Conclusion II follows",
+    "Neither Conclusion I nor II follows",
+    "From the statements we only know that dates are separate from almonds, raisins and cherries. There is no direct relationship between almonds and raisins or between cherries and raisins. Hence neither conclusion logically follows."
+  ],
+  [
+    "What will come in the place of the question mark (?) in the following equation, if '÷' and '×' are interchanged and '+' and '−' are interchanged? 27 − 6 ÷ 4 + 24 × 3 = ?",
+    "46",
+    "44",
+    "45",
+    "43",
+    "43",
+    "After interchanging the operators: 27 + 6 × 4 − 24 ÷ 3. Apply BODMAS: 6×4=24 and 24÷3=8. Therefore 27+24−8=43."
+  ],
+  [
+    "In a certain code language, 'we like trees' is coded as 'bv mn fd' and 'trees like water' is coded as 'bv cx fd'. How is 'we' coded in the given language?",
+    "bv",
+    "cx",
+    "mn",
+    "fd",
+    "mn",
+    "The common words are 'like' and 'trees', so the common codes are 'bv' and 'fd'. The remaining code in the first statement is 'mn', which represents 'we'."
+  ],
+  [
+    "What should come in place of (?) in the given series based on the English alphabetical order? OAS, QCU, SEW, UGY, ?",
+    "WHB",
+    "WIA",
+    "VJB",
+    "VHZ",
+    "WIA",
+    "First letters: O, Q, S, U (+2) ⇒ W. Second letters: A, C, E, G (+2) ⇒ I. Third letters: S, U, W, Y (+2) ⇒ A (after Z it continues from A). Hence WIA."
+  ],
+  [
+    "What should come in place of the question mark (?) in the given series? 195, 175, 150, 120, 85, ?",
+    "45",
+    "30",
+    "36",
+    "40",
+    "45",
+    "The differences are −20, −25, −30, −35. The next difference is −40. Therefore 85−40=45."
+  ],
 
-
-    
-   [
-        "What is the value of `typeof function() {}`?",
-        "function",
-        "object",
-        "undefined",
-        "string",
-        "function",
-        "Functions in JavaScript are first-class objects, but typeof returns 'function' specifically for them."
-    ],
-   [
-        "What will `console.log(1 + '2' + 3)` output?",
-        "6",
-        "123",
-        "15",
-        "NaN",
-        "123",
-        "The + operator with a string triggers string concatenation. 1 + '2' becomes '12', then '12' + 3 becomes '123'."
-    ],
-    [
-        "What is the output of `console.log(Number('10px'))`?",
-        "10",
-        "NaN",
-        "undefined",
-        "Error",
-        "NaN",
-        "Number() tries to convert the entire string to a number. '10px' contains non-numeric characters, so it returns NaN."
-    ],
-    [
-        "What does `console.log([] + [])` output?",
-        "[]",
-        "''",
-        "0",
-        "undefined",
-        "''",
-        "The + operator converts arrays to strings. [] becomes an empty string, so [] + [] is '' + '' = ''."
-    ],
-    [
-        "What will `console.log({} + [])` output?",
-        "[object Object]",
-        "0",
-        "NaN",
-        "undefined",
-        "0",
-        "In some JavaScript engines, {} at the start is interpreted as an empty block, not an object. Then +[] is +'' which is 0. In browsers, it gives 0."
-    ],
-   [
-        "What is the result of `JSON.parse('null')`?",
-        "null",
-        "undefined",
-        "Error",
-        "0",
-        "null",
-        "JSON.parse() correctly parses the string 'null' to the JavaScript null value. It is valid JSON."
-    ],
-    [
-        "What will `console.log([1,2,3].map(parseInt))` output?",
-        "[1,2,3]",
-        "[1,NaN,NaN]",
-        "[1,2,3]",
-        "Error",
-        "[1,NaN,NaN]",
-        "parseInt takes two arguments: the value and the radix. map passes index as the second argument. So it calls parseInt(1,0), parseInt(2,1), parseInt(3,2) → radix 0 uses default 10, radix 1 is invalid, radix 2 is binary but 3 invalid → returns NaN."
-    ],
-    
     
     
   
