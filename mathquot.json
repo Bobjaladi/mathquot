@@ -922,7 +922,17 @@
 "30",
 "3030",
 "10+20 = 30, then 30 + "30" = "3030". String concatenation occurs after the integer addition."
+],
+[
+"What is the output of System.out.println(10 + 20 + \"30\")?",
+"3030",
+"102030",
+"60",
+"30",
+"3030",
+"10+20 = 30, then 30 + "30" = "3030". String concatenation occurs after the integer addition."
 ]
+
 
 
 
