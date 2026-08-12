@@ -10,7 +10,7 @@
 "The required number is of the form LCM(9,18,23) × k + 5. LCM = 414. The largest four-digit multiple of 414 is 9936 (414×24). Adding 5 gives 9941."
 ],
 [
-"Evaluate: \(16 + 8 \div 4 - 3 times 4\)",
+"Evaluate: \(16 + 8 \div 4 - 3 * 4\)",
 "5",
 "8",
 "6",
