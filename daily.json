@@ -1,182 +1,206 @@
-[
-  {
-    "quot": "Which data structure follows the LIFO (Last In, First Out) rule?",
-    "optionOne": "Stack",
-    "optionTwo": "Queue",
-    "optionThree": "Array",
-    "optionFour": "Linked list",
-    "correctAns": "Stack",
-    "explanation": "In a stack the last element pushed is the first one popped, like a pile of plates."
-  },
-  {
-    "quot": "What is the time complexity of binary search on a sorted array of n items?",
-    "optionOne": "O(n)",
-    "optionTwo": "O(log n)",
-    "optionThree": "O(n log n)",
-    "optionFour": "O(1)",
-    "correctAns": "O(log n)",
-    "explanation": "Binary search halves the search range every step, so it needs about log n steps."
-  },
-  {
-    "quot": "What does HTML stand for?",
-    "optionOne": "HighText Machine Language",
-    "optionTwo": "HyperTool Multi Language",
-    "optionThree": "HyperText Markup Language",
-    "optionFour": "Home Text Markup Language",
-    "correctAns": "HyperText Markup Language",
-    "explanation": "HTML is the standard markup language used to structure web pages."
-  },
-  {
-    "quot": "Which of these is NOT a pillar of object-oriented programming?",
-    "optionOne": "Encapsulation",
-    "optionTwo": "Inheritance",
-    "optionThree": "Polymorphism",
-    "optionFour": "Compilation",
-    "correctAns": "Compilation",
-    "explanation": "The four pillars are encapsulation, inheritance, polymorphism and abstraction."
-  },
-  {
-    "quot": "Which SQL command is used to read data from a table?",
-    "optionOne": "SELECT",
-    "optionTwo": "INSERT",
-    "optionThree": "UPDATE",
-    "optionFour": "DELETE",
-    "correctAns": "SELECT",
-    "explanation": "SELECT retrieves rows from one or more tables."
-  },
-  {
-    "quot": "Which symbol starts a single-line comment in C++ and Java?",
-    "optionOne": "#",
-    "optionTwo": "//",
-    "optionThree": "<!--",
-    "optionFour": "**",
-    "correctAns": "//",
-    "explanation": "// comments out the rest of the line in C, C++, Java and JavaScript."
-  },
-  {
-    "quot": "What is the binary representation of decimal 10?",
-    "optionOne": "1001",
-    "optionTwo": "1100",
-    "optionThree": "1010",
-    "optionFour": "0110",
-    "correctAns": "1010",
-    "explanation": "10 = 8 + 2, so the bits are 1010."
-  },
-  {
-    "quot": "Which of these is a version control system?",
-    "optionOne": "Docker",
-    "optionTwo": "Linux",
-    "optionThree": "Nginx",
-    "optionFour": "Git",
-    "correctAns": "Git",
-    "explanation": "Git tracks changes in source code and lets teams work together."
-  },
-  {
-    "quot": "What does API stand for?",
-    "optionOne": "Application Programming Interface",
-    "optionTwo": "Applied Program Integration",
-    "optionThree": "Automatic Programming Input",
-    "optionFour": "Application Process Internet",
-    "correctAns": "Application Programming Interface",
-    "explanation": "An API defines how one piece of software can talk to another."
-  },
-  {
-    "quot": "Which sorting algorithm uses the divide and conquer approach with O(n log n) in all cases?",
-    "optionOne": "Bubble sort",
-    "optionTwo": "Merge sort",
-    "optionThree": "Insertion sort",
-    "optionFour": "Selection sort",
-    "correctAns": "Merge sort",
-    "explanation": "Merge sort splits the array, sorts each half and merges them, always in O(n log n)."
-  },
-  {
-    "quot": "Which of these is a relational database?",
-    "optionOne": "MongoDB",
-    "optionTwo": "Redis",
-    "optionThree": "MySQL",
-    "optionFour": "Firebase Realtime Database",
-    "correctAns": "MySQL",
-    "explanation": "MySQL stores data in tables with rows and columns and uses SQL."
-  },
-  {
-    "quot": "Which of these memories is the fastest?",
-    "optionOne": "RAM",
-    "optionTwo": "SSD",
-    "optionThree": "Hard disk",
-    "optionFour": "Cache",
-    "correctAns": "Cache",
-    "explanation": "Cache sits closest to the CPU and is faster than RAM, SSD or hard disk."
-  },
-  {
-    "quot": "Which protocol is used to browse websites securely?",
-    "optionOne": "HTTPS",
-    "optionTwo": "HTTP",
-    "optionThree": "FTP",
-    "optionFour": "SMTP",
-    "correctAns": "HTTPS",
-    "explanation": "HTTPS encrypts the connection using TLS."
-  },
-  {
-    "quot": "What is the result of 5 % 2 in most programming languages?",
-    "optionOne": "2",
-    "optionTwo": "1",
-    "optionThree": "2.5",
-    "optionFour": "0",
-    "correctAns": "1",
-    "explanation": "% gives the remainder: 5 divided by 2 leaves 1."
-  },
-  {
-    "quot": "Which data structure follows the FIFO (First In, First Out) rule?",
-    "optionOne": "Stack",
-    "optionTwo": "Tree",
-    "optionThree": "Queue",
-    "optionFour": "Graph",
-    "correctAns": "Queue",
-    "explanation": "In a queue the first element added is the first one removed."
-  },
-  {
-    "quot": "In programming, what is a bug?",
-    "optionOne": "A type of loop",
-    "optionTwo": "A fast algorithm",
-    "optionThree": "A compiler setting",
-    "optionFour": "An error in a program",
-    "correctAns": "An error in a program",
-    "explanation": "A bug is a mistake that makes a program behave in an unexpected way."
-  },
-  {
-    "quot": "Which keyword exits a loop immediately in C, C++, Java and Python?",
-    "optionOne": "break",
-    "optionTwo": "stop",
-    "optionThree": "exit",
-    "optionFour": "end",
-    "correctAns": "break",
-    "explanation": "break ends the nearest enclosing loop right away."
-  },
-  {
-    "quot": "What does CSS stand for?",
-    "optionOne": "Creative Style System",
-    "optionTwo": "Cascading Style Sheets",
-    "optionThree": "Computer Style Sheets",
-    "optionFour": "Colorful Style Syntax",
-    "correctAns": "Cascading Style Sheets",
-    "explanation": "CSS controls how HTML elements look: colors, spacing, layout and fonts."
-  },
-  {
-    "quot": "Which of these is a NoSQL database?",
-    "optionOne": "MySQL",
-    "optionTwo": "PostgreSQL",
-    "optionThree": "MongoDB",
-    "optionFour": "Oracle",
-    "correctAns": "MongoDB",
-    "explanation": "MongoDB stores data as flexible JSON-like documents instead of tables."
-  },
-  {
-    "quot": "What does a compiler do?",
-    "optionOne": "Runs the code line by line",
-    "optionTwo": "Only checks spelling in comments",
-    "optionThree": "Stores variables in memory",
-    "optionFour": "Translates the whole source code into machine code before running",
-    "correctAns": "Translates the whole source code into machine code before running",
-    "explanation": "A compiler converts the complete program to machine code; an interpreter runs it line by line."
-  }
-]
+{
+  "date": "2026-11-09",
+  "published_at": "2026-11-09T14:38:05.588760",
+  "questions": [
+    {
+      "quot": "Which data structure follows the LIFO (Last In, First Out) rule?",
+      "optionOne": "Stack",
+      "optionTwo": "Queue",
+      "optionThree": "Array",
+      "optionFour": "Linked list",
+      "correctAns": "Stack",
+      "explanation": "In a stack the last element pushed is the first one popped, like a pile of plates.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "What is the time complexity of binary search on a sorted array of n items?",
+      "optionOne": "O(n)",
+      "optionTwo": "O(log n)",
+      "optionThree": "O(n log n)",
+      "optionFour": "O(1)",
+      "correctAns": "O(log n)",
+      "explanation": "Binary search halves the search range every step, so it needs about log n steps.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "What does HTML stand for?",
+      "optionOne": "HighText Machine Language",
+      "optionTwo": "HyperTool Multi Language",
+      "optionThree": "HyperText Markup Language",
+      "optionFour": "Home Text Markup Language",
+      "correctAns": "HyperText Markup Language",
+      "explanation": "HTML is the standard markup language used to structure web pages.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which of these is NOT a pillar of object-oriented programming?",
+      "optionOne": "Encapsulation",
+      "optionTwo": "Inheritance",
+      "optionThree": "Polymorphism",
+      "optionFour": "Compilation",
+      "correctAns": "Compilation",
+      "explanation": "The four pillars are encapsulation, inheritance, polymorphism and abstraction.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "Which SQL command is used to read data from a table?",
+      "optionOne": "SELECT",
+      "optionTwo": "INSERT",
+      "optionThree": "UPDATE",
+      "optionFour": "DELETE",
+      "correctAns": "SELECT",
+      "explanation": "SELECT retrieves rows from one or more tables.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which symbol starts a single-line comment in C++ and Java?",
+      "optionOne": "#",
+      "optionTwo": "//",
+      "optionThree": "<!--",
+      "optionFour": "**",
+      "correctAns": "//",
+      "explanation": "// comments out the rest of the line in C, C++, Java and JavaScript.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "What is the binary representation of decimal 10?",
+      "optionOne": "1001",
+      "optionTwo": "1100",
+      "optionThree": "1010",
+      "optionFour": "0110",
+      "correctAns": "1010",
+      "explanation": "10 = 8 + 2, so the bits are 1010.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "Which of these is a version control system?",
+      "optionOne": "Docker",
+      "optionTwo": "Linux",
+      "optionThree": "Nginx",
+      "optionFour": "Git",
+      "correctAns": "Git",
+      "explanation": "Git tracks changes in source code and lets teams work together.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "What does API stand for?",
+      "optionOne": "Application Programming Interface",
+      "optionTwo": "Applied Program Integration",
+      "optionThree": "Automatic Programming Input",
+      "optionFour": "Application Process Internet",
+      "correctAns": "Application Programming Interface",
+      "explanation": "An API defines how one piece of software can talk to another.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which sorting algorithm uses the divide and conquer approach with O(n log n) in all cases?",
+      "optionOne": "Bubble sort",
+      "optionTwo": "Merge sort",
+      "optionThree": "Insertion sort",
+      "optionFour": "Selection sort",
+      "correctAns": "Merge sort",
+      "explanation": "Merge sort splits the array, sorts each half and merges them, always in O(n log n).",
+      "difficulty": "hard"
+    },
+    {
+      "quot": "Which of these is a relational database?",
+      "optionOne": "MongoDB",
+      "optionTwo": "Redis",
+      "optionThree": "MySQL",
+      "optionFour": "Firebase Realtime Database",
+      "correctAns": "MySQL",
+      "explanation": "MySQL stores data in tables with rows and columns and uses SQL.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "Which of these memories is the fastest?",
+      "optionOne": "RAM",
+      "optionTwo": "SSD",
+      "optionThree": "Hard disk",
+      "optionFour": "Cache",
+      "correctAns": "Cache",
+      "explanation": "Cache sits closest to the CPU and is faster than RAM, SSD or hard disk.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "Which protocol is used to browse websites securely?",
+      "optionOne": "HTTPS",
+      "optionTwo": "HTTP",
+      "optionThree": "FTP",
+      "optionFour": "SMTP",
+      "correctAns": "HTTPS",
+      "explanation": "HTTPS encrypts the connection using TLS.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "What is the result of 5 % 2 in most programming languages?",
+      "optionOne": "2",
+      "optionTwo": "1",
+      "optionThree": "2.5",
+      "optionFour": "0",
+      "correctAns": "1",
+      "explanation": "% gives the remainder: 5 divided by 2 leaves 1.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which data structure follows the FIFO (First In, First Out) rule?",
+      "optionOne": "Stack",
+      "optionTwo": "Tree",
+      "optionThree": "Queue",
+      "optionFour": "Graph",
+      "correctAns": "Queue",
+      "explanation": "In a queue the first element added is the first one removed.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "In programming, what is a bug?",
+      "optionOne": "A type of loop",
+      "optionTwo": "A fast algorithm",
+      "optionThree": "A compiler setting",
+      "optionFour": "An error in a program",
+      "correctAns": "An error in a program",
+      "explanation": "A bug is a mistake that makes a program behave in an unexpected way.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which keyword exits a loop immediately in C, C++, Java and Python?",
+      "optionOne": "break",
+      "optionTwo": "stop",
+      "optionThree": "exit",
+      "optionFour": "end",
+      "correctAns": "break",
+      "explanation": "break ends the nearest enclosing loop right away.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "What does CSS stand for?",
+      "optionOne": "Creative Style System",
+      "optionTwo": "Cascading Style Sheets",
+      "optionThree": "Computer Style Sheets",
+      "optionFour": "Colorful Style Syntax",
+      "correctAns": "Cascading Style Sheets",
+      "explanation": "CSS controls how HTML elements look: colors, spacing, layout and fonts.",
+      "difficulty": "easy"
+    },
+    {
+      "quot": "Which of these is a NoSQL database?",
+      "optionOne": "MySQL",
+      "optionTwo": "PostgreSQL",
+      "optionThree": "MongoDB",
+      "optionFour": "Oracle",
+      "correctAns": "MongoDB",
+      "explanation": "MongoDB stores data as flexible JSON-like documents instead of tables.",
+      "difficulty": "medium"
+    },
+    {
+      "quot": "What does a compiler do?",
+      "optionOne": "Runs the code line by line",
+      "optionTwo": "Only checks spelling in comments",
+      "optionThree": "Stores variables in memory",
+      "optionFour": "Translates the whole source code into machine code before running",
+      "correctAns": "Translates the whole source code into machine code before running",
+      "explanation": "A compiler converts the complete program to machine code; an interpreter runs it line by line.",
+      "difficulty": "hard"
+    }
+  ]
+}
