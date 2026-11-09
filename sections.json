@@ -1,0 +1,542 @@
+[
+  {
+    "quot": "Which keyword declares a block-scoped variable that can be reassigned?",
+    "optionOne": "let",
+    "optionTwo": "const",
+    "optionThree": "static",
+    "optionFour": "final",
+    "correctAns": "let",
+    "explanation": "let is block scoped and its value can change. const cannot be reassigned."
+  },
+  {
+    "quot": "What does typeof null return in JavaScript?",
+    "optionOne": "\"null\"",
+    "optionTwo": "\"object\"",
+    "optionThree": "\"undefined\"",
+    "optionFour": "\"number\"",
+    "correctAns": "\"object\"",
+    "explanation": "This is a long-standing quirk of JavaScript: typeof null is \"object\"."
+  },
+  {
+    "quot": "What is the result of \"5\" + 3 in JavaScript?",
+    "optionOne": "8",
+    "optionTwo": "\"8\"",
+    "optionThree": "\"53\"",
+    "optionFour": "NaN",
+    "correctAns": "\"53\"",
+    "explanation": "With a string on one side, + joins text, so 3 becomes \"3\" and the result is \"53\"."
+  },
+  {
+    "quot": "What is the result of \"5\" - 3 in JavaScript?",
+    "optionOne": "\"53\"",
+    "optionTwo": "\"2\"",
+    "optionThree": "NaN",
+    "optionFour": "2",
+    "correctAns": "2",
+    "explanation": "The - operator converts the string to a number, so 5 - 3 = 2."
+  },
+  {
+    "quot": "How does === differ from == in JavaScript?",
+    "optionOne": "=== compares value and type without conversion",
+    "optionTwo": "=== compares only the type",
+    "optionThree": "=== is used for assignment",
+    "optionFour": "There is no difference",
+    "correctAns": "=== compares value and type without conversion",
+    "explanation": "=== is strict equality: 5 === \"5\" is false, but 5 == \"5\" is true."
+  },
+  {
+    "quot": "Which array method adds an element to the end of an array?",
+    "optionOne": "pop()",
+    "optionTwo": "push()",
+    "optionThree": "shift()",
+    "optionFour": "unshift()",
+    "correctAns": "push()",
+    "explanation": "push() appends to the end. unshift() adds to the start."
+  },
+  {
+    "quot": "Which array method returns a new array by applying a function to every element?",
+    "optionOne": "forEach()",
+    "optionTwo": "filter()",
+    "optionThree": "map()",
+    "optionFour": "reduce()",
+    "correctAns": "map()",
+    "explanation": "map() transforms every element and returns a new array of the same length."
+  },
+  {
+    "quot": "Which of these is a correct arrow function?",
+    "optionOne": "const add = (a, b) -> a + b;",
+    "optionTwo": "const add = function(a, b) => a + b;",
+    "optionThree": "const add => (a, b) { a + b };",
+    "optionFour": "const add = (a, b) => a + b;",
+    "correctAns": "const add = (a, b) => a + b;",
+    "explanation": "Arrow functions use => between the parameters and the body."
+  },
+  {
+    "quot": "What does NaN stand for?",
+    "optionOne": "Not a Number",
+    "optionTwo": "No available Number",
+    "optionThree": "New and Null",
+    "optionFour": "Negative and Natural",
+    "correctAns": "Not a Number",
+    "explanation": "NaN is the value you get from invalid math such as 0 / \"abc\"."
+  },
+  {
+    "quot": "Which method converts a JSON string into a JavaScript object?",
+    "optionOne": "JSON.stringify()",
+    "optionTwo": "JSON.parse()",
+    "optionThree": "JSON.convert()",
+    "optionFour": "JSON.object()",
+    "correctAns": "JSON.parse()",
+    "explanation": "JSON.parse() reads a JSON string. JSON.stringify() does the opposite."
+  },
+  {
+    "quot": "What is the value of [10, 20, 30].length?",
+    "optionOne": "2",
+    "optionTwo": "30",
+    "optionThree": "3",
+    "optionFour": "undefined",
+    "correctAns": "3",
+    "explanation": "length is the number of elements in the array."
+  },
+  {
+    "quot": "Which keyword declares a constant that cannot be reassigned?",
+    "optionOne": "let",
+    "optionTwo": "var",
+    "optionThree": "define",
+    "optionFour": "const",
+    "correctAns": "const",
+    "explanation": "const creates a binding that cannot be assigned again."
+  },
+  {
+    "quot": "What does console.log(0.1 + 0.2 === 0.3) print?",
+    "optionOne": "false",
+    "optionTwo": "true",
+    "optionThree": "NaN",
+    "optionFour": "undefined",
+    "correctAns": "false",
+    "explanation": "Floating point rounding makes 0.1 + 0.2 equal 0.30000000000000004."
+  },
+  {
+    "quot": "Which of these values is truthy in JavaScript?",
+    "optionOne": "0",
+    "optionTwo": "\"0\"",
+    "optionThree": "\"\"",
+    "optionFour": "null",
+    "correctAns": "\"0\"",
+    "explanation": "Any non-empty string is truthy, even \"0\". 0, \"\" and null are falsy."
+  },
+  {
+    "quot": "Which event fires when a user clicks an element?",
+    "optionOne": "hover",
+    "optionTwo": "press",
+    "optionThree": "click",
+    "optionFour": "tap",
+    "correctAns": "click",
+    "explanation": "Use addEventListener(\"click\", ...) or the onclick attribute."
+  },
+  {
+    "quot": "What does Array.isArray([]) return?",
+    "optionOne": "false",
+    "optionTwo": "undefined",
+    "optionThree": "null",
+    "optionFour": "true",
+    "correctAns": "true",
+    "explanation": "Array.isArray() checks whether a value is an array."
+  },
+  {
+    "quot": "Which array method removes the last element and returns it?",
+    "optionOne": "pop()",
+    "optionTwo": "push()",
+    "optionThree": "shift()",
+    "optionFour": "splice()",
+    "correctAns": "pop()",
+    "explanation": "pop() removes from the end. shift() removes from the start."
+  },
+  {
+    "quot": "What is setTimeout used for?",
+    "optionOne": "Running a function repeatedly",
+    "optionTwo": "Running a function once after a delay",
+    "optionThree": "Stopping a loop",
+    "optionFour": "Pausing the whole page",
+    "correctAns": "Running a function once after a delay",
+    "explanation": "setTimeout(fn, 1000) runs fn once after 1000 ms. setInterval repeats it."
+  },
+  {
+    "quot": "Which of these is a valid state of a Promise?",
+    "optionOne": "stopped",
+    "optionTwo": "paused",
+    "optionThree": "pending",
+    "optionFour": "closed",
+    "correctAns": "pending",
+    "explanation": "A Promise is pending, then fulfilled or rejected."
+  },
+  {
+    "quot": "What does [1, 2, 3].slice(1) return?",
+    "optionOne": "[1]",
+    "optionTwo": "[1, 2]",
+    "optionThree": "[3]",
+    "optionFour": "[2, 3]",
+    "correctAns": "[2, 3]",
+    "explanation": "slice(1) copies the array from index 1 to the end."
+  },
+  {
+    "quot": "What is the output of print(type(5 / 2))?",
+    "optionOne": "<class 'float'>",
+    "optionTwo": "<class 'int'>",
+    "optionThree": "<class 'double'>",
+    "optionFour": "<class 'number'>",
+    "correctAns": "<class 'float'>",
+    "explanation": "In Python 3 the / operator always returns a float, so 5 / 2 is 2.5."
+  },
+  {
+    "quot": "What is the value of 7 // 2 in Python?",
+    "optionOne": "3.5",
+    "optionTwo": "3",
+    "optionThree": "4",
+    "optionFour": "2",
+    "correctAns": "3",
+    "explanation": "// is floor division: 7 divided by 2 is 3.5, rounded down to 3."
+  },
+  {
+    "quot": "What is the value of 2 ** 3 in Python?",
+    "optionOne": "6",
+    "optionTwo": "9",
+    "optionThree": "8",
+    "optionFour": "5",
+    "correctAns": "8",
+    "explanation": "** is the power operator: 2 to the power 3 is 8."
+  },
+  {
+    "quot": "Which of these creates a list in Python?",
+    "optionOne": "(1, 2, 3)",
+    "optionTwo": "{1, 2, 3}",
+    "optionThree": "<1, 2, 3>",
+    "optionFour": "[1, 2, 3]",
+    "correctAns": "[1, 2, 3]",
+    "explanation": "Square brackets make a list. Round brackets make a tuple and curly brackets a set."
+  },
+  {
+    "quot": "Which of these data types is immutable?",
+    "optionOne": "tuple",
+    "optionTwo": "list",
+    "optionThree": "dict",
+    "optionFour": "set",
+    "correctAns": "tuple",
+    "explanation": "A tuple cannot be changed after it is created."
+  },
+  {
+    "quot": "What does len(\"Python\") return?",
+    "optionOne": "5",
+    "optionTwo": "6",
+    "optionThree": "7",
+    "optionFour": "Python",
+    "correctAns": "6",
+    "explanation": "len() counts characters, and \"Python\" has 6."
+  },
+  {
+    "quot": "Which keyword is used to define a function in Python?",
+    "optionOne": "func",
+    "optionTwo": "function",
+    "optionThree": "def",
+    "optionFour": "define",
+    "correctAns": "def",
+    "explanation": "def name(parameters): starts a function."
+  },
+  {
+    "quot": "Which list method adds an item to the end of the list?",
+    "optionOne": "add()",
+    "optionTwo": "push()",
+    "optionThree": "insert_end()",
+    "optionFour": "append()",
+    "correctAns": "append()",
+    "explanation": "append() adds one item at the end."
+  },
+  {
+    "quot": "What does \"abc\".upper() return?",
+    "optionOne": "\"ABC\"",
+    "optionTwo": "\"abc\"",
+    "optionThree": "\"Abc\"",
+    "optionFour": "None",
+    "correctAns": "\"ABC\"",
+    "explanation": "upper() returns a new string in capital letters."
+  },
+  {
+    "quot": "Which symbol starts a single-line comment in Python?",
+    "optionOne": "//",
+    "optionTwo": "#",
+    "optionThree": "--",
+    "optionFour": "/*",
+    "correctAns": "#",
+    "explanation": "Everything after # on the line is ignored."
+  },
+  {
+    "quot": "Which of these is a valid dictionary in Python?",
+    "optionOne": "[\"a\": 1, \"b\": 2]",
+    "optionTwo": "(\"a\" => 1, \"b\" => 2)",
+    "optionThree": "{\"a\": 1, \"b\": 2}",
+    "optionFour": "<a: 1, b: 2>",
+    "correctAns": "{\"a\": 1, \"b\": 2}",
+    "explanation": "A dictionary uses curly brackets with key: value pairs."
+  },
+  {
+    "quot": "What does list(range(3)) produce?",
+    "optionOne": "[1, 2, 3]",
+    "optionTwo": "[0, 1, 2, 3]",
+    "optionThree": "[3]",
+    "optionFour": "[0, 1, 2]",
+    "correctAns": "[0, 1, 2]",
+    "explanation": "range(3) starts at 0 and stops before 3."
+  },
+  {
+    "quot": "What does bool([]) return?",
+    "optionOne": "False",
+    "optionTwo": "True",
+    "optionThree": "None",
+    "optionFour": "Error",
+    "correctAns": "False",
+    "explanation": "Empty lists, strings, tuples and dictionaries are falsy."
+  },
+  {
+    "quot": "Which block runs only when an exception occurs?",
+    "optionOne": "finally",
+    "optionTwo": "except",
+    "optionThree": "else",
+    "optionFour": "try",
+    "correctAns": "except",
+    "explanation": "Code inside except runs when the try block raises an error."
+  },
+  {
+    "quot": "What does \"Hello\"[1] return?",
+    "optionOne": "\"H\"",
+    "optionTwo": "\"l\"",
+    "optionThree": "\"e\"",
+    "optionFour": "\"o\"",
+    "correctAns": "\"e\"",
+    "explanation": "Indexes start at 0, so index 1 is the second character."
+  },
+  {
+    "quot": "What is the output of print(10 % 3)?",
+    "optionOne": "3",
+    "optionTwo": "0",
+    "optionThree": "3.33",
+    "optionFour": "1",
+    "correctAns": "1",
+    "explanation": "% gives the remainder: 10 divided by 3 leaves 1."
+  },
+  {
+    "quot": "Which function reads text typed by the user?",
+    "optionOne": "input()",
+    "optionTwo": "scan()",
+    "optionThree": "read()",
+    "optionFour": "get()",
+    "correctAns": "input()",
+    "explanation": "input() waits for the user to type and returns a string."
+  },
+  {
+    "quot": "What is special about a Python set?",
+    "optionOne": "It keeps items sorted",
+    "optionTwo": "It stores only unique elements",
+    "optionThree": "It allows duplicates",
+    "optionFour": "It is immutable",
+    "correctAns": "It stores only unique elements",
+    "explanation": "A set removes duplicates automatically. It is unordered."
+  },
+  {
+    "quot": "What does list(range(1, 6, 2)) return?",
+    "optionOne": "[1, 2, 3, 4, 5]",
+    "optionTwo": "[2, 4]",
+    "optionThree": "[1, 3, 5]",
+    "optionFour": "[1, 3, 5, 7]",
+    "correctAns": "[1, 3, 5]",
+    "explanation": "range(start, stop, step) starts at 1, stops before 6 and steps by 2."
+  },
+  {
+    "quot": "Which keyword is used to bring a module into your program?",
+    "optionOne": "include",
+    "optionTwo": "using",
+    "optionThree": "require",
+    "optionFour": "import",
+    "correctAns": "import",
+    "explanation": "Example: import math"
+  },
+  {
+    "quot": "Which is the correct signature of the main method in Java?",
+    "optionOne": "public static void main(String[] args)",
+    "optionTwo": "public void main(String args)",
+    "optionThree": "static void main()",
+    "optionFour": "public static int main(String[] args)",
+    "correctAns": "public static void main(String[] args)",
+    "explanation": "The JVM looks for exactly this method as the program's entry point."
+  },
+  {
+    "quot": "What does JVM stand for?",
+    "optionOne": "Java Variable Method",
+    "optionTwo": "Java Virtual Machine",
+    "optionThree": "Joint Virtual Module",
+    "optionFour": "Java Verified Memory",
+    "correctAns": "Java Virtual Machine",
+    "explanation": "The JVM runs compiled Java bytecode on any device."
+  },
+  {
+    "quot": "How many bytes does an int take in Java?",
+    "optionOne": "2",
+    "optionTwo": "8",
+    "optionThree": "4",
+    "optionFour": "1",
+    "correctAns": "4",
+    "explanation": "A Java int is always 32 bits, which is 4 bytes."
+  },
+  {
+    "quot": "Which keyword is used to inherit from a class in Java?",
+    "optionOne": "implements",
+    "optionTwo": "inherits",
+    "optionThree": "super",
+    "optionFour": "extends",
+    "correctAns": "extends",
+    "explanation": "class Dog extends Animal makes Dog a subclass of Animal."
+  },
+  {
+    "quot": "Which of these is NOT a primitive data type in Java?",
+    "optionOne": "String",
+    "optionTwo": "int",
+    "optionThree": "boolean",
+    "optionFour": "char",
+    "correctAns": "String",
+    "explanation": "String is a class. The primitives are byte, short, int, long, float, double, char and boolean."
+  },
+  {
+    "quot": "What is the default value of a boolean instance variable in Java?",
+    "optionOne": "true",
+    "optionTwo": "false",
+    "optionThree": "null",
+    "optionFour": "0",
+    "correctAns": "false",
+    "explanation": "Boolean fields default to false."
+  },
+  {
+    "quot": "Which keyword prevents a method from being overridden?",
+    "optionOne": "static",
+    "optionTwo": "private",
+    "optionThree": "final",
+    "optionFour": "abstract",
+    "correctAns": "final",
+    "explanation": "A final method cannot be overridden by subclasses."
+  },
+  {
+    "quot": "Which collection does NOT allow duplicate elements?",
+    "optionOne": "ArrayList",
+    "optionTwo": "LinkedList",
+    "optionThree": "Vector",
+    "optionFour": "HashSet",
+    "correctAns": "HashSet",
+    "explanation": "A Set keeps only unique elements."
+  },
+  {
+    "quot": "What is the output of System.out.println(10 / 3); in Java?",
+    "optionOne": "3",
+    "optionTwo": "3.33",
+    "optionThree": "3.0",
+    "optionFour": "4",
+    "correctAns": "3",
+    "explanation": "Both operands are int, so the result is integer division."
+  },
+  {
+    "quot": "Which keyword is used to implement an interface?",
+    "optionOne": "extends",
+    "optionTwo": "implements",
+    "optionThree": "interface",
+    "optionFour": "uses",
+    "correctAns": "implements",
+    "explanation": "class Car implements Vehicle means Car must provide the interface's methods."
+  },
+  {
+    "quot": "Which class is the superclass of all classes in Java?",
+    "optionOne": "Class",
+    "optionTwo": "Main",
+    "optionThree": "Object",
+    "optionFour": "System",
+    "correctAns": "Object",
+    "explanation": "Every class extends java.lang.Object, directly or indirectly."
+  },
+  {
+    "quot": "Which access modifier is the most restrictive?",
+    "optionOne": "protected",
+    "optionTwo": "public",
+    "optionThree": "default (package-private)",
+    "optionFour": "private",
+    "correctAns": "private",
+    "explanation": "A private member is visible only inside its own class."
+  },
+  {
+    "quot": "What is method overloading?",
+    "optionOne": "Same method name with different parameters",
+    "optionTwo": "Same method name and same parameters in a subclass",
+    "optionThree": "A method that calls itself",
+    "optionFour": "A method with no body",
+    "correctAns": "Same method name with different parameters",
+    "explanation": "Overloading happens within a class. Overriding happens in a subclass."
+  },
+  {
+    "quot": "Which package contains the Scanner class?",
+    "optionOne": "java.io.scanner",
+    "optionTwo": "java.util",
+    "optionThree": "java.lang",
+    "optionFour": "java.text",
+    "correctAns": "java.util",
+    "explanation": "Use import java.util.Scanner; to read user input."
+  },
+  {
+    "quot": "What does the static keyword mean?",
+    "optionOne": "The value can never change",
+    "optionTwo": "The member is hidden from other classes",
+    "optionThree": "The member belongs to the class, not to an object",
+    "optionFour": "The member runs on a separate thread",
+    "correctAns": "The member belongs to the class, not to an object",
+    "explanation": "Static members are shared by all objects of the class."
+  },
+  {
+    "quot": "Which statement is used to handle exceptions in Java?",
+    "optionOne": "if-else",
+    "optionTwo": "switch-case",
+    "optionThree": "for-each",
+    "optionFour": "try-catch",
+    "correctAns": "try-catch",
+    "explanation": "Risky code goes in try, and the error is handled in catch."
+  },
+  {
+    "quot": "Which method should be used to compare the contents of two Strings?",
+    "optionOne": "equals()",
+    "optionTwo": "==",
+    "optionThree": "compare()",
+    "optionFour": "same()",
+    "correctAns": "equals()",
+    "explanation": "== compares references. equals() compares the text."
+  },
+  {
+    "quot": "At which index does a Java array start?",
+    "optionOne": "1",
+    "optionTwo": "0",
+    "optionThree": "-1",
+    "optionFour": "It depends on the size",
+    "correctAns": "0",
+    "explanation": "The first element is array[0]."
+  },
+  {
+    "quot": "Which keyword is used to create an object?",
+    "optionOne": "create",
+    "optionTwo": "make",
+    "optionThree": "new",
+    "optionFour": "object",
+    "correctAns": "new",
+    "explanation": "Example: Dog d = new Dog();"
+  },
+  {
+    "quot": "Which loop always runs its body at least once?",
+    "optionOne": "while",
+    "optionTwo": "for",
+    "optionThree": "for-each",
+    "optionFour": "do-while",
+    "correctAns": "do-while",
+    "explanation": "do-while checks its condition after the first run."
+  }
+]
