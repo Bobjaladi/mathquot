@@ -1,8 +1,6 @@
 import json
 import os
-from datetime import datetime
 
-# ─── Configuration ───────────────────────────────────────────────
 TEMP_FILE = "temp_daily.json"   # You edit this file manually
 DAILY_FILE = "daily.json"       # GitHub updates this automatically at 5:00 AM
 
@@ -16,25 +14,11 @@ def main():
     with open(TEMP_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # 3. Add an official "published" timestamp (optional but recommended)
-    if isinstance(data, list):
-        # If your temp file is just an array [...], wrap it nicely
-        final_data = {
-            "date": datetime.now().strftime("%Y-%m-%d"),
-            "published_at": datetime.now().isoformat(),
-            "questions": data
-        }
-    else:
-        # If your temp file is already an object {...}, just add the timestamp
-        data["published_at"] = datetime.now().isoformat()
-        data["date"] = datetime.now().strftime("%Y-%m-%d")
-        final_data = data
-
-    # 4. Save it to daily.json
+    # 3. Write the EXACT SAME data to daily.json (keeps it as a raw array [...])
     with open(DAILY_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_data, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ Successfully published {TEMP_FILE} to {DAILY_FILE}")
+    print(f"✅ Successfully copied {TEMP_FILE} to {DAILY_FILE} as a raw array!")
 
 if __name__ == "__main__":
     main()
