@@ -1,206 +1,202 @@
-{
-  "date": "2026-11-09",
-  "published_at": "2026-11-09T14:41:33.935305",
-  "questions": [
-    {
-      "quot": "Which data type is used to store a single character in C?",
-      "optionOne": "int",
-      "optionTwo": "char",
-      "optionThree": "float",
-      "optionFour": "string",
-      "correctAns": "char",
-      "explanation": "The char type stores a single character such as 'A' or '9'.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "What is the output of print(3 * 'ab') in Python?",
-      "optionOne": "ababab",
-      "optionTwo": "3ab",
-      "optionThree": "ab3",
-      "optionFour": "Error",
-      "correctAns": "ababab",
-      "explanation": "Multiplying a string by an integer repeats it that many times.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which of these is a valid variable name in most programming languages?",
-      "optionOne": "2ndValue",
-      "optionTwo": "my-var",
-      "optionThree": "myVar",
-      "optionFour": "my var",
-      "correctAns": "myVar",
-      "explanation": "Variable names cannot start with a digit or contain spaces or hyphens in most languages.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "What is the worst-case time complexity of quicksort?",
-      "optionOne": "O(n log n)",
-      "optionTwo": "O(n)",
-      "optionThree": "O(n^2)",
-      "optionFour": "O(log n)",
-      "correctAns": "O(n^2)",
-      "explanation": "Quicksort degrades to O(n^2) when the pivot is always the smallest or largest element.",
-      "difficulty": "hard"
-    },
-    {
-      "quot": "Which HTTP status code means 'Not Found'?",
-      "optionOne": "200",
-      "optionTwo": "301",
-      "optionThree": "404",
-      "optionFour": "500",
-      "correctAns": "404",
-      "explanation": "404 indicates the server could not find the requested resource.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "What does the 'final' keyword do to a variable in Java?",
-      "optionOne": "Makes it global",
-      "optionTwo": "Makes it constant and unchangeable",
-      "optionThree": "Deletes it after use",
-      "optionFour": "Makes it private",
-      "correctAns": "Makes it constant and unchangeable",
-      "explanation": "A final variable can be assigned only once and cannot be reassigned.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which of these is a primary key property in a relational database?",
-      "optionOne": "It can contain duplicate values",
-      "optionTwo": "It can be NULL",
-      "optionThree": "It uniquely identifies each row",
-      "optionFour": "It must be a string",
-      "correctAns": "It uniquely identifies each row",
-      "explanation": "A primary key uniquely identifies each record and cannot be NULL or duplicated.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "What is the purpose of the 'git clone' command?",
-      "optionOne": "Create a new branch",
-      "optionTwo": "Copy a remote repository to your local machine",
-      "optionThree": "Delete a repository",
-      "optionFour": "Merge two branches",
-      "correctAns": "Copy a remote repository to your local machine",
-      "explanation": "git clone downloads a full copy of a remote repository including its history.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "In Big-O notation, what does O(1) describe?",
-      "optionOne": "Constant time regardless of input size",
-      "optionTwo": "Linear time",
-      "optionThree": "Quadratic time",
-      "optionFour": "Logarithmic time",
-      "correctAns": "Constant time regardless of input size",
-      "explanation": "O(1) means the operation takes the same time no matter how large the input is.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which of these is a dynamically typed language?",
-      "optionOne": "Java",
-      "optionTwo": "C",
-      "optionThree": "Python",
-      "optionFour": "Go",
-      "correctAns": "Python",
-      "explanation": "Python determines variable types at runtime, so it is dynamically typed.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "What does the 'this' keyword refer to inside a class method in Java?",
-      "optionOne": "The parent class",
-      "optionTwo": "The current object instance",
-      "optionThree": "A static variable",
-      "optionFour": "The main method",
-      "correctAns": "The current object instance",
-      "explanation": "'this' refers to the object on which the method was called.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which of these is NOT a valid HTTP method?",
-      "optionOne": "GET",
-      "optionTwo": "POST",
-      "optionThree": "FETCH",
-      "optionFour": "DELETE",
-      "correctAns": "FETCH",
-      "explanation": "Standard HTTP methods include GET, POST, PUT, PATCH, DELETE, HEAD and OPTIONS, but not FETCH.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "What is the main advantage of using a hash table?",
-      "optionOne": "It keeps elements sorted",
-      "optionTwo": "Average O(1) lookup, insert and delete",
-      "optionThree": "It uses no memory",
-      "optionFour": "It supports range queries efficiently",
-      "correctAns": "Average O(1) lookup, insert and delete",
-      "explanation": "Hash tables provide constant-time average performance for key-based operations.",
-      "difficulty": "hard"
-    },
-    {
-      "quot": "What does JSON stand for?",
-      "optionOne": "Java Standard Object Notation",
-      "optionTwo": "JavaScript Object Notation",
-      "optionThree": "Joint System Object Network",
-      "optionFour": "JavaScript Online Notation",
-      "correctAns": "JavaScript Object Notation",
-      "explanation": "JSON is a lightweight text format derived from JavaScript object syntax for data interchange.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "Which of these best describes a deadlock?",
-      "optionOne": "A loop that never ends",
-      "optionTwo": "Two or more processes waiting on each other forever",
-      "optionThree": "A syntax error in code",
-      "optionFour": "A memory leak",
-      "correctAns": "Two or more processes waiting on each other forever",
-      "explanation": "Deadlock occurs when processes hold resources and wait for resources held by each other.",
-      "difficulty": "hard"
-    },
-    {
-      "quot": "What is the purpose of the 'JOIN' clause in SQL?",
-      "optionOne": "To delete rows from a table",
-      "optionTwo": "To combine rows from two or more tables based on a related column",
-      "optionThree": "To create a new table",
-      "optionFour": "To sort the result set",
-      "correctAns": "To combine rows from two or more tables based on a related column",
-      "explanation": "JOIN merges rows from multiple tables using a matching condition between columns.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which data structure is best for implementing a priority queue?",
-      "optionOne": "Array",
-      "optionTwo": "Linked list",
-      "optionThree": "Heap",
-      "optionFour": "Stack",
-      "correctAns": "Heap",
-      "explanation": "A heap supports efficient insertion and extraction of the min or max element in O(log n).",
-      "difficulty": "hard"
-    },
-    {
-      "quot": "What does the 'static' keyword mean for a method in Java?",
-      "optionOne": "It belongs to the class rather than an instance",
-      "optionTwo": "It cannot be called",
-      "optionThree": "It runs only once",
-      "optionFour": "It is private",
-      "correctAns": "It belongs to the class rather than an instance",
-      "explanation": "Static methods are called on the class itself and do not require an object instance.",
-      "difficulty": "medium"
-    },
-    {
-      "quot": "Which of these is a correct way to declare a constant in JavaScript (ES6+)?",
-      "optionOne": "var x = 5;",
-      "optionTwo": "let x = 5;",
-      "optionThree": "const x = 5;",
-      "optionFour": "final x = 5;",
-      "correctAns": "const x = 5;",
-      "explanation": "const declares a block-scoped variable that cannot be reassigned.",
-      "difficulty": "easy"
-    },
-    {
-      "quot": "What is the space complexity of a recursive binary search?",
-      "optionOne": "O(1)",
-      "optionTwo": "O(log n)",
-      "optionThree": "O(n)",
-      "optionFour": "O(n log n)",
-      "correctAns": "O(log n)",
-      "explanation": "Each recursive call adds a stack frame, and the recursion depth is about log n.",
-      "difficulty": "hard"
-    }
-  ]
-}
+[
+  {
+    "quot": "Which data type is used to store a single character in C?",
+    "optionOne": "int",
+    "optionTwo": "char",
+    "optionThree": "float",
+    "optionFour": "string",
+    "correctAns": "char",
+    "explanation": "The char type stores a single character such as 'A' or '9'.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "What is the output of print(3 * 'ab') in Python?",
+    "optionOne": "ababab",
+    "optionTwo": "3ab",
+    "optionThree": "ab3",
+    "optionFour": "Error",
+    "correctAns": "ababab",
+    "explanation": "Multiplying a string by an integer repeats it that many times.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which of these is a valid variable name in most programming languages?",
+    "optionOne": "2ndValue",
+    "optionTwo": "my-var",
+    "optionThree": "myVar",
+    "optionFour": "my var",
+    "correctAns": "myVar",
+    "explanation": "Variable names cannot start with a digit or contain spaces or hyphens in most languages.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "What is the worst-case time complexity of quicksort?",
+    "optionOne": "O(n log n)",
+    "optionTwo": "O(n)",
+    "optionThree": "O(n^2)",
+    "optionFour": "O(log n)",
+    "correctAns": "O(n^2)",
+    "explanation": "Quicksort degrades to O(n^2) when the pivot is always the smallest or largest element.",
+    "difficulty": "hard"
+  },
+  {
+    "quot": "Which HTTP status code means 'Not Found'?",
+    "optionOne": "200",
+    "optionTwo": "301",
+    "optionThree": "404",
+    "optionFour": "500",
+    "correctAns": "404",
+    "explanation": "404 indicates the server could not find the requested resource.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "What does the 'final' keyword do to a variable in Java?",
+    "optionOne": "Makes it global",
+    "optionTwo": "Makes it constant and unchangeable",
+    "optionThree": "Deletes it after use",
+    "optionFour": "Makes it private",
+    "correctAns": "Makes it constant and unchangeable",
+    "explanation": "A final variable can be assigned only once and cannot be reassigned.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which of these is a primary key property in a relational database?",
+    "optionOne": "It can contain duplicate values",
+    "optionTwo": "It can be NULL",
+    "optionThree": "It uniquely identifies each row",
+    "optionFour": "It must be a string",
+    "correctAns": "It uniquely identifies each row",
+    "explanation": "A primary key uniquely identifies each record and cannot be NULL or duplicated.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "What is the purpose of the 'git clone' command?",
+    "optionOne": "Create a new branch",
+    "optionTwo": "Copy a remote repository to your local machine",
+    "optionThree": "Delete a repository",
+    "optionFour": "Merge two branches",
+    "correctAns": "Copy a remote repository to your local machine",
+    "explanation": "git clone downloads a full copy of a remote repository including its history.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "In Big-O notation, what does O(1) describe?",
+    "optionOne": "Constant time regardless of input size",
+    "optionTwo": "Linear time",
+    "optionThree": "Quadratic time",
+    "optionFour": "Logarithmic time",
+    "correctAns": "Constant time regardless of input size",
+    "explanation": "O(1) means the operation takes the same time no matter how large the input is.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which of these is a dynamically typed language?",
+    "optionOne": "Java",
+    "optionTwo": "C",
+    "optionThree": "Python",
+    "optionFour": "Go",
+    "correctAns": "Python",
+    "explanation": "Python determines variable types at runtime, so it is dynamically typed.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "What does the 'this' keyword refer to inside a class method in Java?",
+    "optionOne": "The parent class",
+    "optionTwo": "The current object instance",
+    "optionThree": "A static variable",
+    "optionFour": "The main method",
+    "correctAns": "The current object instance",
+    "explanation": "'this' refers to the object on which the method was called.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which of these is NOT a valid HTTP method?",
+    "optionOne": "GET",
+    "optionTwo": "POST",
+    "optionThree": "FETCH",
+    "optionFour": "DELETE",
+    "correctAns": "FETCH",
+    "explanation": "Standard HTTP methods include GET, POST, PUT, PATCH, DELETE, HEAD and OPTIONS, but not FETCH.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "What is the main advantage of using a hash table?",
+    "optionOne": "It keeps elements sorted",
+    "optionTwo": "Average O(1) lookup, insert and delete",
+    "optionThree": "It uses no memory",
+    "optionFour": "It supports range queries efficiently",
+    "correctAns": "Average O(1) lookup, insert and delete",
+    "explanation": "Hash tables provide constant-time average performance for key-based operations.",
+    "difficulty": "hard"
+  },
+  {
+    "quot": "What does JSON stand for?",
+    "optionOne": "Java Standard Object Notation",
+    "optionTwo": "JavaScript Object Notation",
+    "optionThree": "Joint System Object Network",
+    "optionFour": "JavaScript Online Notation",
+    "correctAns": "JavaScript Object Notation",
+    "explanation": "JSON is a lightweight text format derived from JavaScript object syntax for data interchange.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "Which of these best describes a deadlock?",
+    "optionOne": "A loop that never ends",
+    "optionTwo": "Two or more processes waiting on each other forever",
+    "optionThree": "A syntax error in code",
+    "optionFour": "A memory leak",
+    "correctAns": "Two or more processes waiting on each other forever",
+    "explanation": "Deadlock occurs when processes hold resources and wait for resources held by each other.",
+    "difficulty": "hard"
+  },
+  {
+    "quot": "What is the purpose of the 'JOIN' clause in SQL?",
+    "optionOne": "To delete rows from a table",
+    "optionTwo": "To combine rows from two or more tables based on a related column",
+    "optionThree": "To create a new table",
+    "optionFour": "To sort the result set",
+    "correctAns": "To combine rows from two or more tables based on a related column",
+    "explanation": "JOIN merges rows from multiple tables using a matching condition between columns.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which data structure is best for implementing a priority queue?",
+    "optionOne": "Array",
+    "optionTwo": "Linked list",
+    "optionThree": "Heap",
+    "optionFour": "Stack",
+    "correctAns": "Heap",
+    "explanation": "A heap supports efficient insertion and extraction of the min or max element in O(log n).",
+    "difficulty": "hard"
+  },
+  {
+    "quot": "What does the 'static' keyword mean for a method in Java?",
+    "optionOne": "It belongs to the class rather than an instance",
+    "optionTwo": "It cannot be called",
+    "optionThree": "It runs only once",
+    "optionFour": "It is private",
+    "correctAns": "It belongs to the class rather than an instance",
+    "explanation": "Static methods are called on the class itself and do not require an object instance.",
+    "difficulty": "medium"
+  },
+  {
+    "quot": "Which of these is a correct way to declare a constant in JavaScript (ES6+)?",
+    "optionOne": "var x = 5;",
+    "optionTwo": "let x = 5;",
+    "optionThree": "const x = 5;",
+    "optionFour": "final x = 5;",
+    "correctAns": "const x = 5;",
+    "explanation": "const declares a block-scoped variable that cannot be reassigned.",
+    "difficulty": "easy"
+  },
+  {
+    "quot": "What is the space complexity of a recursive binary search?",
+    "optionOne": "O(1)",
+    "optionTwo": "O(log n)",
+    "optionThree": "O(n)",
+    "optionFour": "O(n log n)",
+    "correctAns": "O(log n)",
+    "explanation": "Each recursive call adds a stack frame, and the recursion depth is about log n.",
+    "difficulty": "hard"
+  }
+]
