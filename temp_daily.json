@@ -1,182 +1,182 @@
 [
   {
-    "question": "Which keyword is used to define a function in Python?",
-    "optionOne": "function",
-    "optionTwo": "def",
-    "optionThree": "func",
-    "optionFour": "define",
-    "correctAns": "def",
-    "explanation": "In Python, the 'def' keyword is used to define a function."
+    "quot": "What does the `===` operator check in JavaScript?",
+    "optionOne": "Value only",
+    "optionTwo": "Type only",
+    "optionThree": "Value and type",
+    "optionFour": "Reference",
+    "correctAns": "Value and type",
+    "explanation": "The strict equality operator (===) checks both the value and the type of the operands, unlike the loose equality operator (==)."
   },
   {
-    "question": "What is the entry point method in a Java application?",
-    "optionOne": "start()",
-    "optionTwo": "begin()",
-    "optionThree": "main()",
-    "optionFour": "run()",
-    "correctAns": "main()",
-    "explanation": "The main() method is the entry point of every standalone Java application."
+    "quot": "Which method is used to add an element to the end of a list in Python?",
+    "optionOne": "append()",
+    "optionTwo": "add()",
+    "optionThree": "insert()",
+    "optionFour": "push()",
+    "correctAns": "append()",
+    "explanation": "The append() method adds a single element to the end of a Python list. insert() adds it at a specific index."
   },
   {
-    "question": "Which SQL keyword is used to retrieve data from a database?",
-    "optionOne": "GET",
-    "optionTwo": "FETCH",
-    "optionThree": "SELECT",
-    "optionFour": "RETRIEVE",
-    "correctAns": "SELECT",
-    "explanation": "The SELECT statement is used to select and retrieve data from a database."
+    "quot": "Which keyword is used to inherit a class in Java?",
+    "optionOne": "implements",
+    "optionTwo": "extends",
+    "optionThree": "inherits",
+    "optionFour": "super",
+    "correctAns": "extends",
+    "explanation": "The 'extends' keyword is used in Java to indicate that a class is inheriting from another class. 'implements' is used for interfaces."
   },
   {
-    "question": "Which keyword declares a block-scoped, reassignable variable in JavaScript?",
-    "optionOne": "var",
-    "optionTwo": "let",
-    "optionThree": "const",
-    "optionFour": "function",
-    "correctAns": "let",
-    "explanation": "The 'let' keyword declares a block-scoped variable that can be reassigned, unlike 'const'."
+    "quot": "Which SQL command is used to remove a table and its data permanently?",
+    "optionOne": "DELETE",
+    "optionTwo": "REMOVE",
+    "optionThree": "DROP",
+    "optionFour": "TRUNCATE",
+    "correctAns": "DROP",
+    "explanation": "The DROP TABLE command deletes the entire table structure and its data permanently. TRUNCATE removes data but keeps the structure."
   },
   {
-    "question": "Which operator is used to access members of an object through a pointer in C++?",
-    "optionOne": ".",
-    "optionTwo": "->",
-    "optionThree": "::",
-    "optionFour": "*",
-    "correctAns": "->",
-    "explanation": "The arrow operator (->) is used to access members of an object through a pointer in C++."
+    "quot": "Which header file is required for standard input and output operations in C++?",
+    "optionOne": "stdio.h",
+    "optionTwo": "iostream",
+    "optionThree": "conio.h",
+    "optionFour": "stdlib.h",
+    "correctAns": "iostream",
+    "explanation": "In C++, the <iostream> header file is used for standard input (cin) and output (cout) operations."
   },
   {
-    "question": "Which Python data type stores an ordered, mutable collection of items?",
-    "optionOne": "tuple",
-    "optionTwo": "set",
-    "optionThree": "list",
-    "optionFour": "dictionary",
-    "correctAns": "list",
-    "explanation": "A Python list is an ordered and mutable collection that can hold multiple items."
+    "quot": "What is the output of `type(1)` in Python 3?",
+    "optionOne": "<class 'int'>",
+    "optionTwo": "<type 'int'>",
+    "optionThree": "integer",
+    "optionFour": "int",
+    "correctAns": "<class 'int'>",
+    "explanation": "In Python 3, the type() function returns the class type of the object, formatted as <class 'int'> for integers."
   },
   {
-    "question": "Which SQL clause is used to filter records before grouping?",
-    "optionOne": "WHERE",
-    "optionTwo": "HAVING",
-    "optionThree": "FILTER",
-    "optionFour": "IF",
-    "correctAns": "WHERE",
-    "explanation": "The WHERE clause filters rows before any GROUP BY aggregation is applied."
+    "quot": "Which array method creates a new array with the results of calling a function on every element?",
+    "optionOne": "forEach()",
+    "optionTwo": "filter()",
+    "optionThree": "map()",
+    "optionFour": "reduce()",
+    "correctAns": "map()",
+    "explanation": "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array."
   },
   {
-    "question": "Which of the following is true about interfaces in Java (Java 8+)?",
-    "optionOne": "They can be instantiated directly",
-    "optionTwo": "They can contain constructors",
-    "optionThree": "They can have default methods",
-    "optionFour": "They cannot contain any methods",
-    "correctAns": "They can have default methods",
-    "explanation": "Since Java 8, interfaces can contain default methods with a body using the 'default' keyword."
+    "quot": "Which Java collection class allows null keys and maintains the insertion order?",
+    "optionOne": "HashMap",
+    "optionTwo": "TreeMap",
+    "optionThree": "LinkedHashMap",
+    "optionFour": "Hashtable",
+    "correctAns": "LinkedHashMap",
+    "explanation": "LinkedHashMap maintains a doubly-linked list running through all of its entries, defining the iteration ordering (insertion order), and allows one null key."
   },
   {
-    "question": "What is a decorator in Python?",
-    "optionOne": "A class used to style console output",
-    "optionTwo": "A function that modifies or extends the behavior of another function",
-    "optionThree": "A module for formatting strings",
-    "optionFour": "A way to delete functions from memory",
-    "correctAns": "A function that modifies or extends the behavior of another function",
-    "explanation": "A decorator is a higher-order function that wraps another function to extend its behavior without modifying it."
+    "quot": "Which SQL clause is used to sort the result-set in ascending or descending order?",
+    "optionOne": "SORT BY",
+    "optionTwo": "ORDER BY",
+    "optionThree": "ARRANGE BY",
+    "optionFour": "GROUP BY",
+    "correctAns": "ORDER BY",
+    "explanation": "The ORDER BY clause is used to sort the result-set of a SQL query in ascending (ASC) or descending (DESC) order."
   },
   {
-    "question": "Which SQL clause combines rows from two or more tables based on a related column?",
-    "optionOne": "MERGE",
-    "optionTwo": "UNION",
-    "optionThree": "JOIN",
-    "optionFour": "COMBINE",
-    "correctAns": "JOIN",
-    "explanation": "The JOIN clause is used to combine rows from two or more tables based on a related column between them."
+    "quot": "What is the size of a `char` data type in C++?",
+    "optionOne": "1 byte",
+    "optionTwo": "2 bytes",
+    "optionThree": "4 bytes",
+    "optionFour": "Depends on compiler",
+    "correctAns": "1 byte",
+    "explanation": "In C++, the size of a char data type is always exactly 1 byte, as defined by the C++ standard."
   },
   {
-    "question": "What is a closure in JavaScript?",
-    "optionOne": "A method to close browser windows",
-    "optionTwo": "A function bundled with references to its surrounding lexical scope",
-    "optionThree": "A way to terminate loops",
-    "optionFour": "A type of error handling mechanism",
-    "correctAns": "A function bundled with references to its surrounding lexical scope",
-    "explanation": "A closure gives a function access to variables from its outer (enclosing) lexical scope, even after the outer function has returned."
+    "quot": "Which keyword is used to handle exceptions in Python?",
+    "optionOne": "catch",
+    "optionTwo": "try",
+    "optionThree": "except",
+    "optionFour": "handle",
+    "correctAns": "except",
+    "explanation": "In Python, the 'try' block tests for errors, and the 'except' block is used to handle (catch) the exceptions."
   },
   {
-    "question": "What is the purpose of the 'virtual' keyword in C++?",
-    "optionOne": "To make a variable global",
-    "optionTwo": "To enable runtime polymorphism",
-    "optionThree": "To prevent a class from being inherited",
-    "optionFour": "To declare a constant value",
-    "correctAns": "To enable runtime polymorphism",
-    "explanation": "The 'virtual' keyword enables dynamic (runtime) polymorphism by allowing functions to be overridden in derived classes."
+    "quot": "What is the purpose of the `this` keyword in JavaScript?",
+    "optionOne": "To refer to the current function",
+    "optionTwo": "To refer to the object that is executing the current function",
+    "optionThree": "To create a new object",
+    "optionFour": "To import a module",
+    "correctAns": "To refer to the object that is executing the current function",
+    "explanation": "In JavaScript, 'this' refers to the object that is currently executing the code, depending on how the function is called."
   },
   {
-    "question": "Which keyword prevents a method from being overridden in Java?",
-    "optionOne": "static",
-    "optionTwo": "final",
-    "optionThree": "const",
-    "optionFour": "private",
-    "correctAns": "final",
-    "explanation": "The 'final' keyword, when applied to a method, prevents subclasses from overriding it."
+    "quot": "Which methods should generally be overridden together when using a custom object as a key in a Java HashMap?",
+    "optionOne": "toString() and clone()",
+    "optionTwo": "equals() and hashCode()",
+    "optionThree": "compareTo() and hash()",
+    "optionFour": "get() and set()",
+    "correctAns": "equals() and hashCode()",
+    "explanation": "When using a custom object as a HashMap key, you must override both equals() and hashCode() to ensure correct retrieval and storage."
   },
   {
-    "question": "What is the key difference between WHERE and HAVING in SQL?",
-    "optionOne": "They are interchangeable",
-    "optionTwo": "WHERE filters rows before aggregation; HAVING filters after",
-    "optionThree": "WHERE works only on strings",
-    "optionFour": "HAVING is used only with INSERT statements",
-    "correctAns": "WHERE filters rows before aggregation; HAVING filters after",
-    "explanation": "WHERE filters individual rows before GROUP BY, while HAVING filters groups after aggregation."
+    "quot": "Which SQL function returns the number of rows that match a specified criterion?",
+    "optionOne": "SUM()",
+    "optionTwo": "TOTAL()",
+    "optionThree": "COUNT()",
+    "optionFour": "NUM()",
+    "correctAns": "COUNT()",
+    "explanation": "The COUNT() function returns the number of rows that matches a specified criterion in a SQL query."
   },
   {
-    "question": "What is the Global Interpreter Lock (GIL) in Python?",
-    "optionOne": "A lock for file I/O operations",
-    "optionTwo": "A mutex allowing only one thread to execute Python bytecode at a time",
-    "optionThree": "A security feature against malware",
-    "optionFour": "A memory management tool",
-    "correctAns": "A mutex allowing only one thread to execute Python bytecode at a time",
-    "explanation": "The GIL is a mutex in CPython that protects access to Python objects, allowing only one thread to execute bytecode at a time."
+    "quot": "Which access modifier makes a class member accessible only within its own class and by derived classes in C++?",
+    "optionOne": "public",
+    "optionTwo": "private",
+    "optionThree": "protected",
+    "optionFour": "internal",
+    "correctAns": "protected",
+    "explanation": "The 'protected' access modifier allows class members to be accessed within the class itself and by its subclasses (derived classes)."
   },
   {
-    "question": "Which garbage collector became the default in Java SE 9 and later?",
-    "optionOne": "Serial GC",
-    "optionTwo": "Parallel GC",
-    "optionThree": "G1 GC",
-    "optionFour": "CMS GC",
-    "correctAns": "G1 GC",
-    "explanation": "The Garbage-First (G1) collector replaced Parallel GC as the default garbage collector starting with Java 9."
+    "quot": "What does the `__init__` method do in a Python class?",
+    "optionOne": "It destroys an object",
+    "optionTwo": "It initializes the object's attributes when created",
+    "optionThree": "It imports a module",
+    "optionFour": "It defines a static method",
+    "correctAns": "It initializes the object's attributes when created",
+    "explanation": "The __init__ method is the constructor in Python, automatically called to initialize the object's attributes when a new instance is created."
   },
   {
-    "question": "What is a window function in SQL?",
-    "optionOne": "A function that opens a new database session",
-    "optionTwo": "A function that performs calculations across a set of rows related to the current row",
-    "optionThree": "A function that creates pop-up alerts",
-    "optionFour": "A function that limits query result size",
-    "correctAns": "A function that performs calculations across a set of rows related to the current row",
-    "explanation": "Window functions perform calculations across a set of table rows related to the current row, without collapsing them like GROUP BY."
+    "quot": "Which ES6 feature allows extracting values from arrays or objects into distinct variables?",
+    "optionOne": "Spreading",
+    "optionTwo": "Destructuring",
+    "optionThree": "Mapping",
+    "optionFour": "Filtering",
+    "correctAns": "Destructuring",
+    "explanation": "Destructuring assignment is an ES6 feature that allows unpacking values from arrays or properties from objects into distinct variables."
   },
   {
-    "question": "What is the event loop in JavaScript?",
-    "optionOne": "A loop that creates DOM events",
-    "optionTwo": "A mechanism that monitors the call stack and callback queue to handle asynchronous operations",
-    "optionThree": "A type of for loop",
-    "optionFour": "A debugging tool for async code",
-    "correctAns": "A mechanism that monitors the call stack and callback queue to handle asynchronous operations",
-    "explanation": "The event loop continuously checks the call stack and callback queue, pushing callbacks onto the stack when it is empty, enabling non-blocking async behavior."
+    "quot": "What is the default value of a boolean instance variable in Java?",
+    "optionOne": "true",
+    "optionTwo": "false",
+    "optionThree": "null",
+    "optionFour": "0",
+    "correctAns": "false",
+    "explanation": "In Java, the default value of a boolean instance variable is false. Local boolean variables do not have a default value and must be initialized."
   },
   {
-    "question": "What is template metaprogramming in C++?",
-    "optionOne": "Writing HTML templates for web pages",
-    "optionTwo": "A technique where the compiler generates code at compile time using templates",
-    "optionThree": "A way to create GUI templates",
-    "optionFour": "A runtime debugging method",
-    "correctAns": "A technique where the compiler generates code at compile time using templates",
-    "explanation": "Template metaprogramming uses C++ templates to perform computations and generate code at compile time, enabling powerful generic programming."
+    "quot": "Which SQL statement is used to update existing records in a table?",
+    "optionOne": "MODIFY",
+    "optionTwo": "UPDATE",
+    "optionThree": "CHANGE",
+    "optionFour": "ALTER",
+    "correctAns": "UPDATE",
+    "explanation": "The UPDATE statement is used to modify the existing records in a table. ALTER is used to change the table structure."
   },
   {
-    "question": "What is the primary purpose of an index in a relational database?",
-    "optionOne": "To encrypt sensitive data",
-    "optionTwo": "To speed up data retrieval operations",
-    "optionThree": "To compress stored data",
-    "optionFour": "To back up the database",
-    "correctAns": "To speed up data retrieval operations",
-    "explanation": "An index is a data structure that improves the speed of data retrieval operations on a table at the cost of additional writes and storage space."
+    "quot": "Which keyword is used to allocate memory dynamically in C++?",
+    "optionOne": "alloc",
+    "optionTwo": "malloc",
+    "optionThree": "new",
+    "optionFour": "create",
+    "correctAns": "new",
+    "explanation": "In C++, the 'new' operator is used to allocate memory dynamically for an object or array on the heap."
   }
 ]
