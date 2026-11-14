@@ -1,202 +1,182 @@
 [
   {
-    "question": "Which keyword is used to handle exceptions in Python?",
-    "optionOne": "catch",
-    "optionTwo": "except",
-    "optionThree": "handle",
-    "optionFour": "rescue",
-    "correctAns": "except",
-    "explanation": "Python uses try/except blocks to catch and handle exceptions.",
-    "difficulty": "easy"
+    "quot": "What does the `===` operator check in JavaScript?",
+    "optionOne": "Value only",
+    "optionTwo": "Type only",
+    "optionThree": "Value and type",
+    "optionFour": "Reference",
+    "correctAns": "Value and type",
+    "explanation": "The strict equality operator (===) checks both the value and the type of the operands, unlike the loose equality operator (==)."
   },
   {
-    "question": "What is the default value of a boolean variable in Java (as a class field)?",
+    "quot": "Which method is used to add an element to the end of a list in Python?",
+    "optionOne": "append()",
+    "optionTwo": "add()",
+    "optionThree": "insert()",
+    "optionFour": "push()",
+    "correctAns": "append()",
+    "explanation": "The append() method adds a single element to the end of a Python list. insert() adds it at a specific index."
+  },
+  {
+    "quot": "Which keyword is used to inherit a class in Java?",
+    "optionOne": "implements",
+    "optionTwo": "extends",
+    "optionThree": "inherits",
+    "optionFour": "super",
+    "correctAns": "extends",
+    "explanation": "The 'extends' keyword is used in Java to indicate that a class is inheriting from another class. 'implements' is used for interfaces."
+  },
+  {
+    "quot": "Which SQL command is used to remove a table and its data permanently?",
+    "optionOne": "DELETE",
+    "optionTwo": "REMOVE",
+    "optionThree": "DROP",
+    "optionFour": "TRUNCATE",
+    "correctAns": "DROP",
+    "explanation": "The DROP TABLE command deletes the entire table structure and its data permanently. TRUNCATE removes data but keeps the structure."
+  },
+  {
+    "quot": "Which header file is required for standard input and output operations in C++?",
+    "optionOne": "stdio.h",
+    "optionTwo": "iostream",
+    "optionThree": "conio.h",
+    "optionFour": "stdlib.h",
+    "correctAns": "iostream",
+    "explanation": "In C++, the <iostream> header file is used for standard input (cin) and output (cout) operations."
+  },
+  {
+    "quot": "What is the output of `type(1)` in Python 3?",
+    "optionOne": "<class 'int'>",
+    "optionTwo": "<type 'int'>",
+    "optionThree": "integer",
+    "optionFour": "int",
+    "correctAns": "<class 'int'>",
+    "explanation": "In Python 3, the type() function returns the class type of the object, formatted as <class 'int'> for integers."
+  },
+  {
+    "quot": "Which array method creates a new array with the results of calling a function on every element?",
+    "optionOne": "forEach()",
+    "optionTwo": "filter()",
+    "optionThree": "map()",
+    "optionFour": "reduce()",
+    "correctAns": "map()",
+    "explanation": "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array."
+  },
+  {
+    "quot": "Which Java collection class allows null keys and maintains the insertion order?",
+    "optionOne": "HashMap",
+    "optionTwo": "TreeMap",
+    "optionThree": "LinkedHashMap",
+    "optionFour": "Hashtable",
+    "correctAns": "LinkedHashMap",
+    "explanation": "LinkedHashMap maintains a doubly-linked list running through all of its entries, defining the iteration ordering (insertion order), and allows one null key."
+  },
+  {
+    "quot": "Which SQL clause is used to sort the result-set in ascending or descending order?",
+    "optionOne": "SORT BY",
+    "optionTwo": "ORDER BY",
+    "optionThree": "ARRANGE BY",
+    "optionFour": "GROUP BY",
+    "correctAns": "ORDER BY",
+    "explanation": "The ORDER BY clause is used to sort the result-set of a SQL query in ascending (ASC) or descending (DESC) order."
+  },
+  {
+    "quot": "What is the size of a `char` data type in C++?",
+    "optionOne": "1 byte",
+    "optionTwo": "2 bytes",
+    "optionThree": "4 bytes",
+    "optionFour": "Depends on compiler",
+    "correctAns": "1 byte",
+    "explanation": "In C++, the size of a char data type is always exactly 1 byte, as defined by the C++ standard."
+  },
+  {
+    "quot": "Which keyword is used to handle exceptions in Python?",
+    "optionOne": "catch",
+    "optionTwo": "try",
+    "optionThree": "except",
+    "optionFour": "handle",
+    "correctAns": "except",
+    "explanation": "In Python, the 'try' block tests for errors, and the 'except' block is used to handle (catch) the exceptions."
+  },
+  {
+    "quot": "What is the purpose of the `this` keyword in JavaScript?",
+    "optionOne": "To refer to the current function",
+    "optionTwo": "To refer to the object that is executing the current function",
+    "optionThree": "To create a new object",
+    "optionFour": "To import a module",
+    "correctAns": "To refer to the object that is executing the current function",
+    "explanation": "In JavaScript, 'this' refers to the object that is currently executing the code, depending on how the function is called."
+  },
+  {
+    "quot": "Which methods should generally be overridden together when using a custom object as a key in a Java HashMap?",
+    "optionOne": "toString() and clone()",
+    "optionTwo": "equals() and hashCode()",
+    "optionThree": "compareTo() and hash()",
+    "optionFour": "get() and set()",
+    "correctAns": "equals() and hashCode()",
+    "explanation": "When using a custom object as a HashMap key, you must override both equals() and hashCode() to ensure correct retrieval and storage."
+  },
+  {
+    "quot": "Which SQL function returns the number of rows that match a specified criterion?",
+    "optionOne": "SUM()",
+    "optionTwo": "TOTAL()",
+    "optionThree": "COUNT()",
+    "optionFour": "NUM()",
+    "correctAns": "COUNT()",
+    "explanation": "The COUNT() function returns the number of rows that matches a specified criterion in a SQL query."
+  },
+  {
+    "quot": "Which access modifier makes a class member accessible only within its own class and by derived classes in C++?",
+    "optionOne": "public",
+    "optionTwo": "private",
+    "optionThree": "protected",
+    "optionFour": "internal",
+    "correctAns": "protected",
+    "explanation": "The 'protected' access modifier allows class members to be accessed within the class itself and by its subclasses (derived classes)."
+  },
+  {
+    "quot": "What does the `__init__` method do in a Python class?",
+    "optionOne": "It destroys an object",
+    "optionTwo": "It initializes the object's attributes when created",
+    "optionThree": "It imports a module",
+    "optionFour": "It defines a static method",
+    "correctAns": "It initializes the object's attributes when created",
+    "explanation": "The __init__ method is the constructor in Python, automatically called to initialize the object's attributes when a new instance is created."
+  },
+  {
+    "quot": "Which ES6 feature allows extracting values from arrays or objects into distinct variables?",
+    "optionOne": "Spreading",
+    "optionTwo": "Destructuring",
+    "optionThree": "Mapping",
+    "optionFour": "Filtering",
+    "correctAns": "Destructuring",
+    "explanation": "Destructuring assignment is an ES6 feature that allows unpacking values from arrays or properties from objects into distinct variables."
+  },
+  {
+    "quot": "What is the default value of a boolean instance variable in Java?",
     "optionOne": "true",
     "optionTwo": "false",
     "optionThree": "null",
     "optionFour": "0",
     "correctAns": "false",
-    "explanation": "Instance boolean fields in Java default to false if not explicitly initialized.",
-    "difficulty": "easy"
+    "explanation": "In Java, the default value of a boolean instance variable is false. Local boolean variables do not have a default value and must be initialized."
   },
   {
-    "question": "Which symbol is used for single-line comments in JavaScript?",
-    "optionOne": "#",
-    "optionTwo": "//",
-    "optionThree": "/* */",
-    "optionFour": "--",
-    "correctAns": "//",
-    "explanation": "JavaScript uses // for single-line comments and /* */ for multi-line comments.",
-    "difficulty": "easy"
+    "quot": "Which SQL statement is used to update existing records in a table?",
+    "optionOne": "MODIFY",
+    "optionTwo": "UPDATE",
+    "optionThree": "CHANGE",
+    "optionFour": "ALTER",
+    "correctAns": "UPDATE",
+    "explanation": "The UPDATE statement is used to modify the existing records in a table. ALTER is used to change the table structure."
   },
   {
-    "question": "What does HTML stand for?",
-    "optionOne": "HyperText Markup Language",
-    "optionTwo": "HighText Machine Language",
-    "optionThree": "HyperTool Multi Language",
-    "optionFour": "Home Tool Markup Language",
-    "correctAns": "HyperText Markup Language",
-    "explanation": "HTML is the standard markup language for creating web pages.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which of these is a valid loop in C?",
-    "optionOne": "repeat-until",
-    "optionTwo": "for",
-    "optionThree": "loop",
-    "optionFour": "foreach",
-    "correctAns": "for",
-    "explanation": "C supports for, while, and do-while loops; 'for' is the standard counted loop.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the output of 2 ** 3 in Python?",
-    "optionOne": "6",
-    "optionTwo": "8",
-    "optionThree": "9",
-    "optionFour": "5",
-    "correctAns": "8",
-    "explanation": "The ** operator raises 2 to the power of 3, which equals 8.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which data structure uses First In, First Out (FIFO) ordering?",
-    "optionOne": "Stack",
-    "optionTwo": "Queue",
-    "optionThree": "Heap",
-    "optionFour": "Tree",
-    "correctAns": "Queue",
-    "explanation": "A queue enqueues at the rear and dequeues from the front, so the first element added is the first removed.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "What is the primary purpose of a constructor in object-oriented programming?",
-    "optionOne": "To destroy an object",
-    "optionTwo": "To initialize a newly created object",
-    "optionThree": "To copy memory",
-    "optionFour": "To define static methods",
-    "correctAns": "To initialize a newly created object",
-    "explanation": "A constructor runs when an object is created and sets up its initial state.",
-    "difficulty": "easy"
-  },
-  {
-    "question": "Which of these is NOT a valid access modifier in Java?",
-    "optionOne": "public",
-    "optionTwo": "protected",
-    "optionThree": "friend",
-    "optionFour": "private",
-    "correctAns": "friend",
-    "explanation": "Java has public, protected, private, and package-private; 'friend' is a C++ concept.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the time complexity of inserting an element at the end of a dynamic array (amortized)?",
-    "optionOne": "O(1)",
-    "optionTwo": "O(n)",
-    "optionThree": "O(log n)",
-    "optionFour": "O(n^2)",
-    "correctAns": "O(1)",
-    "explanation": "Dynamic arrays double capacity on resize, so appends cost O(1) amortized.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Which SQL command is used to remove all rows from a table without logging individual row deletions?",
-    "optionOne": "DELETE",
-    "optionTwo": "DROP",
-    "optionThree": "TRUNCATE",
-    "optionFour": "REMOVE",
-    "correctAns": "TRUNCATE",
-    "explanation": "TRUNCATE quickly removes all rows and typically does not log row-by-row deletions.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "In Git, which command creates a new branch and switches to it in one step?",
-    "optionOne": "git branch -m",
-    "optionTwo": "git checkout -b",
-    "optionThree": "git merge -b",
-    "optionFour": "git switch -d",
-    "correctAns": "git checkout -b",
-    "explanation": "git checkout -b <name> creates and checks out a new branch; modern Git also supports git switch -c.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is a lambda expression in programming?",
-    "optionOne": "A named function",
-    "optionTwo": "An anonymous inline function",
-    "optionThree": "A global variable",
-    "optionFour": "A type of loop",
-    "correctAns": "An anonymous inline function",
-    "explanation": "Lambdas define small unnamed functions, often used as arguments to higher-order functions.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "Which HTTP status code range indicates a server error?",
-    "optionOne": "1xx",
-    "optionTwo": "2xx",
-    "optionThree": "3xx",
-    "optionFour": "5xx",
-    "correctAns": "5xx",
-    "explanation": "5xx codes indicate the server failed to fulfill a valid request (e.g., 500 Internal Server Error).",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is the difference between '==', and '===' in JavaScript?",
-    "optionOne": "No difference",
-    "optionTwo": "== compares value only; === compares value and type",
-    "optionThree": "=== compares value only; == compares value and type",
-    "optionFour": "Both compare types only",
-    "correctAns": "== compares value only; === compares value and type",
-    "explanation": "=== is strict equality and also checks type, while == performs type coercion.",
-    "difficulty": "medium"
-  },
-  {
-    "question": "What is memoization?",
-    "optionOne": "Storing results of expensive function calls to reuse them",
-    "optionTwo": "Allocating memory for arrays",
-    "optionThree": "Freeing unused memory",
-    "optionFour": "Serializing objects",
-    "correctAns": "Storing results of expensive function calls to reuse them",
-    "explanation": "Memoization caches function outputs for given inputs to avoid recomputation, often speeding up recursion.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is the worst-case time complexity of insertion sort?",
-    "optionOne": "O(n)",
-    "optionTwo": "O(n log n)",
-    "optionThree": "O(n^2)",
-    "optionFour": "O(log n)",
-    "correctAns": "O(n^2)",
-    "explanation": "Insertion sort degrades to O(n^2) when the array is in reverse order.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "In database transactions, what does the ACID 'I' stand for?",
-    "optionOne": "Integrity",
-    "optionTwo": "Isolation",
-    "optionThree": "Indexing",
-    "optionFour": "Iteration",
-    "correctAns": "Isolation",
-    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "What is a deadlock in operating systems?",
-    "optionOne": "A thread that finishes early",
-    "optionTwo": "Two or more processes blocked forever waiting on each other's resources",
-    "optionThree": "A CPU scheduling algorithm",
-    "optionFour": "A memory cache miss",
-    "correctAns": "Two or more processes blocked forever waiting on each other's resources",
-    "explanation": "Deadlock occurs when processes hold resources and circularly wait for resources held by others.",
-    "difficulty": "hard"
-  },
-  {
-    "question": "Which of these best describes a race condition?",
-    "optionOne": "A bug where output depends on the unpredictable timing of concurrent operations",
-    "optionTwo": "A loop that runs too quickly",
-    "optionThree": "A syntax error in a thread",
-    "optionFour": "A priority inversion in CPU scheduling",
-    "correctAns": "A bug where output depends on the unpredictable timing of concurrent operations",
-    "explanation": "Race conditions arise when threads access shared data without synchronization, making results timing-dependent.",
-    "difficulty": "hard"
+    "quot": "Which keyword is used to allocate memory dynamically in C++?",
+    "optionOne": "alloc",
+    "optionTwo": "malloc",
+    "optionThree": "new",
+    "optionFour": "create",
+    "correctAns": "new",
+    "explanation": "In C++, the 'new' operator is used to allocate memory dynamically for an object or array on the heap."
   }
 ]
