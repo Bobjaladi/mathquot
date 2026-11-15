@@ -1,182 +1,191 @@
 [
   {
-    "quot": "What does the `===` operator check in JavaScript?",
-    "optionOne": "Value only",
-    "optionTwo": "Type only",
-    "optionThree": "Value and type",
-    "optionFour": "Reference",
-    "correctAns": "Value and type",
-    "explanation": "The strict equality operator (===) checks both the value and the type of the operands, unlike the loose equality operator (==)."
+    "quot": "What is the correct file extension for a Python source file?",
+    "optionOne": ".py",
+    "optionTwo": ".python",
+    "optionThree": ".pt",
+    "optionFour": ".pyt",
+    "correctAns": ".py",
+    "explanation": "Python source files are saved with the .py extension, which stands for Python."
   },
   {
-    "quot": "Which method is used to add an element to the end of a list in Python?",
-    "optionOne": "append()",
-    "optionTwo": "add()",
-    "optionThree": "insert()",
-    "optionFour": "push()",
-    "correctAns": "append()",
-    "explanation": "The append() method adds a single element to the end of a Python list. insert() adds it at a specific index."
+    "quot": "Which keyword is used to declare a constant variable in JavaScript?",
+    "optionOne": "var",
+    "optionTwo": "let",
+    "optionThree": "const",
+    "optionFour": "static",
+    "correctAns": "const",
+    "explanation": "The const keyword creates a read-only reference to a value. The variable cannot be reassigned after it is declared."
   },
   {
-    "quot": "Which keyword is used to inherit a class in Java?",
-    "optionOne": "implements",
-    "optionTwo": "extends",
-    "optionThree": "inherits",
-    "optionFour": "super",
-    "correctAns": "extends",
-    "explanation": "The 'extends' keyword is used in Java to indicate that a class is inheriting from another class. 'implements' is used for interfaces."
+    "quot": "What does HTML stand for?",
+    "optionOne": "Hyper Text Markup Language",
+    "optionTwo": "High Text Machine Language",
+    "optionThree": "Hyper Tabular Markup Language",
+    "optionFour": "Home Tool Markup Language",
+    "correctAns": "Hyper Text Markup Language",
+    "explanation": "HTML stands for Hyper Text Markup Language and is the standard markup language for creating web pages."
   },
   {
-    "quot": "Which SQL command is used to remove a table and its data permanently?",
-    "optionOne": "DELETE",
-    "optionTwo": "REMOVE",
-    "optionThree": "DROP",
-    "optionFour": "TRUNCATE",
-    "correctAns": "DROP",
-    "explanation": "The DROP TABLE command deletes the entire table structure and its data permanently. TRUNCATE removes data but keeps the structure."
+    "quot": "What is the output of the following code: `len([1, 2, 3])` in Python?",
+    "optionOne": "2",
+    "optionTwo": "3",
+    "optionThree": "4",
+    "optionFour": "Error",
+    "correctAns": "3",
+    "explanation": "The len() function returns the number of items in a list. Since the list [1, 2, 3] has three elements, the output is 3."
   },
   {
-    "quot": "Which header file is required for standard input and output operations in C++?",
-    "optionOne": "stdio.h",
-    "optionTwo": "iostream",
-    "optionThree": "conio.h",
-    "optionFour": "stdlib.h",
-    "correctAns": "iostream",
-    "explanation": "In C++, the <iostream> header file is used for standard input (cin) and output (cout) operations."
+    "quot": "Which of the following is NOT a valid CSS selector?",
+    "optionOne": "#id",
+    "optionTwo": ".class",
+    "optionThree": "element",
+    "optionFour": "@element",
+    "correctAns": "@element",
+    "explanation": "@ is used for at-rules like @media or @font-face, not for selecting elements. Valid selectors use # for IDs, . for classes, and the element name directly."
   },
   {
-    "quot": "What is the output of `type(1)` in Python 3?",
-    "optionOne": "<class 'int'>",
-    "optionTwo": "<type 'int'>",
-    "optionThree": "integer",
-    "optionFour": "int",
-    "correctAns": "<class 'int'>",
-    "explanation": "In Python 3, the type() function returns the class type of the object, formatted as <class 'int'> for integers."
+    "quot": "What is the correct way to write a single-line comment in Java?",
+    "optionOne": "<!-- comment -->",
+    "optionTwo": "# comment",
+    "optionThree": "// comment",
+    "optionFour": "/* comment */",
+    "correctAns": "// comment",
+    "explanation": "In Java, single-line comments start with two forward slashes (//). Block comments use /* */, and HTML comments use <!-- -->."
   },
   {
-    "quot": "Which array method creates a new array with the results of calling a function on every element?",
-    "optionOne": "forEach()",
-    "optionTwo": "filter()",
-    "optionThree": "map()",
-    "optionFour": "reduce()",
-    "correctAns": "map()",
-    "explanation": "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array."
+    "quot": "What is the data type of the result of `10 / 2` in Python 3?",
+    "optionOne": "int",
+    "optionTwo": "float",
+    "optionThree": "str",
+    "optionFour": "bool",
+    "correctAns": "float",
+    "explanation": "In Python 3, the division operator (/) always returns a float, even if the result is a whole number. Use the floor division operator (//) to get an integer."
   },
   {
-    "quot": "Which Java collection class allows null keys and maintains the insertion order?",
-    "optionOne": "HashMap",
-    "optionTwo": "TreeMap",
-    "optionThree": "LinkedHashMap",
-    "optionFour": "Hashtable",
-    "correctAns": "LinkedHashMap",
-    "explanation": "LinkedHashMap maintains a doubly-linked list running through all of its entries, defining the iteration ordering (insertion order), and allows one null key."
+    "quot": "What is the output of `typeof null` in JavaScript?",
+    "optionOne": "\"null\"",
+    "optionTwo": "\"object\"",
+    "optionThree": "\"undefined\"",
+    "optionFour": "null",
+    "correctAns": "\"object\"",
+    "explanation": "This is a well-known historical bug in JavaScript. typeof null returns \"object\" due to how the type tagging was originally implemented in the language."
   },
   {
-    "quot": "Which SQL clause is used to sort the result-set in ascending or descending order?",
-    "optionOne": "SORT BY",
-    "optionTwo": "ORDER BY",
-    "optionThree": "ARRANGE BY",
-    "optionFour": "GROUP BY",
-    "correctAns": "ORDER BY",
-    "explanation": "The ORDER BY clause is used to sort the result-set of a SQL query in ascending (ASC) or descending (DESC) order."
+    "quot": "Which HTTP status code indicates that a resource was not found?",
+    "optionOne": "200",
+    "optionTwo": "301",
+    "optionThree": "404",
+    "optionFour": "500",
+    "correctAns": "404",
+    "explanation": "The 404 status code means the server could not find the requested resource. 200 means OK, 301 means moved permanently, and 500 means internal server error."
   },
   {
-    "quot": "What is the size of a `char` data type in C++?",
-    "optionOne": "1 byte",
-    "optionTwo": "2 bytes",
-    "optionThree": "4 bytes",
-    "optionFour": "Depends on compiler",
-    "correctAns": "1 byte",
-    "explanation": "In C++, the size of a char data type is always exactly 1 byte, as defined by the C++ standard."
+    "quot": "What is the time complexity of binary search on a sorted array of n elements?",
+    "optionOne": "O(n)",
+    "optionTwo": "O(n log n)",
+    "optionThree": "O(log n)",
+    "optionFour": "O(1)",
+    "correctAns": "O(log n)",
+    "explanation": "Binary search halves the search space at each step, so the number of comparisons grows logarithmically with the size of the array, giving O(log n) time complexity."
   },
   {
-    "quot": "Which keyword is used to handle exceptions in Python?",
-    "optionOne": "catch",
-    "optionTwo": "try",
-    "optionThree": "except",
-    "optionFour": "handle",
-    "correctAns": "except",
-    "explanation": "In Python, the 'try' block tests for errors, and the 'except' block is used to handle (catch) the exceptions."
+    "quot": "In Python, what does the `__init__` method do?",
+    "optionOne": "Initializes the class itself",
+    "optionTwo": "Acts as a constructor for new objects",
+    "optionThree": "Destroys an object",
+    "optionFour": "Creates a module",
+    "correctAns": "Acts as a constructor for new objects",
+    "explanation": "__init__ is a special method called automatically when a new instance of a class is created. It initializes the object's attributes."
   },
   {
-    "quot": "What is the purpose of the `this` keyword in JavaScript?",
-    "optionOne": "To refer to the current function",
-    "optionTwo": "To refer to the object that is executing the current function",
-    "optionThree": "To create a new object",
-    "optionFour": "To import a module",
-    "correctAns": "To refer to the object that is executing the current function",
-    "explanation": "In JavaScript, 'this' refers to the object that is currently executing the code, depending on how the function is called."
+    "quot": "Which SQL clause is used to filter rows before grouping?",
+    "optionOne": "HAVING",
+    "optionTwo": "WHERE",
+    "optionThree": "GROUP BY",
+    "optionFour": "ORDER BY",
+    "correctAns": "WHERE",
+    "explanation": "The WHERE clause filters individual rows before grouping occurs. HAVING filters groups after aggregation, GROUP BY groups rows, and ORDER BY sorts results."
   },
   {
-    "quot": "Which methods should generally be overridden together when using a custom object as a key in a Java HashMap?",
-    "optionOne": "toString() and clone()",
-    "optionTwo": "equals() and hashCode()",
-    "optionThree": "compareTo() and hash()",
-    "optionFour": "get() and set()",
-    "correctAns": "equals() and hashCode()",
-    "explanation": "When using a custom object as a HashMap key, you must override both equals() and hashCode() to ensure correct retrieval and storage."
+    "quot": "What is a closure in JavaScript?",
+    "optionOne": "A way to close the browser window",
+    "optionTwo": "A function that has access to variables from its outer scope even after the outer function returns",
+    "optionThree": "A method to terminate a loop",
+    "optionFour": "A built-in function to end a callback",
+    "correctAns": "A function that has access to variables from its outer scope even after the outer function returns",
+    "explanation": "A closure is a function combined with its lexical environment. It allows an inner function to remember and access variables from its outer function even after the outer function has finished executing."
   },
   {
-    "quot": "Which SQL function returns the number of rows that match a specified criterion?",
-    "optionOne": "SUM()",
-    "optionTwo": "TOTAL()",
-    "optionThree": "COUNT()",
-    "optionFour": "NUM()",
-    "correctAns": "COUNT()",
-    "explanation": "The COUNT() function returns the number of rows that matches a specified criterion in a SQL query."
+    "quot": "Which of the following is a mutable data type in Python?",
+    "optionOne": "Tuple",
+    "optionTwo": "String",
+    "optionThree": "List",
+    "optionFour": "Frozenset",
+    "correctAns": "List",
+    "explanation": "Lists are mutable, meaning their contents can be changed after creation. Tuples, strings, and frozensets are immutable."
   },
   {
-    "quot": "Which access modifier makes a class member accessible only within its own class and by derived classes in C++?",
-    "optionOne": "public",
-    "optionTwo": "private",
-    "optionThree": "protected",
-    "optionFour": "internal",
-    "correctAns": "protected",
-    "explanation": "The 'protected' access modifier allows class members to be accessed within the class itself and by its subclasses (derived classes)."
+    "quot": "What is the average time complexity of quicksort?",
+    "optionOne": "O(n)",
+    "optionTwo": "O(n log n)",
+    "optionThree": "O(n^2)",
+    "optionFour": "O(log n)",
+    "correctAns": "O(n log n)",
+    "explanation": "Quicksort's average-case time complexity is O(n log n) because it partitions the array and recursively sorts each half. Its worst case is O(n^2) when the pivot is always the smallest or largest element."
   },
   {
-    "quot": "What does the `__init__` method do in a Python class?",
-    "optionOne": "It destroys an object",
-    "optionTwo": "It initializes the object's attributes when created",
-    "optionThree": "It imports a module",
-    "optionFour": "It defines a static method",
-    "correctAns": "It initializes the object's attributes when created",
-    "explanation": "The __init__ method is the constructor in Python, automatically called to initialize the object's attributes when a new instance is created."
+    "quot": "What does the `volatile` keyword do in Java?",
+    "optionOne": "Makes a variable immutable",
+    "optionTwo": "Ensures a variable is read from and written to main memory, not a thread's local cache",
+    "optionThree": "Allows a variable to change type at runtime",
+    "optionFour": "Prevents a method from being overridden",
+    "correctAns": "Ensures a variable is read from and written to main memory, not a thread's local cache",
+    "explanation": "The volatile keyword guarantees visibility of changes to variables across threads by forcing reads and writes to go to main memory, avoiding stale values in thread caches."
   },
   {
-    "quot": "Which ES6 feature allows extracting values from arrays or objects into distinct variables?",
-    "optionOne": "Spreading",
-    "optionTwo": "Destructuring",
-    "optionThree": "Mapping",
-    "optionFour": "Filtering",
-    "correctAns": "Destructuring",
-    "explanation": "Destructuring assignment is an ES6 feature that allows unpacking values from arrays or properties from objects into distinct variables."
+    "quot": "In a hash table, what is the average time complexity of lookup operations?",
+    "optionOne": "O(1)",
+    "optionTwo": "O(log n)",
+    "optionThree": "O(n)",
+    "optionFour": "O(n log n)",
+    "correctAns": "O(1)",
+    "explanation": "On average, hash tables provide O(1) constant time lookup because the hash function maps keys to bucket indices directly. Worst case is O(n) if many collisions occur."
   },
   {
-    "quot": "What is the default value of a boolean instance variable in Java?",
-    "optionOne": "true",
-    "optionTwo": "false",
-    "optionThree": "null",
-    "optionFour": "0",
-    "correctAns": "false",
-    "explanation": "In Java, the default value of a boolean instance variable is false. Local boolean variables do not have a default value and must be initialized."
+    "quot": "What is the difference between a process and a thread?",
+    "optionOne": "They are the same thing",
+    "optionTwo": "A process shares memory with other processes, while a thread does not",
+    "optionThree": "A thread shares memory with other threads in the same process, while processes have separate memory spaces",
+    "optionFour": "A process is always faster than a thread",
+    "correctAns": "A thread shares memory with other threads in the same process, while processes have separate memory spaces",
+    "explanation": "Processes are independent execution units with their own memory space. Threads within the same process share memory and resources, making context switching between threads faster."
   },
   {
-    "quot": "Which SQL statement is used to update existing records in a table?",
-    "optionOne": "MODIFY",
-    "optionTwo": "UPDATE",
-    "optionThree": "CHANGE",
-    "optionFour": "ALTER",
-    "correctAns": "UPDATE",
-    "explanation": "The UPDATE statement is used to modify the existing records in a table. ALTER is used to change the table structure."
+    "quot": "What is the purpose of the `final` keyword in Java when applied to a class?",
+    "optionOne": "The class cannot be instantiated",
+    "optionTwo": "The class cannot be extended or subclassed",
+    "optionThree": "The class's methods cannot return values",
+    "optionFour": "The class is automatically serializable",
+    "correctAns": "The class cannot be extended or subclassed",
+    "explanation": "Marking a class as final prevents other classes from inheriting from it. A common example is the String class in Java, which is final."
   },
   {
-    "quot": "Which keyword is used to allocate memory dynamically in C++?",
-    "optionOne": "alloc",
-    "optionTwo": "malloc",
-    "optionThree": "new",
-    "optionFour": "create",
-    "correctAns": "new",
-    "explanation": "In C++, the 'new' operator is used to allocate memory dynamically for an object or array on the heap."
+    "quot": "Which of the following correctly describes a deadlock?",
+    "optionOne": "A thread waits forever for a resource held by another thread that is also waiting",
+    "optionTwo": "A thread finishes execution before others",
+    "optionThree": "A process runs out of memory",
+    "optionFour": "A thread temporarily pauses execution",
+    "correctAns": "A thread waits forever for a resource held by another thread that is also waiting",
+    "explanation": "A deadlock occurs when two or more threads are blocked forever, each waiting for a resource held by another. It requires mutual exclusion, hold-and-wait, no preemption, and circular wait conditions."
+  },
+  {
+    "quot": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
+    "optionOne": "O(1)",
+    "optionTwo": "O(n)",
+    "optionThree": "O(log n)",
+    "optionFour": "O(n log n)",
+    "correctAns": "O(1)",
+    "explanation": "Inserting at the head of a linked list only requires updating the new node's next pointer and the head reference, which takes constant time regardless of the list size."
   }
 ]
