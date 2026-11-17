@@ -9,76 +9,49 @@
     "explanation": "Python source files are saved with the .py extension, which stands for Python."
   },
   {
-    "quot": "Which keyword is used to declare a constant variable in JavaScript?",
-    "optionOne": "var",
-    "optionTwo": "let",
-    "optionThree": "const",
-    "optionFour": "static",
-    "correctAns": "const",
-    "explanation": "The const keyword creates a read-only reference to a value. The variable cannot be reassigned after it is declared."
+    "quot": "Which keyword is used to define a function in Python?",
+    "optionOne": "func",
+    "optionTwo": "def",
+    "optionThree": "function",
+    "optionFour": "define",
+    "correctAns": "def",
+    "explanation": "The 'def' keyword is used to define a function in Python."
   },
   {
-    "quot": "What does HTML stand for?",
-    "optionOne": "Hyper Text Markup Language",
-    "optionTwo": "High Text Machine Language",
-    "optionThree": "Hyper Tabular Markup Language",
-    "optionFour": "Home Tool Markup Language",
-    "correctAns": "Hyper Text Markup Language",
-    "explanation": "HTML stands for Hyper Text Markup Language and is the standard markup language for creating web pages."
+    "quot": "What is the output of print(2 ** 3) in Python?",
+    "optionOne": "6",
+    "optionTwo": "8",
+    "optionThree": "9",
+    "optionFour": "5",
+    "correctAns": "8",
+    "explanation": "The ** operator performs exponentiation, so 2 ** 3 equals 8."
   },
   {
-    "quot": "What is the output of the following code: `len([1, 2, 3])` in Python?",
-    "optionOne": "2",
-    "optionTwo": "3",
-    "optionThree": "4",
-    "optionFour": "Error",
-    "correctAns": "3",
-    "explanation": "The len() function returns the number of items in a list. Since the list [1, 2, 3] has three elements, the output is 3."
+    "quot": "Which of the following is a mutable data type in Python?",
+    "optionOne": "tuple",
+    "optionTwo": "string",
+    "optionThree": "list",
+    "optionFour": "frozenset",
+    "correctAns": "list",
+    "explanation": "Lists are mutable, meaning their contents can be changed after creation, unlike tuples, strings, and frozensets."
   },
   {
-    "quot": "Which of the following is NOT a valid CSS selector?",
-    "optionOne": "#id",
-    "optionTwo": ".class",
-    "optionThree": "element",
-    "optionFour": "@element",
-    "correctAns": "@element",
-    "explanation": "@ is used for at-rules like @media or @font-face, not for selecting elements. Valid selectors use # for IDs, . for classes, and the element name directly."
+    "quot": "What does the len() function do in Python?",
+    "optionOne": "Returns the length of an object",
+    "optionTwo": "Converts an object to a list",
+    "optionThree": "Returns the last element",
+    "optionFour": "Deletes an object",
+    "correctAns": "Returns the length of an object",
+    "explanation": "len() returns the number of items in an object such as a string, list, or tuple."
   },
   {
-    "quot": "What is the correct way to write a single-line comment in Java?",
-    "optionOne": "<!-- comment -->",
-    "optionTwo": "# comment",
-    "optionThree": "// comment",
-    "optionFour": "/* comment */",
-    "correctAns": "// comment",
-    "explanation": "In Java, single-line comments start with two forward slashes (//). Block comments use /* */, and HTML comments use <!-- -->."
-  },
-  {
-    "quot": "What is the data type of the result of `10 / 2` in Python 3?",
-    "optionOne": "int",
-    "optionTwo": "float",
-    "optionThree": "str",
-    "optionFour": "bool",
-    "correctAns": "float",
-    "explanation": "In Python 3, the division operator (/) always returns a float, even if the result is a whole number. Use the floor division operator (//) to get an integer."
-  },
-  {
-    "quot": "What is the output of `typeof null` in JavaScript?",
-    "optionOne": "\"null\"",
-    "optionTwo": "\"object\"",
-    "optionThree": "\"undefined\"",
-    "optionFour": "null",
-    "correctAns": "\"object\"",
-    "explanation": "This is a well-known historical bug in JavaScript. typeof null returns \"object\" due to how the type tagging was originally implemented in the language."
-  },
-  {
-    "quot": "Which HTTP status code indicates that a resource was not found?",
-    "optionOne": "200",
-    "optionTwo": "301",
-    "optionThree": "404",
-    "optionFour": "500",
-    "correctAns": "404",
-    "explanation": "The 404 status code means the server could not find the requested resource. 200 means OK, 301 means moved permanently, and 500 means internal server error."
+    "quot": "Which data structure uses FIFO (First In, First Out) ordering?",
+    "optionOne": "Stack",
+    "optionTwo": "Queue",
+    "optionThree": "Tree",
+    "optionFour": "Graph",
+    "correctAns": "Queue",
+    "explanation": "A queue follows FIFO ordering, where the first element added is the first one removed."
   },
   {
     "quot": "What is the time complexity of binary search on a sorted array of n elements?",
@@ -87,105 +60,123 @@
     "optionThree": "O(log n)",
     "optionFour": "O(1)",
     "correctAns": "O(log n)",
-    "explanation": "Binary search halves the search space at each step, so the number of comparisons grows logarithmically with the size of the array, giving O(log n) time complexity."
+    "explanation": "Binary search halves the search space each iteration, giving O(log n) time complexity."
   },
   {
-    "quot": "In Python, what does the `__init__` method do?",
-    "optionOne": "Initializes the class itself",
-    "optionTwo": "Acts as a constructor for new objects",
-    "optionThree": "Destroys an object",
-    "optionFour": "Creates a module",
-    "correctAns": "Acts as a constructor for new objects",
-    "explanation": "__init__ is a special method called automatically when a new instance of a class is created. It initializes the object's attributes."
+    "quot": "In JavaScript, which keyword declares a block-scoped variable that cannot be reassigned?",
+    "optionOne": "var",
+    "optionTwo": "let",
+    "optionThree": "const",
+    "optionFour": "static",
+    "correctAns": "const",
+    "explanation": "The 'const' keyword declares a block-scoped variable whose value cannot be reassigned after initialization."
   },
   {
-    "quot": "Which SQL clause is used to filter rows before grouping?",
-    "optionOne": "HAVING",
-    "optionTwo": "WHERE",
-    "optionThree": "GROUP BY",
-    "optionFour": "ORDER BY",
-    "correctAns": "WHERE",
-    "explanation": "The WHERE clause filters individual rows before grouping occurs. HAVING filters groups after aggregation, GROUP BY groups rows, and ORDER BY sorts results."
+    "quot": "What is the result of 10 % 3 in most programming languages?",
+    "optionOne": "3",
+    "optionTwo": "1",
+    "optionThree": "0",
+    "optionFour": "3.33",
+    "correctAns": "1",
+    "explanation": "The modulo operator % returns the remainder of division. 10 divided by 3 leaves a remainder of 1."
   },
   {
-    "quot": "What is a closure in JavaScript?",
-    "optionOne": "A way to close the browser window",
-    "optionTwo": "A function that has access to variables from its outer scope even after the outer function returns",
-    "optionThree": "A method to terminate a loop",
-    "optionFour": "A built-in function to end a callback",
-    "correctAns": "A function that has access to variables from its outer scope even after the outer function returns",
-    "explanation": "A closure is a function combined with its lexical environment. It allows an inner function to remember and access variables from its outer function even after the outer function has finished executing."
+    "quot": "Which of the following is NOT a primitive data type in JavaScript?",
+    "optionOne": "string",
+    "optionTwo": "number",
+    "optionThree": "object",
+    "optionFour": "boolean",
+    "correctAns": "object",
+    "explanation": "In JavaScript, object is a reference type, while string, number, and boolean are primitive types."
   },
   {
-    "quot": "Which of the following is a mutable data type in Python?",
-    "optionOne": "Tuple",
-    "optionTwo": "String",
-    "optionThree": "List",
-    "optionFour": "Frozenset",
-    "correctAns": "List",
-    "explanation": "Lists are mutable, meaning their contents can be changed after creation. Tuples, strings, and frozensets are immutable."
+    "quot": "What does SQL stand for?",
+    "optionOne": "Structured Query Language",
+    "optionTwo": "Simple Query Language",
+    "optionThree": "Standard Question Language",
+    "optionFour": "Sequential Query Logic",
+    "correctAns": "Structured Query Language",
+    "explanation": "SQL stands for Structured Query Language, used for managing relational databases."
   },
   {
-    "quot": "What is the average time complexity of quicksort?",
-    "optionOne": "O(n)",
-    "optionTwo": "O(n log n)",
-    "optionThree": "O(n^2)",
-    "optionFour": "O(log n)",
-    "correctAns": "O(n log n)",
-    "explanation": "Quicksort's average-case time complexity is O(n log n) because it partitions the array and recursively sorts each half. Its worst case is O(n^2) when the pivot is always the smallest or largest element."
+    "quot": "Which sorting algorithm has the best average-case time complexity of O(n log n)?",
+    "optionOne": "Bubble Sort",
+    "optionTwo": "Merge Sort",
+    "optionThree": "Selection Sort",
+    "optionFour": "Insertion Sort",
+    "correctAns": "Merge Sort",
+    "explanation": "Merge Sort consistently runs in O(n log n) time, while the others have O(n²) average-case complexity."
   },
   {
-    "quot": "What does the `volatile` keyword do in Java?",
-    "optionOne": "Makes a variable immutable",
-    "optionTwo": "Ensures a variable is read from and written to main memory, not a thread's local cache",
-    "optionThree": "Allows a variable to change type at runtime",
-    "optionFour": "Prevents a method from being overridden",
-    "correctAns": "Ensures a variable is read from and written to main memory, not a thread's local cache",
-    "explanation": "The volatile keyword guarantees visibility of changes to variables across threads by forcing reads and writes to go to main memory, avoiding stale values in thread caches."
+    "quot": "What is a pointer in C?",
+    "optionOne": "A variable that stores a memory address",
+    "optionTwo": "A function that returns an integer",
+    "optionThree": "A reserved keyword for loops",
+    "optionFour": "A data type for strings",
+    "correctAns": "A variable that stores a memory address",
+    "explanation": "A pointer is a variable that holds the memory address of another variable."
   },
   {
-    "quot": "In a hash table, what is the average time complexity of lookup operations?",
-    "optionOne": "O(1)",
-    "optionTwo": "O(log n)",
-    "optionThree": "O(n)",
-    "optionFour": "O(n log n)",
-    "correctAns": "O(1)",
-    "explanation": "On average, hash tables provide O(1) constant time lookup because the hash function maps keys to bucket indices directly. Worst case is O(n) if many collisions occur."
+    "quot": "What is the output of the expression 3 + 4 * 2 in most programming languages?",
+    "optionOne": "14",
+    "optionTwo": "11",
+    "optionThree": "10",
+    "optionFour": "24",
+    "correctAns": "11",
+    "explanation": "Multiplication has higher precedence than addition, so 4 * 2 = 8, then 3 + 8 = 11."
   },
   {
-    "quot": "What is the difference between a process and a thread?",
-    "optionOne": "They are the same thing",
-    "optionTwo": "A process shares memory with other processes, while a thread does not",
-    "optionThree": "A thread shares memory with other threads in the same process, while processes have separate memory spaces",
-    "optionFour": "A process is always faster than a thread",
-    "correctAns": "A thread shares memory with other threads in the same process, while processes have separate memory spaces",
-    "explanation": "Processes are independent execution units with their own memory space. Threads within the same process share memory and resources, making context switching between threads faster."
+    "quot": "Which of the following is used to handle exceptions in Python?",
+    "optionOne": "try...catch",
+    "optionTwo": "try...except",
+    "optionThree": "do...while",
+    "optionFour": "if...else",
+    "correctAns": "try...except",
+    "explanation": "Python uses try...except blocks to catch and handle exceptions."
   },
   {
-    "quot": "What is the purpose of the `final` keyword in Java when applied to a class?",
-    "optionOne": "The class cannot be instantiated",
-    "optionTwo": "The class cannot be extended or subclassed",
-    "optionThree": "The class's methods cannot return values",
-    "optionFour": "The class is automatically serializable",
-    "correctAns": "The class cannot be extended or subclassed",
-    "explanation": "Marking a class as final prevents other classes from inheriting from it. A common example is the String class in Java, which is final."
-  },
-  {
-    "quot": "Which of the following correctly describes a deadlock?",
-    "optionOne": "A thread waits forever for a resource held by another thread that is also waiting",
-    "optionTwo": "A thread finishes execution before others",
-    "optionThree": "A process runs out of memory",
-    "optionFour": "A thread temporarily pauses execution",
-    "correctAns": "A thread waits forever for a resource held by another thread that is also waiting",
-    "explanation": "A deadlock occurs when two or more threads are blocked forever, each waiting for a resource held by another. It requires mutual exclusion, hold-and-wait, no preemption, and circular wait conditions."
-  },
-  {
-    "quot": "What is the time complexity of inserting a node at the beginning of a singly linked list?",
-    "optionOne": "O(1)",
-    "optionTwo": "O(n)",
+    "quot": "What is the worst-case time complexity of QuickSort?",
+    "optionOne": "O(n log n)",
+    "optionTwo": "O(n²)",
     "optionThree": "O(log n)",
-    "optionFour": "O(n log n)",
-    "correctAns": "O(1)",
-    "explanation": "Inserting at the head of a linked list only requires updating the new node's next pointer and the head reference, which takes constant time regardless of the list size."
+    "optionFour": "O(n)",
+    "correctAns": "O(n²)",
+    "explanation": "QuickSort degrades to O(n²) in the worst case, such as when the pivot is always the smallest or largest element."
+  },
+  {
+    "quot": "In object-oriented programming, what is encapsulation?",
+    "optionOne": "Bundling data and methods that operate on that data within a single unit",
+    "optionTwo": "Creating multiple instances of a class",
+    "optionThree": "Inheriting properties from a parent class",
+    "optionFour": "Overloading operators",
+    "correctAns": "Bundling data and methods that operate on that data within a single unit",
+    "explanation": "Encapsulation is the practice of bundling data and the methods that operate on it into a single unit, typically a class, while restricting direct access."
+  },
+  {
+    "quot": "What is the difference between a stack and a heap in memory management?",
+    "optionOne": "The stack is for dynamic allocation, the heap is for static allocation",
+    "optionTwo": "The stack stores local variables and function calls, the heap is used for dynamic memory allocation",
+    "optionThree": "The stack is slower than the heap",
+    "optionFour": "There is no difference",
+    "correctAns": "The stack stores local variables and function calls, the heap is used for dynamic memory allocation",
+    "explanation": "The stack manages automatic memory for local variables and function calls, while the heap is used for dynamically allocated memory."
+  },
+  {
+    "quot": "What is the purpose of the 'volatile' keyword in C?",
+    "optionOne": "To make a variable constant",
+    "optionTwo": "To tell the compiler the variable may change unexpectedly",
+    "optionThree": "To allocate memory dynamically",
+    "optionFour": "To define a global variable",
+    "correctAns": "To tell the compiler the variable may change unexpectedly",
+    "explanation": "The volatile keyword tells the compiler that a variable's value may change at any time, preventing certain optimizations."
+  },
+  {
+    "quot": "What is the output of the following pseudocode? x = 5; y = x++; print(y);",
+    "optionOne": "5",
+    "optionTwo": "6",
+    "optionThree": "4",
+    "optionFour": "0",
+    "correctAns": "5",
+    "explanation": "The post-increment operator x++ returns the original value of x (5) before incrementing, so y is assigned 5."
   }
 ]
