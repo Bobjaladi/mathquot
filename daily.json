@@ -9,174 +9,183 @@
     "explanation": "CSS (Cascading Style Sheets) is used to style and layout web pages, while HTML structures content and JavaScript adds interactivity."
   },
   {
-    "quot": "What does HTML stand for?",
-    "optionOne": "HyperText Markup Language",
-    "optionTwo": "HighText Machine Language",
-    "optionThree": "HyperTool Multi Language",
-    "optionFour": "Home Tool Markup Language",
-    "correctAns": "HyperText Markup Language",
-    "explanation": "HTML stands for HyperText Markup Language, the standard language for creating web pages."
-  },
-  {
-    "quot": "Which keyword is used to declare a constant variable in JavaScript?",
-    "optionOne": "const",
-    "optionTwo": "let",
-    "optionThree": "var",
-    "optionFour": "static",
-    "correctAns": "const",
-    "explanation": "The const keyword declares a block-scoped variable whose value cannot be reassigned. let and var are for mutable variables."
-  },
-  {
-    "quot": "In Java, which keyword is used to inherit a class?",
-    "optionOne": "extends",
-    "optionTwo": "implements",
-    "optionThree": "inherits",
-    "optionFour": "super",
-    "correctAns": "extends",
-    "explanation": "The extends keyword is used for class inheritance in Java. implements is used for interfaces, and super refers to the parent class."
-  },
-  {
-    "quot": "What is the time complexity of binary search?",
-    "optionOne": "O(log n)",
-    "optionTwo": "O(n)",
+    "quot": "What is the time complexity of binary search on a sorted array of n elements?",
+    "optionOne": "O(n)",
+    "optionTwo": "O(log n)",
     "optionThree": "O(n log n)",
     "optionFour": "O(1)",
     "correctAns": "O(log n)",
-    "explanation": "Binary search halves the search space each iteration, giving it O(log n) time complexity on a sorted array."
+    "explanation": "Binary search halves the search space on each iteration, so it takes O(log n) time. It requires the array to be sorted beforehand."
   },
   {
-    "quot": "Which SQL command is used to retrieve data from a database?",
-    "optionOne": "SELECT",
-    "optionTwo": "GET",
-    "optionThree": "FETCH",
-    "optionFour": "RETRIEVE",
-    "correctAns": "SELECT",
-    "explanation": "The SELECT statement is used to query and retrieve data from database tables in SQL."
+    "quot": "In object-oriented programming, what does encapsulation mean?",
+    "optionOne": "Creating multiple instances of a class",
+    "optionTwo": "Bundling data and methods that operate on that data within a single unit and restricting direct access",
+    "optionThree": "Deriving new classes from existing ones",
+    "optionFour": "Defining multiple methods with the same name but different parameters",
+    "correctAns": "Bundling data and methods that operate on that data within a single unit and restricting direct access",
+    "explanation": "Encapsulation wraps data (fields) and the methods that manipulate it into a class, exposing only what is necessary through access modifiers like private and public."
   },
   {
-    "quot": "Which data structure follows the First In, First Out (FIFO) principle?",
+    "quot": "What is a deadlock in concurrent programming?",
+    "optionOne": "A thread that finishes execution too quickly",
+    "optionTwo": "A situation where two or more threads are blocked forever, each waiting for a resource held by another",
+    "optionThree": "A memory leak caused by unused objects",
+    "optionFour": "A loop that never terminates due to a false condition",
+    "correctAns": "A situation where two or more threads are blocked forever, each waiting for a resource held by another",
+    "explanation": "Deadlock occurs when threads hold resources and wait for resources held by each other in a circular dependency, causing all of them to be blocked indefinitely."
+  },
+  {
+    "quot": "Which data structure uses the LIFO (Last In, First Out) principle?",
     "optionOne": "Queue",
     "optionTwo": "Stack",
-    "optionThree": "Tree",
-    "optionFour": "Graph",
-    "correctAns": "Queue",
-    "explanation": "A queue follows FIFO, where the first element added is the first removed. A stack follows LIFO (Last In, First Out)."
+    "optionThree": "Linked list",
+    "optionFour": "Heap",
+    "correctAns": "Stack",
+    "explanation": "A stack follows LIFO: the last element pushed is the first one popped. A queue follows FIFO (First In, First Out), and a heap is a partially ordered tree structure."
   },
   {
-    "quot": "In C++, which operator is used to access the value at a memory address?",
-    "optionOne": "*",
-    "optionTwo": "&",
-    "optionThree": "->",
-    "optionFour": ".",
-    "correctAns": "*",
-    "explanation": "The * operator is the dereference operator, used to access the value at a pointer's address. The & operator gets the address."
+    "quot": "What is the difference between a process and a thread?",
+    "optionOne": "Processes share memory; threads have separate memory",
+    "optionTwo": "Threads share the same memory space within a process, while processes have separate memory spaces",
+    "optionThree": "A thread can contain multiple processes",
+    "optionFour": "There is no difference; they are synonyms",
+    "correctAns": "Threads share the same memory space within a process, while processes have separate memory spaces",
+    "explanation": "A process is an independent execution unit with its own memory, while threads are lighter-weight units of execution within a process that share the process's memory and resources."
   },
   {
-    "quot": "Which of the following is NOT an object-oriented programming principle?",
-    "optionOne": "Compilation",
-    "optionTwo": "Encapsulation",
-    "optionThree": "Inheritance",
-    "optionFour": "Polymorphism",
-    "correctAns": "Compilation",
-    "explanation": "The core OOP principles are encapsulation, inheritance, polymorphism, and abstraction. Compilation is a build process, not an OOP principle."
+    "quot": "What does the 'final' keyword do when applied to a variable in Java?",
+    "optionOne": "Makes the variable static",
+    "optionTwo": "Prevents the variable's value from being reassigned after initialization",
+    "optionThree": "Makes the variable accessible only within its package",
+    "optionFour": "Automatically initializes the variable to null",
+    "correctAns": "Prevents the variable's value from being reassigned after initialization",
+    "explanation": "A final variable can be assigned only once. For objects, the reference cannot change, though the object's internal state may still be mutable."
   },
   {
-    "quot": "What does the acronym API stand for?",
-    "optionOne": "Application Programming Interface",
-    "optionTwo": "Applied Program Integration",
-    "optionThree": "Automated Process Interface",
-    "optionFour": "Application Process Integration",
-    "correctAns": "Application Programming Interface",
-    "explanation": "API stands for Application Programming Interface, a set of rules allowing different software applications to communicate."
+    "quot": "What is the purpose of a hash function in a hash table?",
+    "optionOne": "To sort the keys in ascending order",
+    "optionTwo": "To map keys to array indices for fast lookup",
+    "optionThree": "To compress the stored values",
+    "optionFour": "To encrypt the stored data",
+    "correctAns": "To map keys to array indices for fast lookup",
+    "explanation": "A hash function converts a key into an integer index within the table's array, enabling average O(1) insertion, deletion, and lookup. Collisions are handled separately."
   },
   {
-    "quot": "Which Git command is used to save changes to the local repository?",
-    "optionOne": "git commit",
-    "optionTwo": "git push",
-    "optionThree": "git pull",
-    "optionFour": "git clone",
-    "correctAns": "git commit",
-    "explanation": "git commit records changes to the local repository. git push uploads commits to a remote repository."
+    "quot": "Which of the following is NOT a principle of SOLID design?",
+    "optionOne": "Single Responsibility Principle",
+    "optionTwo": "Open/Closed Principle",
+    "optionThree": "Dependency Inversion Principle",
+    "optionFour": "Recursive Composition Principle",
+    "correctAns": "Recursive Composition Principle",
+    "explanation": "SOLID stands for Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. 'Recursive Composition' is not part of SOLID."
   },
   {
-    "quot": "In Python, what is the result of 7 // 2?",
-    "optionOne": "3",
-    "optionTwo": "3.5",
-    "optionThree": "4",
-    "optionFour": "1",
-    "correctAns": "3",
-    "explanation": "The // operator performs floor division, so 7 // 2 returns 3 (the quotient rounded down). The % operator returns the remainder."
+    "quot": "What is tail recursion?",
+    "optionOne": "Recursion that calls itself twice per invocation",
+    "optionTwo": "A recursive call that is the last operation performed before returning",
+    "optionThree": "Recursion that never terminates",
+    "optionFour": "Recursion that uses a stack data structure explicitly",
+    "correctAns": "A recursive call that is the last operation performed before returning",
+    "explanation": "In tail recursion, the recursive call is the final action of the function, allowing some compilers to optimize it into a loop and avoid growing the call stack."
   },
   {
-    "quot": "Which language is known for its use in statistical computing and data analysis?",
-    "optionOne": "R",
-    "optionTwo": "PHP",
-    "optionThree": "Ruby",
-    "optionFour": "Swift",
-    "correctAns": "R",
-    "explanation": "R is a programming language specifically designed for statistical computing, data analysis, and visualization."
+    "quot": "What is the difference between '==' and '.equals()' when comparing strings in Java?",
+    "optionOne": "Both compare string contents identically",
+    "optionTwo": "'==' compares references, while '.equals()' compares the actual string contents",
+    "optionThree": "'.equals()' compares references, while '==' compares contents",
+    "optionFour": "'==' is only valid for numbers",
+    "correctAns": "'==' compares references, while '.equals()' compares the actual string contents",
+    "explanation": "The == operator checks whether two references point to the same object, while String.equals() checks whether the character sequences are equal."
   },
   {
-    "quot": "What is the purpose of a constructor in object-oriented programming?",
-    "optionOne": "To initialize a newly created object",
-    "optionTwo": "To destroy an object",
-    "optionThree": "To copy an object",
-    "optionFour": "To compare two objects",
-    "correctAns": "To initialize a newly created object",
-    "explanation": "A constructor is a special method called when an object is instantiated, used to initialize its attributes."
-  },
-  {
-    "quot": "Which HTTP status code indicates 'Not Found'?",
-    "optionOne": "404",
-    "optionTwo": "200",
-    "optionThree": "500",
-    "optionFour": "301",
-    "correctAns": "404",
-    "explanation": "HTTP 404 means the requested resource was not found. 200 is OK, 500 is Internal Server Error, and 301 is a redirect."
-  },
-  {
-    "quot": "In C, which function is used to allocate memory dynamically?",
-    "optionOne": "malloc()",
-    "optionTwo": "alloc()",
-    "optionThree": "new()",
-    "optionFour": "create()",
-    "correctAns": "malloc()",
-    "explanation": "malloc() allocates a block of memory on the heap. In C++, the new operator is used for dynamic allocation."
-  },
-  {
-    "quot": "Which sorting algorithm has the best average-case time complexity of O(n log n)?",
-    "optionOne": "Merge sort",
-    "optionTwo": "Bubble sort",
+    "quot": "Which sorting algorithm has the best average-case time complexity of O(n log n) and is stable?",
+    "optionOne": "Quick sort",
+    "optionTwo": "Merge sort",
     "optionThree": "Selection sort",
-    "optionFour": "Insertion sort",
+    "optionFour": "Heap sort",
     "correctAns": "Merge sort",
-    "explanation": "Merge sort consistently runs in O(n log n). Bubble, selection, and insertion sorts have O(n²) average-case complexity."
+    "explanation": "Merge sort runs in O(n log n) in all cases and is stable. Quick sort is generally O(n log n) but unstable and O(n^2) in the worst case; heap sort is unstable."
   },
   {
-    "quot": "What is the primary purpose of a database index?",
-    "optionOne": "To speed up data retrieval",
-    "optionTwo": "To encrypt data",
-    "optionThree": "To back up data",
-    "optionFour": "To compress data",
-    "correctAns": "To speed up data retrieval",
-    "explanation": "An index improves the speed of SELECT queries by allowing the database to find rows faster, at the cost of extra storage and slower writes."
+    "quot": "What is a memory leak?",
+    "optionOne": "When memory is allocated but never freed, causing usage to grow over time",
+    "optionTwo": "When the CPU reads uninitialized memory",
+    "optionThree": "When a program accesses memory out of bounds",
+    "optionFour": "When the stack overflows due to deep recursion",
+    "correctAns": "When memory is allocated but never freed, causing usage to grow over time",
+    "explanation": "A memory leak occurs when allocated memory is no longer needed but is never released, gradually consuming available memory and potentially causing the program to crash."
   },
   {
-    "quot": "Which of the following is a NoSQL database?",
-    "optionOne": "MongoDB",
-    "optionTwo": "MySQL",
-    "optionThree": "PostgreSQL",
-    "optionFour": "Oracle",
-    "correctAns": "MongoDB",
-    "explanation": "MongoDB is a document-oriented NoSQL database. MySQL, PostgreSQL, and Oracle are relational (SQL) databases."
+    "quot": "In SQL, what does the JOIN operation do?",
+    "optionOne": "Combines rows from two or more tables based on a related column",
+    "optionTwo": "Deletes duplicate rows from a table",
+    "optionThree": "Sorts the result set",
+    "optionFour": "Creates a new database",
+    "correctAns": "Combines rows from two or more tables based on a related column",
+    "explanation": "JOIN combines rows from multiple tables using a matching condition between columns. Variants include INNER, LEFT, RIGHT, and FULL OUTER JOIN."
   },
   {
-    "quot": "What does the 'this' keyword refer to in JavaScript?",
-    "optionOne": "The object that is executing the current function",
-    "optionTwo": "The global window always",
-    "optionThree": "The parent class",
-    "optionFour": "The previous function",
-    "correctAns": "The object that is executing the current function",
-    "explanation": "In JavaScript, 'this' refers to the object context in which a function is called, which varies based on how the function is invoked."
+    "quot": "What is the purpose of the 'volatile' keyword in Java?",
+    "optionOne": "To make a variable immutable",
+    "optionTwo": "To ensure a variable's value is always read from and written to main memory across threads",
+    "optionThree": "To prevent a method from being overridden",
+    "optionFour": "To make a variable thread-local",
+    "correctAns": "To ensure a variable's value is always read from and written to main memory across threads",
+    "explanation": "The volatile keyword guarantees visibility of changes across threads by bypassing CPU caches, but it does not provide atomicity for compound operations."
+  },
+  {
+    "quot": "What is dynamic programming?",
+    "optionOne": "Writing programs that change their own source code at runtime",
+    "optionTwo": "An optimization technique that solves problems by breaking them into overlapping subproblems and storing results",
+    "optionThree": "A programming paradigm based on message passing",
+    "optionFour": "Compiling code at runtime rather than ahead of time",
+    "correctAns": "An optimization technique that solves problems by breaking them into overlapping subproblems and storing results",
+    "explanation": "Dynamic programming stores solutions to overlapping subproblems (memoization or tabulation) to avoid redundant computation, transforming exponential algorithms into polynomial ones."
+  },
+  {
+    "quot": "What does a 'race condition' mean in multithreaded code?",
+    "optionOne": "A loop that runs faster than expected",
+    "optionTwo": "A bug where the result depends on the unpredictable timing of thread execution",
+    "optionThree": "Two threads running on the same CPU core",
+    "optionFour": "A thread that never releases a lock",
+    "correctAns": "A bug where the result depends on the unpredictable timing of thread execution",
+    "explanation": "A race condition occurs when threads access shared data concurrently and the outcome depends on the order of execution, often leading to inconsistent or corrupted results."
+  },
+  {
+    "quot": "What is the difference between an abstract class and an interface in most OOP languages?",
+    "optionOne": "Interfaces can have state; abstract classes cannot",
+    "optionTwo": "An abstract class can have both implemented and abstract methods and instance state, while an interface typically defines a contract without instance state",
+    "optionThree": "Abstract classes cannot be inherited",
+    "optionFour": "Interfaces must be instantiated directly",
+    "correctAns": "An abstract class can have both implemented and abstract methods and instance state, while an interface typically defines a contract without instance state",
+    "explanation": "Abstract classes allow shared implementation and state for related classes. Interfaces define a contract that classes implement, and traditionally cannot hold instance state (though modern languages vary)."
+  },
+  {
+    "quot": "What is the space complexity of an algorithm that recursively computes the nth Fibonacci number without memoization?",
+    "optionOne": "O(1)",
+    "optionTwo": "O(log n)",
+    "optionThree": "O(n)",
+    "optionFour": "O(n^2)",
+    "correctAns": "O(n)",
+    "explanation": "The naive recursive Fibonacci uses O(n) stack space due to the maximum recursion depth, though its time complexity is exponential, O(2^n)."
+  },
+  {
+    "quot": "What is a closure in programming?",
+    "optionOne": "A function that takes no arguments",
+    "optionTwo": "A function that captures and retains access to variables from its enclosing scope even after that scope has exited",
+    "optionThree": "A block of code that runs only once",
+    "optionFour": "A method that closes a database connection",
+    "correctAns": "A function that captures and retains access to variables from its enclosing scope even after that scope has exited",
+    "explanation": "A closure bundles a function together with the lexical environment in which it was defined, allowing it to access outer variables later—common in languages like JavaScript and Python."
+  },
+  {
+    "quot": "Which of the following best describes a pure function?",
+    "optionOne": "A function that always returns the same output for the same input and has no side effects",
+    "optionTwo": "A function that modifies global state",
+    "optionThree": "A function that performs I/O operations",
+    "optionFour": "A function that randomly generates values",
+    "correctAns": "A function that always returns the same output for the same input and has no side effects",
+    "explanation": "A pure function is deterministic and free of side effects—it does not modify external state, perform I/O, or depend on mutable external data, which makes it easier to test and reason about."
   }
 ]
