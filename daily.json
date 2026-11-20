@@ -1,12 +1,12 @@
 [
   {
-    "quot": "Which language is primarily used for styling web pages?",
-    "optionOne": "CSS",
-    "optionTwo": "HTML",
-    "optionThree": "JavaScript",
-    "optionFour": "SQL",
-    "correctAns": "CSS",
-    "explanation": "CSS (Cascading Style Sheets) is used to style and layout web pages, while HTML structures content and JavaScript adds interactivity."
+    "quot": "Which data structure uses the FIFO (First In, First Out) principle?",
+    "optionOne": "Stack",
+    "optionTwo": "Queue",
+    "optionThree": "Tree",
+    "optionFour": "Graph",
+    "correctAns": "Queue",
+    "explanation": "A queue processes elements in the order they arrive, making it FIFO. A stack is LIFO (Last In, First Out), while trees and graphs are non-linear structures."
   },
   {
     "quot": "What is the time complexity of binary search on a sorted array of n elements?",
@@ -15,177 +15,168 @@
     "optionThree": "O(n log n)",
     "optionFour": "O(1)",
     "correctAns": "O(log n)",
-    "explanation": "Binary search halves the search space on each iteration, so it takes O(log n) time. It requires the array to be sorted beforehand."
+    "explanation": "Binary search halves the search space with each comparison, resulting in logarithmic time complexity O(log n)."
   },
   {
-    "quot": "In object-oriented programming, what does encapsulation mean?",
-    "optionOne": "Creating multiple instances of a class",
-    "optionTwo": "Bundling data and methods that operate on that data within a single unit and restricting direct access",
-    "optionThree": "Deriving new classes from existing ones",
-    "optionFour": "Defining multiple methods with the same name but different parameters",
-    "correctAns": "Bundling data and methods that operate on that data within a single unit and restricting direct access",
-    "explanation": "Encapsulation wraps data (fields) and the methods that manipulate it into a class, exposing only what is necessary through access modifiers like private and public."
+    "quot": "In object-oriented programming, which concept allows a subclass to provide a specific implementation of a method already defined in its superclass?",
+    "optionOne": "Overloading",
+    "optionTwo": "Overriding",
+    "optionThree": "Encapsulation",
+    "optionFour": "Abstraction",
+    "correctAns": "Overriding",
+    "explanation": "Method overriding lets a subclass redefine a superclass method with the same signature. Overloading involves multiple methods with the same name but different parameters."
+  },
+  {
+    "quot": "Which SQL clause is used to filter rows returned by a query?",
+    "optionOne": "GROUP BY",
+    "optionTwo": "ORDER BY",
+    "optionThree": "WHERE",
+    "optionFour": "HAVING",
+    "correctAns": "WHERE",
+    "explanation": "The WHERE clause filters individual rows before grouping. HAVING filters groups after GROUP BY, while ORDER BY sorts results."
+  },
+  {
+    "quot": "What does the 'static' keyword mean when applied to a method in Java?",
+    "optionOne": "The method can only be called once",
+    "optionTwo": "The method belongs to the class rather than any instance",
+    "optionThree": "The method cannot be overridden",
+    "optionFour": "The method runs on a separate thread",
+    "correctAns": "The method belongs to the class rather than any instance",
+    "explanation": "A static method is associated with the class itself and can be called without creating an object. It cannot access instance variables directly."
+  },
+  {
+    "quot": "Which of the following is NOT a valid HTTP method?",
+    "optionOne": "GET",
+    "optionTwo": "POST",
+    "optionThree": "SEND",
+    "optionFour": "DELETE",
+    "correctAns": "SEND",
+    "explanation": "Common HTTP methods include GET, POST, PUT, DELETE, PATCH, HEAD, and OPTIONS. 'SEND' is not a standard HTTP method."
+  },
+  {
+    "quot": "What is the output of the Python expression: 3 * 'ab'?",
+    "optionOne": "ababab",
+    "optionTwo": "3ab",
+    "optionThree": "Error",
+    "optionFour": "ab3",
+    "correctAns": "ababab",
+    "explanation": "In Python, multiplying a string by an integer repeats the string that many times, so 3 * 'ab' yields 'ababab'."
+  },
+  {
+    "quot": "Which normal form in database design eliminates transitive dependencies?",
+    "optionOne": "First Normal Form (1NF)",
+    "optionTwo": "Second Normal Form (2NF)",
+    "optionThree": "Third Normal Form (3NF)",
+    "optionFour": "Boyce-Codd Normal Form (BCNF)",
+    "correctAns": "Third Normal Form (3NF)",
+    "explanation": "3NF requires that a table be in 2NF and have no transitive dependencies (non-key attributes depending on other non-key attributes)."
+  },
+  {
+    "quot": "What is the primary purpose of a hash table?",
+    "optionOne": "To store elements in sorted order",
+    "optionTwo": "To provide fast key-value lookups",
+    "optionThree": "To traverse elements in insertion order",
+    "optionFour": "To compress data",
+    "correctAns": "To provide fast key-value lookups",
+    "explanation": "A hash table uses a hash function to map keys to buckets, enabling average-case O(1) insertion, deletion, and lookup."
+  },
+  {
+    "quot": "In Git, which command creates a new branch and switches to it in one step?",
+    "optionOne": "git branch -m",
+    "optionTwo": "git checkout -b",
+    "optionThree": "git merge -b",
+    "optionFour": "git clone -b",
+    "correctAns": "git checkout -b",
+    "explanation": "`git checkout -b <branch>` creates a new branch and immediately switches to it. The newer equivalent is `git switch -c <branch>`."
   },
   {
     "quot": "What is a deadlock in concurrent programming?",
     "optionOne": "A thread that finishes execution too quickly",
-    "optionTwo": "A situation where two or more threads are blocked forever, each waiting for a resource held by another",
-    "optionThree": "A memory leak caused by unused objects",
-    "optionFour": "A loop that never terminates due to a false condition",
-    "correctAns": "A situation where two or more threads are blocked forever, each waiting for a resource held by another",
-    "explanation": "Deadlock occurs when threads hold resources and wait for resources held by each other in a circular dependency, causing all of them to be blocked indefinitely."
+    "optionTwo": "Two or more threads waiting indefinitely for resources held by each other",
+    "optionThree": "A memory leak caused by garbage collection",
+    "optionFour": "A thread that runs on the main stack",
+    "correctAns": "Two or more threads waiting indefinitely for resources held by each other",
+    "explanation": "Deadlock occurs when threads form a circular wait on resources, so none can proceed. Prevention involves lock ordering or timeouts."
   },
   {
-    "quot": "Which data structure uses the LIFO (Last In, First Out) principle?",
-    "optionOne": "Queue",
-    "optionTwo": "Stack",
-    "optionThree": "Linked list",
-    "optionFour": "Heap",
-    "correctAns": "Stack",
-    "explanation": "A stack follows LIFO: the last element pushed is the first one popped. A queue follows FIFO (First In, First Out), and a heap is a partially ordered tree structure."
+    "quot": "Which of the following sorting algorithms has the best worst-case time complexity?",
+    "optionOne": "Quick Sort",
+    "optionTwo": "Bubble Sort",
+    "optionThree": "Merge Sort",
+    "optionFour": "Insertion Sort",
+    "correctAns": "Merge Sort",
+    "explanation": "Merge Sort guarantees O(n log n) in all cases, while Quick Sort degrades to O(n²) in the worst case and Bubble/Insertion Sort are O(n²)."
   },
   {
-    "quot": "What is the difference between a process and a thread?",
-    "optionOne": "Processes share memory; threads have separate memory",
-    "optionTwo": "Threads share the same memory space within a process, while processes have separate memory spaces",
-    "optionThree": "A thread can contain multiple processes",
-    "optionFour": "There is no difference; they are synonyms",
-    "correctAns": "Threads share the same memory space within a process, while processes have separate memory spaces",
-    "explanation": "A process is an independent execution unit with its own memory, while threads are lighter-weight units of execution within a process that share the process's memory and resources."
+    "quot": "What does the ACID acronym stand for in database transactions?",
+    "optionOne": "Atomicity, Consistency, Isolation, Durability",
+    "optionTwo": "Access, Control, Integrity, Data",
+    "optionThree": "Atomicity, Concurrency, Indexing, Durability",
+    "optionFour": "Aggregation, Consistency, Isolation, Distribution",
+    "correctAns": "Atomicity, Consistency, Isolation, Durability",
+    "explanation": "ACID properties ensure reliable transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent safety), Durability (persistence)."
   },
   {
-    "quot": "What does the 'final' keyword do when applied to a variable in Java?",
-    "optionOne": "Makes the variable static",
-    "optionTwo": "Prevents the variable's value from being reassigned after initialization",
-    "optionThree": "Makes the variable accessible only within its package",
-    "optionFour": "Automatically initializes the variable to null",
-    "correctAns": "Prevents the variable's value from being reassigned after initialization",
-    "explanation": "A final variable can be assigned only once. For objects, the reference cannot change, though the object's internal state may still be mutable."
+    "quot": "In JavaScript, what is the difference between '==' and '==='?",
+    "optionOne": "There is no difference",
+    "optionTwo": "'==' compares types, '===' does not",
+    "optionThree": "'==' performs type coercion, '===' compares value and type strictly",
+    "optionFour": "'===' only works on numbers",
+    "correctAns": "'==' performs type coercion, '===' compares value and type strictly",
+    "explanation": "The loose equality operator `==` coerces operands to a common type before comparing, while `===` (strict equality) requires both value and type to match."
   },
   {
-    "quot": "What is the purpose of a hash function in a hash table?",
-    "optionOne": "To sort the keys in ascending order",
-    "optionTwo": "To map keys to array indices for fast lookup",
-    "optionThree": "To compress the stored values",
-    "optionFour": "To encrypt the stored data",
-    "correctAns": "To map keys to array indices for fast lookup",
-    "explanation": "A hash function converts a key into an integer index within the table's array, enabling average O(1) insertion, deletion, and lookup. Collisions are handled separately."
-  },
-  {
-    "quot": "Which of the following is NOT a principle of SOLID design?",
-    "optionOne": "Single Responsibility Principle",
-    "optionTwo": "Open/Closed Principle",
-    "optionThree": "Dependency Inversion Principle",
-    "optionFour": "Recursive Composition Principle",
-    "correctAns": "Recursive Composition Principle",
-    "explanation": "SOLID stands for Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. 'Recursive Composition' is not part of SOLID."
-  },
-  {
-    "quot": "What is tail recursion?",
-    "optionOne": "Recursion that calls itself twice per invocation",
-    "optionTwo": "A recursive call that is the last operation performed before returning",
-    "optionThree": "Recursion that never terminates",
-    "optionFour": "Recursion that uses a stack data structure explicitly",
-    "correctAns": "A recursive call that is the last operation performed before returning",
-    "explanation": "In tail recursion, the recursive call is the final action of the function, allowing some compilers to optimize it into a loop and avoid growing the call stack."
-  },
-  {
-    "quot": "What is the difference between '==' and '.equals()' when comparing strings in Java?",
-    "optionOne": "Both compare string contents identically",
-    "optionTwo": "'==' compares references, while '.equals()' compares the actual string contents",
-    "optionThree": "'.equals()' compares references, while '==' compares contents",
-    "optionFour": "'==' is only valid for numbers",
-    "correctAns": "'==' compares references, while '.equals()' compares the actual string contents",
-    "explanation": "The == operator checks whether two references point to the same object, while String.equals() checks whether the character sequences are equal."
-  },
-  {
-    "quot": "Which sorting algorithm has the best average-case time complexity of O(n log n) and is stable?",
-    "optionOne": "Quick sort",
-    "optionTwo": "Merge sort",
-    "optionThree": "Selection sort",
-    "optionFour": "Heap sort",
-    "correctAns": "Merge sort",
-    "explanation": "Merge sort runs in O(n log n) in all cases and is stable. Quick sort is generally O(n log n) but unstable and O(n^2) in the worst case; heap sort is unstable."
-  },
-  {
-    "quot": "What is a memory leak?",
-    "optionOne": "When memory is allocated but never freed, causing usage to grow over time",
-    "optionTwo": "When the CPU reads uninitialized memory",
-    "optionThree": "When a program accesses memory out of bounds",
-    "optionFour": "When the stack overflows due to deep recursion",
-    "correctAns": "When memory is allocated but never freed, causing usage to grow over time",
-    "explanation": "A memory leak occurs when allocated memory is no longer needed but is never released, gradually consuming available memory and potentially causing the program to crash."
-  },
-  {
-    "quot": "In SQL, what does the JOIN operation do?",
-    "optionOne": "Combines rows from two or more tables based on a related column",
-    "optionTwo": "Deletes duplicate rows from a table",
-    "optionThree": "Sorts the result set",
-    "optionFour": "Creates a new database",
-    "correctAns": "Combines rows from two or more tables based on a related column",
-    "explanation": "JOIN combines rows from multiple tables using a matching condition between columns. Variants include INNER, LEFT, RIGHT, and FULL OUTER JOIN."
+    "quot": "Which design pattern ensures that a class has only one instance and provides a global point of access to it?",
+    "optionOne": "Factory Pattern",
+    "optionTwo": "Observer Pattern",
+    "optionThree": "Singleton Pattern",
+    "optionFour": "Decorator Pattern",
+    "correctAns": "Singleton Pattern",
+    "explanation": "The Singleton pattern restricts instantiation to one object and exposes a static method to retrieve that instance, often used for configuration or logging."
   },
   {
     "quot": "What is the purpose of the 'volatile' keyword in Java?",
     "optionOne": "To make a variable immutable",
-    "optionTwo": "To ensure a variable's value is always read from and written to main memory across threads",
-    "optionThree": "To prevent a method from being overridden",
-    "optionFour": "To make a variable thread-local",
-    "correctAns": "To ensure a variable's value is always read from and written to main memory across threads",
-    "explanation": "The volatile keyword guarantees visibility of changes across threads by bypassing CPU caches, but it does not provide atomicity for compound operations."
+    "optionTwo": "To ensure visibility of changes across threads",
+    "optionThree": "To improve garbage collection",
+    "optionFour": "To serialize objects",
+    "correctAns": "To ensure visibility of changes across threads",
+    "explanation": "`volatile` guarantees that reads and writes of a variable go to main memory, ensuring one thread's changes are visible to others. It does not provide atomicity."
   },
   {
-    "quot": "What is dynamic programming?",
-    "optionOne": "Writing programs that change their own source code at runtime",
-    "optionTwo": "An optimization technique that solves problems by breaking them into overlapping subproblems and storing results",
-    "optionThree": "A programming paradigm based on message passing",
-    "optionFour": "Compiling code at runtime rather than ahead of time",
-    "correctAns": "An optimization technique that solves problems by breaking them into overlapping subproblems and storing results",
-    "explanation": "Dynamic programming stores solutions to overlapping subproblems (memoization or tabulation) to avoid redundant computation, transforming exponential algorithms into polynomial ones."
+    "quot": "Which of the following is an example of a NoSQL database?",
+    "optionOne": "PostgreSQL",
+    "optionTwo": "MySQL",
+    "optionThree": "MongoDB",
+    "optionFour": "Oracle Database",
+    "correctAns": "MongoDB",
+    "explanation": "MongoDB is a document-oriented NoSQL database. PostgreSQL, MySQL, and Oracle are relational (SQL) databases."
   },
   {
-    "quot": "What does a 'race condition' mean in multithreaded code?",
-    "optionOne": "A loop that runs faster than expected",
-    "optionTwo": "A bug where the result depends on the unpredictable timing of thread execution",
-    "optionThree": "Two threads running on the same CPU core",
-    "optionFour": "A thread that never releases a lock",
-    "correctAns": "A bug where the result depends on the unpredictable timing of thread execution",
-    "explanation": "A race condition occurs when threads access shared data concurrently and the outcome depends on the order of execution, often leading to inconsistent or corrupted results."
+    "quot": "What is tail recursion?",
+    "optionOne": "Recursion that calls itself twice",
+    "optionTwo": "Recursion where the recursive call is the last operation in the function",
+    "optionThree": "Recursion that never terminates",
+    "optionFour": "Recursion that uses a stack explicitly",
+    "correctAns": "Recursion where the recursive call is the last operation in the function",
+    "explanation": "In tail recursion, the recursive call is the final action, allowing compilers to optimize it into iteration and avoid growing the call stack."
   },
   {
-    "quot": "What is the difference between an abstract class and an interface in most OOP languages?",
-    "optionOne": "Interfaces can have state; abstract classes cannot",
-    "optionTwo": "An abstract class can have both implemented and abstract methods and instance state, while an interface typically defines a contract without instance state",
-    "optionThree": "Abstract classes cannot be inherited",
-    "optionFour": "Interfaces must be instantiated directly",
-    "correctAns": "An abstract class can have both implemented and abstract methods and instance state, while an interface typically defines a contract without instance state",
-    "explanation": "Abstract classes allow shared implementation and state for related classes. Interfaces define a contract that classes implement, and traditionally cannot hold instance state (though modern languages vary)."
+    "quot": "In RESTful API design, which HTTP status code indicates that a resource was successfully created?",
+    "optionOne": "200 OK",
+    "optionTwo": "201 Created",
+    "optionThree": "204 No Content",
+    "optionFour": "301 Moved Permanently",
+    "correctAns": "201 Created",
+    "explanation": "201 Created is returned when a request results in a new resource being created, often with a Location header pointing to it. 200 is generic success, 204 means no body."
   },
   {
-    "quot": "What is the space complexity of an algorithm that recursively computes the nth Fibonacci number without memoization?",
-    "optionOne": "O(1)",
-    "optionTwo": "O(log n)",
-    "optionThree": "O(n)",
-    "optionFour": "O(n^2)",
-    "correctAns": "O(n)",
-    "explanation": "The naive recursive Fibonacci uses O(n) stack space due to the maximum recursion depth, though its time complexity is exponential, O(2^n)."
-  },
-  {
-    "quot": "What is a closure in programming?",
-    "optionOne": "A function that takes no arguments",
-    "optionTwo": "A function that captures and retains access to variables from its enclosing scope even after that scope has exited",
-    "optionThree": "A block of code that runs only once",
-    "optionFour": "A method that closes a database connection",
-    "correctAns": "A function that captures and retains access to variables from its enclosing scope even after that scope has exited",
-    "explanation": "A closure bundles a function together with the lexical environment in which it was defined, allowing it to access outer variables later—common in languages like JavaScript and Python."
-  },
-  {
-    "quot": "Which of the following best describes a pure function?",
-    "optionOne": "A function that always returns the same output for the same input and has no side effects",
-    "optionTwo": "A function that modifies global state",
-    "optionThree": "A function that performs I/O operations",
-    "optionFour": "A function that randomly generates values",
-    "correctAns": "A function that always returns the same output for the same input and has no side effects",
-    "explanation": "A pure function is deterministic and free of side effects—it does not modify external state, perform I/O, or depend on mutable external data, which makes it easier to test and reason about."
+    "quot": "What is the main advantage of using a B-tree over a binary search tree for database indexing?",
+    "optionOne": "B-trees use less memory",
+    "optionTwo": "B-trees have a lower height, reducing disk I/O",
+    "optionThree": "B-trees support only integer keys",
+    "optionFour": "B-trees are always balanced but simpler to implement",
+    "correctAns": "B-trees have a lower height, reducing disk I/O",
+    "explanation": "B-trees store multiple keys per node, resulting in a shallower tree and fewer disk accesses, which is critical for database and filesystem performance."
   }
 ]
