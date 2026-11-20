@@ -1,182 +1,182 @@
 [
   {
-    "quot": "Which data structure uses the FIFO (First In, First Out) principle?",
-    "optionOne": "Stack",
-    "optionTwo": "Queue",
-    "optionThree": "Tree",
-    "optionFour": "Graph",
-    "correctAns": "Queue",
-    "explanation": "A queue processes elements in the order they arrive, making it FIFO. A stack is LIFO (Last In, First Out), while trees and graphs are non-linear structures."
+    "quot": "What is the average and worst-case time complexity of the Merge Sort algorithm?",
+    "optionOne": "O(n log n)",
+    "optionTwo": "O(n^2)",
+    "optionThree": "O(n)",
+    "optionFour": "O(log n)",
+    "correctAns": "O(n log n)",
+    "explanation": "Merge sort divides the array into halves recursively and merges them, resulting in O(n log n) for both average and worst-case scenarios."
   },
   {
-    "quot": "What is the time complexity of binary search on a sorted array of n elements?",
-    "optionOne": "O(n)",
+    "quot": "In a B+ tree, where are all the actual data records stored?",
+    "optionOne": "In the root node only",
+    "optionTwo": "In both internal and leaf nodes",
+    "optionThree": "Only in the leaf nodes",
+    "optionFour": "In the internal nodes",
+    "correctAns": "Only in the leaf nodes",
+    "explanation": "Unlike B-trees, B+ trees store all data records exclusively in the leaf nodes, while internal nodes only contain keys for navigation."
+  },
+  {
+    "quot": "Which design pattern ensures a class has only one instance and provides a global point of access to it?",
+    "optionOne": "Factory Method",
+    "optionTwo": "Singleton",
+    "optionThree": "Observer",
+    "optionFour": "Adapter",
+    "correctAns": "Singleton",
+    "explanation": "The Singleton pattern restricts the instantiation of a class to one object and provides a global access point to that instance."
+  },
+  {
+    "quot": "Why does Dijkstra's algorithm fail on graphs with negative edge weights?",
+    "optionOne": "It requires a priority queue which cannot handle negative numbers.",
+    "optionTwo": "It assumes that adding an edge always increases the path length, which negative weights violate.",
+    "optionThree": "It only works on directed acyclic graphs.",
+    "optionFour": "It cannot process vertices with an in-degree greater than one.",
+    "correctAns": "It assumes that adding an edge always increases the path length, which negative weights violate.",
+    "explanation": "Dijkstra's greedy approach assumes that once a node is visited, its shortest path is found. Negative edges can create shorter paths later, breaking this assumption."
+  },
+  {
+    "quot": "In the context of database transactions, what does the 'I' in ACID stand for?",
+    "optionOne": "Integrity",
+    "optionTwo": "Isolation",
+    "optionThree": "Immutability",
+    "optionFour": "Indexing",
+    "correctAns": "Isolation",
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Isolation ensures that concurrent transactions do not interfere with each other."
+  },
+  {
+    "quot": "Which of the following is NOT one of the four necessary conditions for a deadlock to occur?",
+    "optionOne": "Mutual Exclusion",
+    "optionTwo": "Hold and Wait",
+    "optionThree": "Preemption",
+    "optionFour": "Circular Wait",
+    "correctAns": "Preemption",
+    "explanation": "The four conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Preemption (the ability to take resources away) actually prevents deadlocks."
+  },
+  {
+    "quot": "What type of polymorphism is achieved through method overloading in languages like Java or C++?",
+    "optionOne": "Dynamic polymorphism",
+    "optionTwo": "Compile-time polymorphism",
+    "optionThree": "Runtime polymorphism",
+    "optionFour": "Subtype polymorphism",
+    "correctAns": "Compile-time polymorphism",
+    "explanation": "Method overloading is resolved at compile time based on the method signature, making it a form of compile-time (or static) polymorphism."
+  },
+  {
+    "quot": "In garbage collection, what is the primary purpose of the 'Mark and Sweep' algorithm?",
+    "optionOne": "To defragment the heap memory.",
+    "optionTwo": "To identify and reclaim memory occupied by objects that are no longer reachable.",
+    "optionThree": "To allocate memory for new objects using a buddy system.",
+    "optionFour": "To compile bytecode into machine code.",
+    "correctAns": "To identify and reclaim memory occupied by objects that are no longer reachable.",
+    "explanation": "The Mark phase identifies reachable objects, and the Sweep phase reclaims memory from unmarked (unreachable) objects."
+  },
+  {
+    "quot": "Which of the following network protocols provides reliable, ordered, and error-checked delivery of a stream of bytes?",
+    "optionOne": "UDP",
+    "optionTwo": "IP",
+    "optionThree": "TCP",
+    "optionFour": "ICMP",
+    "correctAns": "TCP",
+    "explanation": "Transmission Control Protocol (TCP) is connection-oriented and ensures reliable, ordered delivery, unlike UDP which is connectionless and unreliable."
+  },
+  {
+    "quot": "If an NP-Complete problem can be solved in polynomial time, what can be concluded?",
+    "optionOne": "P = NP",
+    "optionTwo": "P != NP",
+    "optionThree": "All NP problems become NP-Hard.",
+    "optionFour": "The problem is no longer in NP.",
+    "correctAns": "P = NP",
+    "explanation": "Since every problem in NP can be reduced to an NP-Complete problem in polynomial time, solving one NP-Complete problem in polynomial time implies all NP problems can be solved in polynomial time."
+  },
+  {
+    "quot": "Which load balancing algorithm routes traffic to the server with the fewest active connections?",
+    "optionOne": "Round Robin",
+    "optionTwo": "Least Connections",
+    "optionThree": "IP Hash",
+    "optionFour": "Weighted Round Robin",
+    "correctAns": "Least Connections",
+    "explanation": "The Least Connections algorithm directs new requests to the server that currently has the lowest number of active connections, balancing the load based on current activity."
+  },
+  {
+    "quot": "In a hash table using separate chaining, what is the worst-case time complexity for a search operation?",
+    "optionOne": "O(1)",
     "optionTwo": "O(log n)",
-    "optionThree": "O(n log n)",
-    "optionFour": "O(1)",
-    "correctAns": "O(log n)",
-    "explanation": "Binary search halves the search space with each comparison, resulting in logarithmic time complexity O(log n)."
+    "optionThree": "O(n)",
+    "optionFour": "O(n log n)",
+    "correctAns": "O(n)",
+    "explanation": "If all keys hash to the same index, the hash table degenerates into a linked list, making the worst-case search time O(n)."
   },
   {
-    "quot": "In object-oriented programming, which concept allows a subclass to provide a specific implementation of a method already defined in its superclass?",
-    "optionOne": "Overloading",
-    "optionTwo": "Overriding",
-    "optionThree": "Encapsulation",
-    "optionFour": "Abstraction",
-    "correctAns": "Overriding",
-    "explanation": "Method overriding lets a subclass redefine a superclass method with the same signature. Overloading involves multiple methods with the same name but different parameters."
+    "quot": "Which Git command is used to integrate a specific commit from one branch into the current branch without merging the entire branch history?",
+    "optionOne": "git merge",
+    "optionTwo": "git rebase",
+    "optionThree": "git cherry-pick",
+    "optionFour": "git reset",
+    "correctAns": "git cherry-pick",
+    "explanation": "`git cherry-pick` applies the changes introduced by some existing commits on one branch to the current branch, without merging the whole branch."
   },
   {
-    "quot": "Which SQL clause is used to filter rows returned by a query?",
-    "optionOne": "GROUP BY",
-    "optionTwo": "ORDER BY",
-    "optionThree": "WHERE",
-    "optionFour": "HAVING",
-    "correctAns": "WHERE",
-    "explanation": "The WHERE clause filters individual rows before grouping. HAVING filters groups after GROUP BY, while ORDER BY sorts results."
+    "quot": "According to the CAP theorem, a distributed data store can simultaneously provide only two out of which three guarantees?",
+    "optionOne": "Consistency, Availability, Partition tolerance",
+    "optionTwo": "Concurrency, Atomicity, Persistence",
+    "optionThree": "Consistency, Availability, Performance",
+    "optionFour": "Caching, Availability, Partition tolerance",
+    "correctAns": "Consistency, Availability, Partition tolerance",
+    "explanation": "The CAP theorem states that a distributed system can only guarantee two of the following three: Consistency, Availability, and Partition Tolerance."
   },
   {
-    "quot": "What does the 'static' keyword mean when applied to a method in Java?",
-    "optionOne": "The method can only be called once",
-    "optionTwo": "The method belongs to the class rather than any instance",
-    "optionThree": "The method cannot be overridden",
-    "optionFour": "The method runs on a separate thread",
-    "correctAns": "The method belongs to the class rather than any instance",
-    "explanation": "A static method is associated with the class itself and can be called without creating an object. It cannot access instance variables directly."
+    "quot": "Which of the following is an example of an asymmetric encryption algorithm?",
+    "optionOne": "AES",
+    "optionTwo": "DES",
+    "optionThree": "RSA",
+    "optionFour": "Blowfish",
+    "correctAns": "RSA",
+    "explanation": "RSA is an asymmetric algorithm that uses a public/private key pair, whereas AES, DES, and Blowfish are symmetric encryption algorithms."
   },
   {
-    "quot": "Which of the following is NOT a valid HTTP method?",
-    "optionOne": "GET",
-    "optionTwo": "POST",
-    "optionThree": "SEND",
-    "optionFour": "DELETE",
-    "correctAns": "SEND",
-    "explanation": "Common HTTP methods include GET, POST, PUT, DELETE, PATCH, HEAD, and OPTIONS. 'SEND' is not a standard HTTP method."
+    "quot": "What phenomenon occurs when a computer's virtual memory subsystem is in a constant state of paging, rapidly exchanging data in memory for data on disk?",
+    "optionOne": "Deadlock",
+    "optionTwo": "Thrashing",
+    "optionThree": "Fragmentation",
+    "optionFour": "Starvation",
+    "correctAns": "Thrashing",
+    "explanation": "Thrashing occurs when the OS spends more time paging (swapping memory pages in and out) than executing processes, severely degrading performance."
   },
   {
-    "quot": "What is the output of the Python expression: 3 * 'ab'?",
-    "optionOne": "ababab",
-    "optionTwo": "3ab",
-    "optionThree": "Error",
-    "optionFour": "ab3",
-    "correctAns": "ababab",
-    "explanation": "In Python, multiplying a string by an integer repeats the string that many times, so 3 * 'ab' yields 'ababab'."
+    "quot": "Which of the following formal languages can be recognized by a Finite Automaton?",
+    "optionOne": "Context-free languages",
+    "optionTwo": "Regular languages",
+    "optionThree": "Context-sensitive languages",
+    "optionFour": "Recursively enumerable languages",
+    "correctAns": "Regular languages",
+    "explanation": "Finite Automata (both DFA and NFA) are exactly capable of recognizing Regular languages, which are the simplest class in the Chomsky hierarchy."
   },
   {
-    "quot": "Which normal form in database design eliminates transitive dependencies?",
-    "optionOne": "First Normal Form (1NF)",
-    "optionTwo": "Second Normal Form (2NF)",
-    "optionThree": "Third Normal Form (3NF)",
-    "optionFour": "Boyce-Codd Normal Form (BCNF)",
-    "correctAns": "Third Normal Form (3NF)",
-    "explanation": "3NF requires that a table be in 2NF and have no transitive dependencies (non-key attributes depending on other non-key attributes)."
+    "quot": "What is the primary difference between dynamic programming and divide and conquer?",
+    "optionOne": "Dynamic programming uses recursion, while divide and conquer does not.",
+    "optionTwo": "Divide and conquer solves overlapping subproblems, while dynamic programming solves independent subproblems.",
+    "optionThree": "Dynamic programming solves overlapping subproblems and stores their results, while divide and conquer solves independent subproblems.",
+    "optionFour": "There is no difference; they are just different names for the same technique.",
+    "correctAns": "Dynamic programming solves overlapping subproblems and stores their results, while divide and conquer solves independent subproblems.",
+    "explanation": "Dynamic programming memoizes solutions to overlapping subproblems to avoid redundant calculations, whereas divide and conquer (like Merge Sort) solves independent subproblems."
   },
   {
-    "quot": "What is the primary purpose of a hash table?",
-    "optionOne": "To store elements in sorted order",
-    "optionTwo": "To provide fast key-value lookups",
-    "optionThree": "To traverse elements in insertion order",
-    "optionFour": "To compress data",
-    "correctAns": "To provide fast key-value lookups",
-    "explanation": "A hash table uses a hash function to map keys to buckets, enabling average-case O(1) insertion, deletion, and lookup."
+    "quot": "Which SQL join returns all records from the left table, and the matched records from the right table, returning NULL for right table records if there is no match?",
+    "optionOne": "INNER JOIN",
+    "optionTwo": "RIGHT JOIN",
+    "optionThree": "LEFT JOIN",
+    "optionFour": "FULL OUTER JOIN",
+    "correctAns": "LEFT JOIN",
+    "explanation": "A LEFT JOIN (or LEFT OUTER JOIN) returns all rows from the left table and the matching rows from the right table. Unmatched right side rows appear as NULL."
   },
   {
-    "quot": "In Git, which command creates a new branch and switches to it in one step?",
-    "optionOne": "git branch -m",
-    "optionTwo": "git checkout -b",
-    "optionThree": "git merge -b",
-    "optionFour": "git clone -b",
-    "correctAns": "git checkout -b",
-    "explanation": "`git checkout -b <branch>` creates a new branch and immediately switches to it. The newer equivalent is `git switch -c <branch>`."
-  },
-  {
-    "quot": "What is a deadlock in concurrent programming?",
-    "optionOne": "A thread that finishes execution too quickly",
-    "optionTwo": "Two or more threads waiting indefinitely for resources held by each other",
-    "optionThree": "A memory leak caused by garbage collection",
-    "optionFour": "A thread that runs on the main stack",
-    "correctAns": "Two or more threads waiting indefinitely for resources held by each other",
-    "explanation": "Deadlock occurs when threads form a circular wait on resources, so none can proceed. Prevention involves lock ordering or timeouts."
-  },
-  {
-    "quot": "Which of the following sorting algorithms has the best worst-case time complexity?",
-    "optionOne": "Quick Sort",
-    "optionTwo": "Bubble Sort",
-    "optionThree": "Merge Sort",
-    "optionFour": "Insertion Sort",
-    "correctAns": "Merge Sort",
-    "explanation": "Merge Sort guarantees O(n log n) in all cases, while Quick Sort degrades to O(n²) in the worst case and Bubble/Insertion Sort are O(n²)."
-  },
-  {
-    "quot": "What does the ACID acronym stand for in database transactions?",
-    "optionOne": "Atomicity, Consistency, Isolation, Durability",
-    "optionTwo": "Access, Control, Integrity, Data",
-    "optionThree": "Atomicity, Concurrency, Indexing, Durability",
-    "optionFour": "Aggregation, Consistency, Isolation, Distribution",
-    "correctAns": "Atomicity, Consistency, Isolation, Durability",
-    "explanation": "ACID properties ensure reliable transactions: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent safety), Durability (persistence)."
-  },
-  {
-    "quot": "In JavaScript, what is the difference between '==' and '==='?",
-    "optionOne": "There is no difference",
-    "optionTwo": "'==' compares types, '===' does not",
-    "optionThree": "'==' performs type coercion, '===' compares value and type strictly",
-    "optionFour": "'===' only works on numbers",
-    "correctAns": "'==' performs type coercion, '===' compares value and type strictly",
-    "explanation": "The loose equality operator `==` coerces operands to a common type before comparing, while `===` (strict equality) requires both value and type to match."
-  },
-  {
-    "quot": "Which design pattern ensures that a class has only one instance and provides a global point of access to it?",
-    "optionOne": "Factory Pattern",
-    "optionTwo": "Observer Pattern",
+    "quot": "In a microservices architecture, what pattern is commonly used to manage distributed transactions across multiple services to ensure eventual consistency?",
+    "optionOne": "Two-Phase Commit (2PC)",
+    "optionTwo": "Saga Pattern",
     "optionThree": "Singleton Pattern",
-    "optionFour": "Decorator Pattern",
-    "correctAns": "Singleton Pattern",
-    "explanation": "The Singleton pattern restricts instantiation to one object and exposes a static method to retrieve that instance, often used for configuration or logging."
-  },
-  {
-    "quot": "What is the purpose of the 'volatile' keyword in Java?",
-    "optionOne": "To make a variable immutable",
-    "optionTwo": "To ensure visibility of changes across threads",
-    "optionThree": "To improve garbage collection",
-    "optionFour": "To serialize objects",
-    "correctAns": "To ensure visibility of changes across threads",
-    "explanation": "`volatile` guarantees that reads and writes of a variable go to main memory, ensuring one thread's changes are visible to others. It does not provide atomicity."
-  },
-  {
-    "quot": "Which of the following is an example of a NoSQL database?",
-    "optionOne": "PostgreSQL",
-    "optionTwo": "MySQL",
-    "optionThree": "MongoDB",
-    "optionFour": "Oracle Database",
-    "correctAns": "MongoDB",
-    "explanation": "MongoDB is a document-oriented NoSQL database. PostgreSQL, MySQL, and Oracle are relational (SQL) databases."
-  },
-  {
-    "quot": "What is tail recursion?",
-    "optionOne": "Recursion that calls itself twice",
-    "optionTwo": "Recursion where the recursive call is the last operation in the function",
-    "optionThree": "Recursion that never terminates",
-    "optionFour": "Recursion that uses a stack explicitly",
-    "correctAns": "Recursion where the recursive call is the last operation in the function",
-    "explanation": "In tail recursion, the recursive call is the final action, allowing compilers to optimize it into iteration and avoid growing the call stack."
-  },
-  {
-    "quot": "In RESTful API design, which HTTP status code indicates that a resource was successfully created?",
-    "optionOne": "200 OK",
-    "optionTwo": "201 Created",
-    "optionThree": "204 No Content",
-    "optionFour": "301 Moved Permanently",
-    "correctAns": "201 Created",
-    "explanation": "201 Created is returned when a request results in a new resource being created, often with a Location header pointing to it. 200 is generic success, 204 means no body."
-  },
-  {
-    "quot": "What is the main advantage of using a B-tree over a binary search tree for database indexing?",
-    "optionOne": "B-trees use less memory",
-    "optionTwo": "B-trees have a lower height, reducing disk I/O",
-    "optionThree": "B-trees support only integer keys",
-    "optionFour": "B-trees are always balanced but simpler to implement",
-    "correctAns": "B-trees have a lower height, reducing disk I/O",
-    "explanation": "B-trees store multiple keys per node, resulting in a shallower tree and fewer disk accesses, which is critical for database and filesystem performance."
+    "optionFour": "Publish-Subscribe Pattern",
+    "correctAns": "Saga Pattern",
+    "explanation": "The Saga pattern manages data consistency across microservices in distributed transaction scenarios by coordinating a sequence of local transactions and compensating actions."
   }
 ]
