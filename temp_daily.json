@@ -1,182 +1,118 @@
-[
   {
-    "quot": "What is the average and worst-case time complexity of the Merge Sort algorithm?",
-    "optionOne": "O(n log n)",
-    "optionTwo": "O(n^2)",
-    "optionThree": "O(n)",
-    "optionFour": "O(log n)",
-    "correctAns": "O(n log n)",
-    "explanation": "Merge sort divides the array into halves recursively and merges them, resulting in O(n log n) for both average and worst-case scenarios."
+    "quot": "Which algorithm is commonly used to find shortest paths from one source in a graph with non-negative edge weights?",
+    "optionOne": "Kruskal's Algorithm",
+    "optionTwo": "Dijkstra's Algorithm",
+    "optionThree": "Merge Sort",
+    "optionFour": "Binary Search",
+    "correctAns": "Dijkstra's Algorithm",
+    "explanation": "Dijkstra's algorithm computes shortest paths from a source vertex when all edge weights are non-negative."
   },
   {
-    "quot": "In a B+ tree, where are all the actual data records stored?",
-    "optionOne": "In the root node only",
-    "optionTwo": "In both internal and leaf nodes",
-    "optionThree": "Only in the leaf nodes",
-    "optionFour": "In the internal nodes",
-    "correctAns": "Only in the leaf nodes",
-    "explanation": "Unlike B-trees, B+ trees store all data records exclusively in the leaf nodes, while internal nodes only contain keys for navigation."
+    "quot": "Which language is primarily used to style web pages?",
+    "optionOne": "HTML",
+    "optionTwo": "CSS",
+    "optionThree": "SQL",
+    "optionFour": "C",
+    "correctAns": "CSS",
+    "explanation": "CSS controls the visual presentation of web pages, including colors, fonts, spacing, and layout."
   },
   {
-    "quot": "Which design pattern ensures a class has only one instance and provides a global point of access to it?",
-    "optionOne": "Factory Method",
-    "optionTwo": "Singleton",
-    "optionThree": "Observer",
-    "optionFour": "Adapter",
-    "correctAns": "Singleton",
-    "explanation": "The Singleton pattern restricts the instantiation of a class to one object and provides a global access point to that instance."
+    "quot": "Which C function is used to allocate memory dynamically?",
+    "optionOne": "printf()",
+    "optionTwo": "scanf()",
+    "optionThree": "malloc()",
+    "optionFour": "strlen()",
+    "correctAns": "malloc()",
+    "explanation": "malloc() requests a block of memory dynamically and returns a pointer to the allocated memory."
   },
   {
-    "quot": "Why does Dijkstra's algorithm fail on graphs with negative edge weights?",
-    "optionOne": "It requires a priority queue which cannot handle negative numbers.",
-    "optionTwo": "It assumes that adding an edge always increases the path length, which negative weights violate.",
-    "optionThree": "It only works on directed acyclic graphs.",
-    "optionFour": "It cannot process vertices with an in-degree greater than one.",
-    "correctAns": "It assumes that adding an edge always increases the path length, which negative weights violate.",
-    "explanation": "Dijkstra's greedy approach assumes that once a node is visited, its shortest path is found. Negative edges can create shorter paths later, breaking this assumption."
+    "quot": "What is the index of the first element in a standard Java array?",
+    "optionOne": "0",
+    "optionTwo": "1",
+    "optionThree": "-1",
+    "optionFour": "2",
+    "correctAns": "0",
+    "explanation": "Java arrays use zero-based indexing, so the first element is stored at index 0."
   },
   {
-    "quot": "In the context of database transactions, what does the 'I' in ACID stand for?",
-    "optionOne": "Integrity",
-    "optionTwo": "Isolation",
-    "optionThree": "Immutability",
-    "optionFour": "Indexing",
-    "correctAns": "Isolation",
-    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability. Isolation ensures that concurrent transactions do not interfere with each other."
+    "quot": "What is the output of the Java expression System.out.println(10 / 3);?",
+    "optionOne": "3.33",
+    "optionTwo": "3",
+    "optionThree": "4",
+    "optionFour": "3.0",
+    "correctAns": "3",
+    "explanation": "Both operands are integers, so Java performs integer division and discards the fractional part."
   },
   {
-    "quot": "Which of the following is NOT one of the four necessary conditions for a deadlock to occur?",
-    "optionOne": "Mutual Exclusion",
-    "optionTwo": "Hold and Wait",
-    "optionThree": "Preemption",
-    "optionFour": "Circular Wait",
-    "correctAns": "Preemption",
-    "explanation": "The four conditions are Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait. Preemption (the ability to take resources away) actually prevents deadlocks."
+    "quot": "Which keyword is used to define a function in Python?",
+    "optionOne": "function",
+    "optionTwo": "define",
+    "optionThree": "def",
+    "optionFour": "fun",
+    "correctAns": "def",
+    "explanation": "Python uses the def keyword followed by a function name and parentheses to define a function."
   },
   {
-    "quot": "What type of polymorphism is achieved through method overloading in languages like Java or C++?",
-    "optionOne": "Dynamic polymorphism",
-    "optionTwo": "Compile-time polymorphism",
-    "optionThree": "Runtime polymorphism",
-    "optionFour": "Subtype polymorphism",
-    "correctAns": "Compile-time polymorphism",
-    "explanation": "Method overloading is resolved at compile time based on the method signature, making it a form of compile-time (or static) polymorphism."
+    "quot": "Which data structure is typically used by the program call stack to manage recursive function calls?",
+    "optionOne": "Queue",
+    "optionTwo": "Stack",
+    "optionThree": "Heap",
+    "optionFour": "Graph",
+    "correctAns": "Stack",
+    "explanation": "Each function call adds a stack frame, and completed calls are removed in last-in, first-out order."
   },
   {
-    "quot": "In garbage collection, what is the primary purpose of the 'Mark and Sweep' algorithm?",
-    "optionOne": "To defragment the heap memory.",
-    "optionTwo": "To identify and reclaim memory occupied by objects that are no longer reachable.",
-    "optionThree": "To allocate memory for new objects using a buddy system.",
-    "optionFour": "To compile bytecode into machine code.",
-    "correctAns": "To identify and reclaim memory occupied by objects that are no longer reachable.",
-    "explanation": "The Mark phase identifies reachable objects, and the Sweep phase reclaims memory from unmarked (unreachable) objects."
+    "quot": "Which HTTP method is commonly used to retrieve a resource from a server?",
+    "optionOne": "POST",
+    "optionTwo": "GET",
+    "optionThree": "DELETE",
+    "optionFour": "PATCH",
+    "correctAns": "GET",
+    "explanation": "The GET method requests a representation of a resource from a server."
   },
   {
-    "quot": "Which of the following network protocols provides reliable, ordered, and error-checked delivery of a stream of bytes?",
-    "optionOne": "UDP",
-    "optionTwo": "IP",
-    "optionThree": "TCP",
-    "optionFour": "ICMP",
-    "correctAns": "TCP",
-    "explanation": "Transmission Control Protocol (TCP) is connection-oriented and ensures reliable, ordered delivery, unlike UDP which is connectionless and unreliable."
+    "quot": "What is the result of the expression 5 % 2 in Java?",
+    "optionOne": "0",
+    "optionTwo": "1",
+    "optionThree": "2",
+    "optionFour": "2.5",
+    "correctAns": "1",
+    "explanation": "The modulo operator returns the remainder. Dividing 5 by 2 leaves a remainder of 1."
   },
   {
-    "quot": "If an NP-Complete problem can be solved in polynomial time, what can be concluded?",
-    "optionOne": "P = NP",
-    "optionTwo": "P != NP",
-    "optionThree": "All NP problems become NP-Hard.",
-    "optionFour": "The problem is no longer in NP.",
-    "correctAns": "P = NP",
-    "explanation": "Since every problem in NP can be reduced to an NP-Complete problem in polynomial time, solving one NP-Complete problem in polynomial time implies all NP problems can be solved in polynomial time."
+    "quot": "Which database key uniquely identifies each row in a relational database table?",
+    "optionOne": "Foreign Key",
+    "optionTwo": "Primary Key",
+    "optionThree": "Secondary Index",
+    "optionFour": "Candidate Attribute",
+    "correctAns": "Primary Key",
+    "explanation": "A primary key uniquely identifies each row in a table and cannot contain NULL values."
   },
   {
-    "quot": "Which load balancing algorithm routes traffic to the server with the fewest active connections?",
-    "optionOne": "Round Robin",
-    "optionTwo": "Least Connections",
-    "optionThree": "IP Hash",
-    "optionFour": "Weighted Round Robin",
-    "correctAns": "Least Connections",
-    "explanation": "The Least Connections algorithm directs new requests to the server that currently has the lowest number of active connections, balancing the load based on current activity."
+    "quot": "Which Java keyword is used to prevent a class from being inherited?",
+    "optionOne": "static",
+    "optionTwo": "final",
+    "optionThree": "private",
+    "optionFour": "abstract",
+    "correctAns": "final",
+    "explanation": "A class declared with the final keyword cannot be extended by another class."
   },
   {
-    "quot": "In a hash table using separate chaining, what is the worst-case time complexity for a search operation?",
-    "optionOne": "O(1)",
-    "optionTwo": "O(log n)",
-    "optionThree": "O(n)",
-    "optionFour": "O(n log n)",
-    "correctAns": "O(n)",
-    "explanation": "If all keys hash to the same index, the hash table degenerates into a linked list, making the worst-case search time O(n)."
+    "quot": "Which traversal of a binary search tree visits nodes in ascending order when the tree satisfies the BST property?",
+    "optionOne": "Preorder",
+    "optionTwo": "Postorder",
+    "optionThree": "Inorder",
+    "optionFour": "Level order",
+    "correctAns": "Inorder",
+    "explanation": "Inorder traversal visits the left subtree, then the node, then the right subtree, producing sorted order for a valid binary search tree."
   },
   {
-    "quot": "Which Git command is used to integrate a specific commit from one branch into the current branch without merging the entire branch history?",
-    "optionOne": "git merge",
-    "optionTwo": "git rebase",
-    "optionThree": "git cherry-pick",
-    "optionFour": "git reset",
-    "correctAns": "git cherry-pick",
-    "explanation": "`git cherry-pick` applies the changes introduced by some existing commits on one branch to the current branch, without merging the whole branch."
-  },
-  {
-    "quot": "According to the CAP theorem, a distributed data store can simultaneously provide only two out of which three guarantees?",
-    "optionOne": "Consistency, Availability, Partition tolerance",
-    "optionTwo": "Concurrency, Atomicity, Persistence",
-    "optionThree": "Consistency, Availability, Performance",
-    "optionFour": "Caching, Availability, Partition tolerance",
-    "correctAns": "Consistency, Availability, Partition tolerance",
-    "explanation": "The CAP theorem states that a distributed system can only guarantee two of the following three: Consistency, Availability, and Partition Tolerance."
-  },
-  {
-    "quot": "Which of the following is an example of an asymmetric encryption algorithm?",
-    "optionOne": "AES",
-    "optionTwo": "DES",
-    "optionThree": "RSA",
-    "optionFour": "Blowfish",
-    "correctAns": "RSA",
-    "explanation": "RSA is an asymmetric algorithm that uses a public/private key pair, whereas AES, DES, and Blowfish are symmetric encryption algorithms."
-  },
-  {
-    "quot": "What phenomenon occurs when a computer's virtual memory subsystem is in a constant state of paging, rapidly exchanging data in memory for data on disk?",
-    "optionOne": "Deadlock",
-    "optionTwo": "Thrashing",
-    "optionThree": "Fragmentation",
-    "optionFour": "Starvation",
-    "correctAns": "Thrashing",
-    "explanation": "Thrashing occurs when the OS spends more time paging (swapping memory pages in and out) than executing processes, severely degrading performance."
-  },
-  {
-    "quot": "Which of the following formal languages can be recognized by a Finite Automaton?",
-    "optionOne": "Context-free languages",
-    "optionTwo": "Regular languages",
-    "optionThree": "Context-sensitive languages",
-    "optionFour": "Recursively enumerable languages",
-    "correctAns": "Regular languages",
-    "explanation": "Finite Automata (both DFA and NFA) are exactly capable of recognizing Regular languages, which are the simplest class in the Chomsky hierarchy."
-  },
-  {
-    "quot": "What is the primary difference between dynamic programming and divide and conquer?",
-    "optionOne": "Dynamic programming uses recursion, while divide and conquer does not.",
-    "optionTwo": "Divide and conquer solves overlapping subproblems, while dynamic programming solves independent subproblems.",
-    "optionThree": "Dynamic programming solves overlapping subproblems and stores their results, while divide and conquer solves independent subproblems.",
-    "optionFour": "There is no difference; they are just different names for the same technique.",
-    "correctAns": "Dynamic programming solves overlapping subproblems and stores their results, while divide and conquer solves independent subproblems.",
-    "explanation": "Dynamic programming memoizes solutions to overlapping subproblems to avoid redundant calculations, whereas divide and conquer (like Merge Sort) solves independent subproblems."
-  },
-  {
-    "quot": "Which SQL join returns all records from the left table, and the matched records from the right table, returning NULL for right table records if there is no match?",
-    "optionOne": "INNER JOIN",
-    "optionTwo": "RIGHT JOIN",
-    "optionThree": "LEFT JOIN",
-    "optionFour": "FULL OUTER JOIN",
-    "correctAns": "LEFT JOIN",
-    "explanation": "A LEFT JOIN (or LEFT OUTER JOIN) returns all rows from the left table and the matching rows from the right table. Unmatched right side rows appear as NULL."
-  },
-  {
-    "quot": "In a microservices architecture, what pattern is commonly used to manage distributed transactions across multiple services to ensure eventual consistency?",
-    "optionOne": "Two-Phase Commit (2PC)",
-    "optionTwo": "Saga Pattern",
-    "optionThree": "Singleton Pattern",
-    "optionFour": "Publish-Subscribe Pattern",
-    "correctAns": "Saga Pattern",
-    "explanation": "The Saga pattern manages data consistency across microservices in distributed transaction scenarios by coordinating a sequence of local transactions and compensating actions."
+    "quot": "Which Git command creates a new local branch named feature?",
+    "optionOne": "git merge feature",
+    "optionTwo": "git branch feature",
+    "optionThree": "git pull feature",
+    "optionFour": "git status feature",
+    "correctAns": "git branch feature",
+    "explanation": "The command git branch feature creates a new local branch named feature without switching to it."
   }
 ]
